@@ -1,0 +1,350 @@
+// USER CHART SHEET exported by JRC ECDIS.
+// <<NOTE>>This strings // indicate comment column/cells. You can edit freely.
+// User Map File228TEST,,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,THIS IS TEST TEST TEST
+I AM A COMMENT
+36,50.510,N,003,21.201,W,0,28,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+36,46.210,N,003,31.497,W,1,3,4,
+36,46.210,N,003,19.433,W,1,3,4,
+36,46.404,N,003,04.813,W,1,3,4,
+36,46.443,N,002,55.210,W,1,3,4,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+36,42.210,N,003,32.510,W,3,3,4,
+36,42.559,N,003,19.289,W,3,3,4,
+36,42.288,N,003,05.247,W,3,3,4,
+36,42.443,N,002,50.819,W,3,3,4,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+COMMENT
+36,38.012,N,003,32.173,W,2,3,4,COMMENT
+36,38.284,N,003,14.705,W,2,3,4,COMMENT
+36,38.478,N,002,59.263,W,2,3,4,COMMENT
+36,38.556,N,002,49.902,W,2,3,4,COMMENT
+END
+// LINE_CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+LINE_CIRCLE
+COMMENT
+36,32.940,N,003,33.184,W,3.2
+// LINE_CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+LINE_CIRCLE
+COMMENT
+36,32.707,N,003,22.739,W,4.0
+// LINE_CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+LINE_CIRCLE
+
+36,32.919,N,003,10.187,W,4.2
+// LINE_ELLIPSE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Horizontal Radius [nm],Vertical Radius [nm]
+LINE_ELLIPSE
+
+37,00.926,N,003,30.005,W,2.60,5.90
+// LINE_ELLIPSE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Horizontal Radius [nm],Vertical Radius [nm]
+LINE_ELLIPSE
+
+37,01.585,N,003,19.805,W,4.65,1.51
+// LINE_ELLIPSE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Horizontal Radius [nm],Vertical Radius [nm]
+LINE_ELLIPSE
+
+37,04.956,N,003,08.251,W,2.48,6.47
+// ARC
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm],Start Angle[deg],End Angle[deg]
+ARC
+
+37,00.778,N,002,52.592,W,5.24,150.0,61.7
+// ARC
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm],Start Angle[deg],End Angle[deg]
+ARC
+
+37,21.800,N,003,49.399,W,7.20,150.0,61.7
+// ARC
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm],Start Angle[deg],End Angle[deg]
+ARC
+
+37,18.332,N,003,23.258,W,7.27,150.0,61.7
+// DANGER_LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+DANGER_LINE_AGGREGATE
+
+37,18.763,N,002,59.355,W,0,0,9,
+37,18.701,N,002,47.518,W,0,0,9,
+37,18.701,N,002,30.462,W,1,-73,9,
+END
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,5,4,0,0
+37,13.162,N,002,53.670,W
+37,13.411,N,002,22.441,W
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,5,4,0,1
+37,09.299,N,002,53.125,W
+37,09.423,N,002,22.363,W
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,5,4,0,2
+37,05.682,N,002,39.730,W
+37,05.869,N,002,19.014,W
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,5,4,2,0
+37,30.939,N,002,53.982,W
+37,31.125,N,002,31.007,W
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,5,4,2,1
+37,25.228,N,002,54.527,W
+37,25.290,N,002,31.241,W
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,5,4,2,2
+37,21.437,N,002,58.187,W
+37,21.375,N,002,26.958,W
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,5,4,1,2
+37,32.205,N,002,11.416,W
+37,32.267,N,001,45.460,W
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,5,4,1,1
+37,24.439,N,002,09.389,W
+37,24.501,N,001,47.019,W
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,5,4,1,0
+37,15.975,N,002,09.467,W
+37,16.287,N,001,49.591,W
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+
+37,37.987,N,003,50.916,W
+37,57.471,N,003,53.693,W
+37,57.355,N,003,20.956,W
+37,39.382,N,003,27.094,W
+37,37.987,N,003,50.916,W
+END
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+
+37,37.290,N,003,12.187,W
+37,57.702,N,003,12.333,W
+37,58.281,N,002,31.995,W
+37,37.987,N,002,36.234,W
+37,37.290,N,003,12.187,W
+END
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+
+37,37.174,N,002,22.496,W
+37,58.165,N,002,23.811,W
+37,57.008,N,001,53.120,W
+37,37.871,N,001,55.750,W
+37,37.174,N,002,22.496,W
+END
+// CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+CIRCLE
+
+38,14.430,N,003,47.587,W,16.5
+// CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+CIRCLE
+
+38,15.368,N,003,10.870,W,12.0
+// CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+CIRCLE
+
+38,18.532,N,002,31.031,W,18.0
+// ELLIPSE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Horizontal Radius [nm],Vertical Radius [nm]
+ELLIPSE
+
+39,07.488,N,004,12.160,W,24.30,11.96
+// ELLIPSE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Horizontal Radius [nm],Vertical Radius [nm]
+ELLIPSE
+
+39,30.483,N,003,13.553,W,11.25,26.51
+// ELLIPSE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Horizontal Radius [nm],Vertical Radius [nm]
+ELLIPSE
+
+39,52.541,N,002,31.627,W,15.77,35.00
+// FAN
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm],Start Angle[deg],End Angle[deg]
+FAN
+
+39,45.820,N,004,30.644,W,22.04,300.0,20.0
+// FAN
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm],Start Angle[deg],End Angle[deg]
+FAN
+
+40,22.354,N,003,33.211,W,24.03,300.0,20.0
+// FAN
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm],Start Angle[deg],End Angle[deg]
+FAN
+
+40,25.385,N,004,57.702,W,28.50,300.0,20.0
+// DANGER_AREA
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+DANGER_AREA
+
+41,00.822,N,003,06.798,W
+41,11.082,N,003,27.605,W
+41,08.108,N,002,36.185,W
+41,00.822,N,003,06.798,W
+END
+// DANGER_AREA
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+DANGER_AREA
+
+40,36.744,N,001,48.543,W
+41,03.793,N,001,54.402,W
+40,42.621,N,001,15.465,W
+40,42.621,N,001,15.465,W
+40,36.744,N,001,48.543,W
+END
+// DANGER_AREA
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+DANGER_AREA
+
+41,30.591,N,003,16.609,W
+41,31.519,N,002,19.972,W
+42,00.748,N,002,57.319,W
+41,30.591,N,003,16.609,W
+END
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+
+41,09.609,N,005,26.711,W
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~TRIANG0,***,***
+
+41,14.866,N,005,04.280,W
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~SQUARE0,***,***
+
+41,11.362,N,004,35.353,W
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~DIAMND0,***,***
+
+41,23.846,N,004,49.275,W
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~XSHAPE0,***,***
+
+41,34.082,N,004,12.922,W
+// DANGER_SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+DANGER_SYMBOL,~WARNSY0,***,***
+
+41,09.960,N,004,09.055,W

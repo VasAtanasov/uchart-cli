@@ -1,0 +1,21 @@
+clearingLines
+    - ARROW
+
+lines
+    - LINE_AGGREGATE
+    - DANGER_LINE_AGGREGATE
+
+areas
+    - POLYGON
+    - DANGER_AREA
+
+circles
+    - LINE_CIRCLE
+    - LINE_ELLIPSE
+    - ARC
+    - CIRCLE
+    - ELLIPSE
+    - FAN
+
+labels
+    - TEXT
