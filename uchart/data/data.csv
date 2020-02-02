@@ -5,7 +5,7 @@
 // Comment
 // Lat,,,Lon,Rotation
 TEXT,THIS IS TEST TEST TEST
-I AM A COMMENT
+I AM A COMMENT`
 36,50.510,N,003,21.201,W,0,28,
 // LINE_AGGREGATE
 // Comment

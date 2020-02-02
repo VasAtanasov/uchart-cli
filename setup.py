@@ -19,7 +19,9 @@ setup(
             'uchart=uchart.core:main'
         ]
     },
-    install_requires=[],
+    install_requires=[
+        "colorlog",
+    ],
     description="Command line application for mapping JRC JAN-7201/9201 user map to Furuno user map.",
     long_description=long_description,
     long_description_content_type="text/markdown",
