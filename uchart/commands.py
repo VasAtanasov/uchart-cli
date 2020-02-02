@@ -103,3 +103,43 @@ class OpenCsvFile(Command):
         import csv
         logging.debug(f"Parsing csv file: {filename} ...")
         ctx.content = list(csv.reader(csv_file))
+
+
+class ParseFileContent(Command):
+    """
+        Parses content of file after csv parse.
+    """
+
+    def __init__(self):
+        super().__init__()
+
+    def __str__(self):
+        return 'ParseFileContent'
+
+    def execute(self, ctx):
+        content = ctx.content
+        types = ctx.types
+
+        object_type = None
+        obj = {
+            position: [],
+            attribute: {},
+            type: {},
+        }
+
+        for idx, tokens in enumerate(content):
+
+            identifier = tokens[0].lower()
+
+            if identifier == "o":
+                obj_type = tokens[1].lower()
+
+            elif identifier == "a":
+                obj["name"] = tokens[1]
+                obj["description"] = tokens[2]
+
+            elif identifier == "b":
+                psn_tokens = tokens[1:]
+                print(psn_tokens)
+                psns = obj.position
+                psns.append(psn_tokens)

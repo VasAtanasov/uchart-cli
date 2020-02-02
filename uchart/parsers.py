@@ -11,6 +11,7 @@ from .commands import (
     IsFile,
     IsCsv,
     OpenCsvFile,
+    ParseFileContent,
 )
 
 logger = logging.getLogger(__name__)
@@ -49,12 +50,8 @@ class Generate:
         macro.add(IsFile())
         macro.add(IsCsv())
         macro.add(OpenCsvFile())
+        macro.add(ParseFileContent())
 
         macro.run(ctx)
-
-        uchart_objects = parse_jan9201_content(ctx.content[3:])
-
-        for obj in uchart_objects:
-            print(obj.content)
 
         return True

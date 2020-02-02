@@ -33,7 +33,22 @@ class Context:
     def __init__(self):
         self.__uchart_work_dir = os.getcwd()
         self._state = {}
+        self._types = ["line", "area", "circle", "label"]
+        self._collection = {
+            "line": [],
+            "area": [],
+            "circle": [],
+            "label": []
+        }
 
     @property
     def state(self):
         return self._state
+
+    @property
+    def types(self):
+        return self._types
+
+    @property
+    def collection(self):
+        return self._collection

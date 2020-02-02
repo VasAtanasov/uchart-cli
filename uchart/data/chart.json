@@ -1,0 +1,27 @@
+{
+    "name": "user-map",
+    "description": "this is user-map description",
+    "lines": [
+        {
+            "name": "line name",
+            "description": "this is lin description",
+            "position": [
+                {
+                    "id": "1",
+                    "latitude": -33.12,
+                    "longitude": 140.12
+                }
+            ],
+            "lineType": "1",
+            "type": {
+                "checkDanger": "0",
+                "displayRadar": "0",
+                "hasNotes": "0",
+                "rangeOfNotes":"1.000000"
+            }
+        }
+    ],
+    "areas": [],
+    "labels": [],
+    "circles": []
+}
