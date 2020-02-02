@@ -65,6 +65,6 @@ def main():
 
     uchart_objects = parse_jan9201_content(content[3:])
 
-    # for obj in uchart_objects:
-        # print(obj.content)
+    for obj in uchart_objects:
+        print(obj.content)
 
