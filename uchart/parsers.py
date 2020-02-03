@@ -12,6 +12,7 @@ from .commands import (
     IsCsv,
     OpenCsvFile,
     ParseFileContent,
+    GenerateXmlFIle
 )
 
 logger = logging.getLogger(__name__)
@@ -51,6 +52,7 @@ class Generate:
         macro.add(IsCsv())
         macro.add(OpenCsvFile())
         macro.add(ParseFileContent())
+        macro.add(GenerateXmlFIle())
 
         macro.run(ctx)
 
