@@ -103,7 +103,7 @@ def uchart():
     if args.debug:
         set_level_debug()
 
-    print(LOGO)
+    logger.info(LOGO)
     logging.info('%s %s started', os.path.basename(sys.argv[0]), __version__)
 
     create_global_context()
