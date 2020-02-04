@@ -52,3 +52,19 @@ class Context:
     @property
     def collection(self):
         return self._collection
+
+    @property
+    def user_map_name(self):
+        return self._user_map_name
+
+    @user_map_name.setter
+    def user_map_name(self, user_map_name):
+        self._user_map_name = user_map_name
+
+    @property
+    def user_map_desc(self):
+        return self._user_map_desc
+
+    @user_map_desc.setter
+    def user_map_desc(self, user_map_desc):
+        self._user_map_desc = user_map_desc

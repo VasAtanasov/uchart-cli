@@ -3,8 +3,32 @@ import os
 import sys
 from abc import ABC, abstractmethod
 from .lib import pprint_dict_to_json
+from .constants import *
 
 logger = logging.getLogger(__name__)
+
+
+def get_default_object():
+    return {
+        "name": "",
+        "description": "",
+        "position": [],
+        "attribute": [],
+        "type": [],
+    }
+
+
+def get_default_type_notes():
+    return ["0", "0", "0", "0"]
+
+
+def get_default_type_range():
+    return {
+        "checkDanger": "0",
+        "displayRadar": "0",
+        "hasNotes": "0",
+        "rangeOfNotes": "1.000000"
+    }
 
 
 class Macro:
@@ -117,19 +141,13 @@ class ParseFileContent(Command):
     def __str__(self):
         return 'ParseFileContent'
 
-    def get_default_object(self):
-        return {
-            "name": "",
-            "description": "",
-            "position": [],
-            "attribute": [],
-            "type": [],
-        }
-
     def execute(self, ctx):
         content = ctx.content
         types = ctx.types
         collection = ctx.collection
+
+        ctx.user_map_name = content[0][0]
+        ctx.user_map_desc = content[0][1]
 
         object_type = None
         obj = None
@@ -141,7 +159,7 @@ class ParseFileContent(Command):
             if identifier == "o":
                 obj_type = tokens[1].lower()
 
-                obj = self.get_default_object()
+                obj = get_default_object()
                 collection[obj_type].append(obj)
 
             elif identifier == "a":
@@ -177,6 +195,109 @@ class ParseFileContent(Command):
                     obj["type"].append(value)
 
 
+class ParseJAN9201Content(Command):
+    """
+        Parses JRC JAN 9201 ECDIS csv usermap file.
+    """
+
+    def __init__(self):
+        super().__init__()
+
+    def __str__(self):
+        return 'ParseJAN9201Content'
+
+    def get_static_content(self, content, index, total_lines):
+        return content[index: index + total_lines]
+
+    def get_dynamic_content(self, clazz, content, index, obj_type, comments_count):
+        total_lines = (content[index:].index(['END']) + 1)
+        obj = clazz(obj_type, total_lines, comments_count)
+        obj.content = content[index: index + obj.total_lines]
+        return obj
+
+    def execute(self, ctx):
+        content = ctx.content
+        collection = ctx.collection
+
+        ctx.user_map_name = content[2][0][3:]
+        ctx.user_map_desc = content[2][1]
+
+        def degrees(tokens):
+            deg, mint, sign = tokens
+            value = int(deg) + (float(mint) / 60)
+            return value if sign.lower() != "w" and sign.lower() != "s" else value * -1
+
+        index = 0
+        while True:
+            if len(content) <= 0 or index >= len(content):
+                break
+
+            row = content[index]
+            object_type = None
+            obj = None
+
+            if len(row) > 0 and row[0].startswith("// SYMBOL"):
+                pass
+            elif len(row) > 0 and row[0].startswith("// DANGER_SYMBOL"):
+                pass
+            elif len(row) > 0 and row[0].startswith("// LINE_AGGREGATE"):
+
+                obj = create_dynamic_object(
+                    LineAggregate, content, index, line_aggregate, four)
+
+            elif len(row) > 0 and row[0].startswith("// LINE_CIRCLE"):
+                obj = create_static_object(LineCircle, content, index, line_circle, six,
+                                           three)
+            elif len(row) > 0 and row[0].startswith("// LINE_ELLIPSE"):
+                obj = create_static_object(LineEllipse, content, index, line_ellipse, six,
+                                           three)
+            elif len(row) > 0 and row[0].startswith("// ARC"):
+                obj = create_static_object(Arc, content, index, arc, six,
+                                           three)
+            elif len(row) > 0 and row[0].startswith("// DANGER_LINE_AGGREGATE"):
+                obj = create_dynamic_object(DangerLineAggregate, content, index, danger_line_aggregate,
+                                            four)
+            elif len(row) > 0 and row[0].startswith("// ARROW"):
+                obj = create_static_object(
+                    Arrow, content, index, arrow, ten, five)
+            elif len(row) > 0 and row[0].startswith("// POLYGON"):
+                obj = create_dynamic_object(
+                    Polygon, content, index, polygon, three)
+            elif len(row) > 0 and row[0].startswith("// CIRCLE"):
+                obj = create_static_object(Circle, content, index, circle, six,
+                                           three)
+            elif len(row) > 0 and row[0].startswith("// ELLIPSE"):
+                obj = create_static_object(Ellipse, content, index, ellipse, six,
+                                           three)
+            elif len(row) > 0 and row[0].startswith("// FAN"):
+                obj = create_static_object(Fan, content, index, fan, six,
+                                           three)
+            elif len(row) > 0 and row[0].startswith("// DANGER_AREA"):
+                obj = create_dynamic_object(
+                    DangerArea, content, index, danger_area, three)
+            elif len(row) > 0 and row[0].startswith("// TEXT"):
+                obj = get_default_object()
+                object_type = "label"
+
+                content = self.get_static_content(content, index, six)
+
+                label_text = content[3][1]
+
+                psn_tokens = content[5][:6]
+                psn_obj = {}
+                psn_obj["latitude"] = degrees(psn_tokens[:3])
+                psn_obj["longitude"] = degrees(psn_tokens[3:])
+                obj["position"].append(psn_obj)
+                obj["attribute"].append("1")
+                obj["attribute"].append(label_text)
+                obj["type"] = get_default_type_notes()
+
+            if obj:
+                collection[object_type].append(obj)
+
+            index = index + 1
+
+
 class GenerateXmlFIle(Command):
     """
         Generates xml file from parsed content.
@@ -189,7 +310,6 @@ class GenerateXmlFIle(Command):
         return 'GenerateXmlFIle'
 
     def execute(self, ctx):
-        user_map_name, user_map_desc = ctx.content[0]
         collection = ctx.collection
 
         import xml.etree.ElementTree as ET
@@ -197,6 +317,9 @@ class GenerateXmlFIle(Command):
         from xml.dom import minidom
 
         userchart = ET.Element('userchart')
+        userchart.set("name", ctx.user_map_name)
+        userchart.set("description", ctx.user_map_desc)
+        userchart.set("version", "1.0")
 
         lines = collection["line"]
         if len(lines) > 0:
@@ -306,6 +429,6 @@ class GenerateXmlFIle(Command):
 
         from datetime import datetime
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-
-        tree1.write(f"umap_{timestamp}.xml",
-                    encoding='utf-8',  xml_declaration=True)
+        file_name = f"umap_{timestamp}.xml"
+        tree1.write(file_name, encoding='utf-8',  xml_declaration=True)
+        logger.info(f"Generated: {file_name}")

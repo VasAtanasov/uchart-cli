@@ -27,22 +27,22 @@ User map name/description
 O/LINE
 A/name/description
 B/latitude/longitude
-C/attribute
+C/lineType
 D/checkDanger/displayRadar/hasNotes/rangeOfNotes
 
 O/AREA
 A/name/description
 B/latitude/longitude
-D/checkDanger/displayRadar/hasNotes/rangeOfNotes
-O/CIRCLE
+D/checkDanger/displayRadar/hasNotes/notesType
 
+O/CIRCLE
 A/name/description
 B/latitude/longitude
-C/attribute
+C/range
 D/checkDanger/displayRadar/hasNotes/notesType
 
 O/LABEL
 A/name/description
 B/latitude/longitude
-C/attribute
+C/labelStyle/labelText
 D/checkDanger/displayRadar
