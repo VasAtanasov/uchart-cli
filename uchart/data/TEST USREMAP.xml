@@ -1,112 +1,112 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <!--userchart node-->
 <userchart name="TEST USREMAP" description="COMMENT SECTION" version="1.0">
   <!--userchart line-->
   <lines>
     <line name="" description="YIGUGUGGG">
       <position>
-        <vertex id="1" latitude="33.124724" longitude="140.702142"/>
-        <vertex id="2" latitude="33.117845" longitude="140.631950"/>
-        <vertex id="3" latitude="33.183196" longitude="140.721846"/>
-        <vertex id="4" latitude="33.113029" longitude="140.708300"/>
+        <vertex id="1" latitude="33.124724" longitude="140.702142" />
+        <vertex id="2" latitude="33.117845" longitude="140.631950" />
+        <vertex id="3" latitude="33.183196" longitude="140.721846" />
+        <vertex id="4" latitude="33.113029" longitude="140.708300" />
       </position>
-      <attribute lineType="1"/>
-      <type checkDanger="0" displayRadar="1" hasNotes="1" rangeOfNotes="1.000000"/>
+      <attribute lineType="1" />
+      <type checkDanger="0" displayRadar="1" hasNotes="1" rangeOfNotes="1.000000" />
     </line>
     <line name="" description="">
       <position>
-        <vertex id="1" latitude="33.087921" longitude="140.639749"/>
-        <vertex id="2" latitude="33.083793" longitude="140.700911"/>
-        <vertex id="3" latitude="33.083106" longitude="140.769051"/>
+        <vertex id="1" latitude="33.087921" longitude="140.639749" />
+        <vertex id="2" latitude="33.083793" longitude="140.700911" />
+        <vertex id="3" latitude="33.083106" longitude="140.769051" />
       </position>
-      <attribute lineType="2"/>
-      <type checkDanger="0" displayRadar="0" hasNotes="0" rangeOfNotes="1.000000"/>
+      <attribute lineType="2" />
+      <type checkDanger="0" displayRadar="0" hasNotes="0" rangeOfNotes="1.000000" />
     </line>
     <line name="" description="">
       <position>
-        <vertex id="1" latitude="33.015003" longitude="140.661041"/>
-        <vertex id="2" latitude="33.014659" longitude="140.715149"/>
-        <vertex id="3" latitude="33.009156" longitude="140.795901"/>
-        <vertex id="4" latitude="32.982671" longitude="140.688915"/>
+        <vertex id="1" latitude="33.015003" longitude="140.661041" />
+        <vertex id="2" latitude="33.014659" longitude="140.715149" />
+        <vertex id="3" latitude="33.009156" longitude="140.795901" />
+        <vertex id="4" latitude="32.982671" longitude="140.688915" />
       </position>
-      <attribute lineType="3"/>
-      <type checkDanger="0" displayRadar="0" hasNotes="0" rangeOfNotes="1.000000"/>
+      <attribute lineType="3" />
+      <type checkDanger="0" displayRadar="0" hasNotes="0" rangeOfNotes="1.000000" />
     </line>
     <line name="" description="">
       <position>
-        <vertex id="1" latitude="32.957298" longitude="140.788753"/>
-        <vertex id="2" latitude="32.958330" longitude="140.885082"/>
-        <vertex id="3" latitude="32.949731" longitude="140.944108"/>
-        <vertex id="4" latitude="32.907425" longitude="140.915005"/>
+        <vertex id="1" latitude="32.957298" longitude="140.788753" />
+        <vertex id="2" latitude="32.958330" longitude="140.885082" />
+        <vertex id="3" latitude="32.949731" longitude="140.944108" />
+        <vertex id="4" latitude="32.907425" longitude="140.915005" />
       </position>
-      <attribute lineType="4"/>
-      <type checkDanger="0" displayRadar="0" hasNotes="0" rangeOfNotes="1.000000"/>
+      <attribute lineType="4" />
+      <type checkDanger="0" displayRadar="0" hasNotes="0" rangeOfNotes="1.000000" />
     </line>
   </lines>
   <!--userchart clearingLine-->
   <clearingLines>
     <clearingLine name="" description="">
       <position>
-        <vertex id="1" latitude="33.142265" longitude="140.496093"/>
-        <vertex id="2" latitude="33.145361" longitude="140.548241"/>
+        <vertex id="1" latitude="33.142265" longitude="140.496093" />
+        <vertex id="2" latitude="33.145361" longitude="140.548241" />
       </position>
-      <attribute lineType="1"/>
-      <type isDanger="0"/>
+      <attribute lineType="1" />
+      <type isDanger="0" />
     </clearingLine>
     <clearingLine name="" description="">
       <position>
-        <vertex id="1" latitude="33.164278" longitude="140.504305"/>
-        <vertex id="2" latitude="33.166686" longitude="140.547420"/>
+        <vertex id="1" latitude="33.164278" longitude="140.504305" />
+        <vertex id="2" latitude="33.166686" longitude="140.547420" />
       </position>
-      <attribute lineType="2"/>
-      <type isDanger="0"/>
+      <attribute lineType="2" />
+      <type isDanger="0" />
     </clearingLine>
     <clearingLine name="IIII" description="UGUUUU">
       <position>
-        <vertex id="1" latitude="33.119220" longitude="140.505537"/>
-        <vertex id="2" latitude="33.105564" longitude="140.547811"/>
+        <vertex id="1" latitude="33.119220" longitude="140.505537" />
+        <vertex id="2" latitude="33.105564" longitude="140.547811" />
       </position>
-      <attribute lineType="1"/>
-      <type isDanger="1"/>
+      <attribute lineType="1" />
+      <type isDanger="1" />
     </clearingLine>
   </clearingLines>
   <!--userchart area-->
   <areas>
     <area name="" description="">
       <position>
-        <vertex id="1" latitude="32.776644" longitude="140.749484"/>
-        <vertex id="2" latitude="32.732618" longitude="140.829613"/>
-        <vertex id="3" latitude="32.782835" longitude="140.880306"/>
-        <vertex id="4" latitude="32.833396" longitude="140.846783"/>
+        <vertex id="1" latitude="32.776644" longitude="140.749484" />
+        <vertex id="2" latitude="32.732618" longitude="140.829613" />
+        <vertex id="3" latitude="32.782835" longitude="140.880306" />
+        <vertex id="4" latitude="32.833396" longitude="140.846783" />
       </position>
-      <type checkDanger="1" displayRadar="1" hasNotes="0" notesType="0"/>
+      <type checkDanger="1" displayRadar="1" hasNotes="0" notesType="0" />
     </area>
   </areas>
   <!--userchart label-->
   <labels>
     <label name="" description="">
       <position>
-        <vertex id="1" latitude="32.729522" longitude="140.678349"/>
+        <vertex id="1" latitude="32.729522" longitude="140.678349" />
       </position>
-      <attribute labelStyle="1" labelText="WHDDHHHHH"/>
-      <type checkDanger="0" displayRadar="0"/>
+      <attribute labelStyle="1" labelText="WHDDHHHHH" />
+      <type checkDanger="0" displayRadar="0" />
     </label>
     <label name="" description="">
       <position>
-        <vertex id="1" latitude="32.711637" longitude="140.772378"/>
+        <vertex id="1" latitude="32.711637" longitude="140.772378" />
       </position>
-      <attribute labelStyle="2" labelText="TRTRTTRTT"/>
-      <type checkDanger="0" displayRadar="1"/>
+      <attribute labelStyle="2" labelText="TRTRTTRTT" />
+      <type checkDanger="0" displayRadar="1" />
     </label>
   </labels>
   <!--userchart circle-->
   <circles>
     <circle name="" description="">
       <position>
-        <vertex id="1" latitude="32.944651" longitude="140.679829"/>
+        <vertex id="1" latitude="32.944651" longitude="140.679829" />
       </position>
-      <attribute range="4.500000"/>
-      <type checkDanger="0" displayRadar="0" hasNotes="0" notesType="0"/>
+      <attribute range="4.500000" />
+      <type checkDanger="0" displayRadar="0" hasNotes="0" notesType="0" />
     </circle>
   </circles>
 </userchart>

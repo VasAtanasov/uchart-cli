@@ -91,4 +91,22 @@
 			<type checkDanger="0" displayRadar="0" hasNotes="0" notesType="0" />
 		</area>
 	</areas>
+	<circles>
+		<circle description="this is circle" name="cirle">
+			<position>
+				<vertex id="1" latitude="-2.000000" longitude="78.000000" />
+			</position>
+			<attribute range="4.500000" />
+			<type checkDanger="0" displayRadar="0" hasNotes="0" notesType="0" />
+		</circle>
+	</circles>
+	<labels>
+		<label description="" name="">
+			<position>
+				<vertex id="1" latitude="-12.000000" longitude="155.000000" />
+			</position>
+			<attribute labelStyle="1" labelText="I AM A TEXT" />
+			<type checkDanger="0" displayRadar="0" />
+		</label>
+	</labels>
 </userchart>

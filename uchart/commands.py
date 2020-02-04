@@ -225,19 +225,87 @@ class GenerateXmlFIle(Command):
                 type.set("rangeOfNotes", line_obj["type"][3])
 
         areas = collection["area"]
+        if len(areas) > 0:
+            area_items = ET.SubElement(userchart, 'areas')
+
+            for area_obj in areas:
+                area = ET.SubElement(area_items, 'area')
+                area.set("name", area_obj["name"])
+                area.set("description", area_obj["description"])
+
+                position = ET.SubElement(area, 'position')
+                for id, psn_obj in enumerate(area_obj["position"], start=1):
+                    lat, lon = psn_obj.values()
+                    vertex = ET.SubElement(position, 'vertex')
+                    vertex.set("id", str(id))
+                    vertex.set("latitude", f"{lat:.6f}")
+                    vertex.set("longitude", f"{lon:.6f}")
+
+                type = ET.SubElement(area, "type")
+                type.set("checkDanger", area_obj["type"][0])
+                type.set("displayRadar", area_obj["type"][1])
+                type.set("hasNotes", area_obj["type"][2])
+                type.set("notesType", area_obj["type"][3])
 
         circles = collection["circle"]
+        if len(circles) > 0:
+            circle_items = ET.SubElement(userchart, 'circles')
+
+            for circle_obj in circles:
+                circle = ET.SubElement(circle_items, 'circle')
+                circle.set("name", circle_obj["name"])
+                circle.set("description", circle_obj["description"])
+
+                position = ET.SubElement(circle, 'position')
+                for id, psn_obj in enumerate(circle_obj["position"], start=1):
+                    lat, lon = psn_obj.values()
+                    vertex = ET.SubElement(position, 'vertex')
+                    vertex.set("id", str(id))
+                    vertex.set("latitude", f"{lat:.6f}")
+                    vertex.set("longitude", f"{lon:.6f}")
+
+                attribute = ET.SubElement(circle, 'attribute')
+                range = float(circle_obj["attribute"][0])
+                attribute.set("range", f"{range:.6f}")
+
+                type = ET.SubElement(circle, "type")
+                type.set("checkDanger", circle_obj["type"][0])
+                type.set("displayRadar", circle_obj["type"][1])
+                type.set("hasNotes", circle_obj["type"][2])
+                type.set("notesType", circle_obj["type"][3])
 
         labels = collection["label"]
+        if len(labels) > 0:
+            label_items = ET.SubElement(userchart, "labels")
 
-        # print(ET.tostring(userchart))
+            for label_obj in labels:
+                label = ET.SubElement(label_items, 'label')
+                label.set("name", label_obj["name"])
+                label.set("description", label_obj["description"])
 
-        # wrap it in an ElementTree instance, and save as XML
+                position = ET.SubElement(label, 'position')
+                for id, psn_obj in enumerate(label_obj["position"], start=1):
+                    lat, lon = psn_obj.values()
+                    vertex = ET.SubElement(position, 'vertex')
+                    vertex.set("id", str(id))
+                    vertex.set("latitude", f"{lat:.6f}")
+                    vertex.set("longitude", f"{lon:.6f}")
+
+                attribute = ET.SubElement(label, 'attribute')
+                attribute.set("labelStyle", label_obj["attribute"][0])
+                attribute.set("labelText", label_obj["attribute"][1])
+
+                type = ET.SubElement(label, "type")
+                type.set("checkDanger", label_obj["type"][0])
+                type.set("displayRadar", label_obj["type"][1])
+
         tree = cET.ElementTree(userchart)
 
-        # Since ElementTree write() has no pretty printing support, used minidom to beautify the xml.
         t = minidom.parseString(ET.tostring(userchart)).toprettyxml()
         tree1 = ET.ElementTree(ET.fromstring(t))
 
-        tree1.write("filename.xml", encoding='utf-8', xml_declaration=True)
-        # pprint_dict_to_json(collection)
+        from datetime import datetime
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+
+        tree1.write(f"umap_{timestamp}.xml",
+                    encoding='utf-8',  xml_declaration=True)
