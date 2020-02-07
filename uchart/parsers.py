@@ -130,11 +130,15 @@ class Converter:
     def run(self, args):
         if args.cmd != 'cnv':
             return False
-        logger.debug("Running JrcParser:run")
+        logger.debug("Running Converter:run")
 
         ctx = get_context()
         ctx.file = args.file
         ctx.type = args.type
+
+        macro = Macro()
+        macro.add(IsFile())
+        macro.run(ctx)
 
         import json
 
@@ -155,10 +159,61 @@ class Converter:
                 lon = waypoint["longitude"]
                 name = waypoint["name"]
 
+        return True
+
+
+@uchart_plugin
+class ENPParser:
+
+    @classmethod
+    def get_argparser(cls, parser):
+        """
+            Returns a base parser with common arguments for the generate plugin
+        """
+        init_parser = parser.add_parser(
+            "enp",
+            help="Parses enp text file to csv file."
+        )
+
+        init_parser.add_argument(
+            "file",
+            metavar="<file>",
+            help="file with user chart elements",
+            type=str
+        )
+
+    def run(self, args):
+        if args.cmd != 'enp':
+            return False
+        logger.debug("Running JrcParser:run")
+
+        ctx = get_context()
+        ctx.file = args.file
+
         macro = Macro()
-
         macro.add(IsFile())
-
         macro.run(ctx)
+
+        with open(ctx.file, 'r') as text_file:
+            for line in text_file.readlines():
+                tokens = line.strip().split(" ")
+                enp = tokens[0]
+                date = tokens[-1]
+
+                print(tokens[1:-1].join(" "))
+
+        # import csv
+
+        # with open('enp.csv', mode='w', newline='') as csv_file:
+        #     fieldnames = ['name', 'latitude', 'longitude']
+        #     writer = csv.DictWriter(
+        #         csv_file, fieldnames=fieldnames, extrasaction='ignore')
+
+        #     writer.writeheader()
+        #     for waypoint in data["routes"][0]["waypoints"]:
+        #         writer.writerow(waypoint)
+        #         lat = waypoint["latitude"]
+        #         lon = waypoint["longitude"]
+        #         name = waypoint["name"]
 
         return True
