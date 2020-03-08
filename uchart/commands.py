@@ -297,6 +297,16 @@ class ParseJAN9201Content(Command):
 
             index = index + 1
 
+class ParseXmlFIle(Command):
+
+    def __init__(self):
+        super().__init__()
+
+    def __str__(self):
+        return 'GenerateXmlFIle'
+
+    def execute(self, ctx):
+        collection = ctx.collection
 
 class GenerateXmlFIle(Command):
     """
