@@ -1,5 +1,9 @@
+import logging
+
 from .models import Jan9201Object
 from .constants import *
+
+logger = logging.getLogger(__name__)
 
 
 class Jan9201ObjectFactory:
@@ -11,14 +15,22 @@ class Jan9201ObjectFactory:
         return obj
 
     def create_dynamic_object(self,  content, index, obj_type, comments_count, vertex_start=5):
-        total_lines = (content[index:].index(['END']) + 1)
+
+        def index_of_end(current_content):
+            for i, t in enumerate(current_content):
+                if len(t) > 0 and t[0] == "END":
+                    return i
+
+        total_lines = (index_of_end(content[index:]) + 1)
         obj = Jan9201Object(obj_type, total_lines,
                             comments_count, vertex_start)
         obj.content = content[index: index + obj.total_lines]
         return obj
 
-    def get_objects(self, content):
+    def get_object(self, row, content):
         objects = set()
+
+        # logger.debug("USERCHART NAME: " + str(content[2]))
 
         index = 0
         while True:
@@ -28,7 +40,8 @@ class Jan9201ObjectFactory:
             row = content[index]
             obj = None
             if len(row) > 0 and row[0].startswith("// SYMBOL"):
-                obj = self.create_static_object(content, index, symbol, six, three)
+                obj = self.create_static_object(
+                    content, index, symbol, six, three)
             elif len(row) > 0 and row[0].startswith("// DANGER_SYMBOL"):
                 obj = self.create_static_object(
                     content, index, danger_symbol, six, three)
@@ -42,29 +55,40 @@ class Jan9201ObjectFactory:
                 obj = self.create_static_object(
                     content, index, line_ellipse, six, three)
             elif len(row) > 0 and row[0].startswith("// ARC"):
-                obj = self.create_static_object(content, index, arc, six, three)
+                obj = self.create_static_object(
+                    content, index, arc, six, three)
             elif len(row) > 0 and row[0].startswith("// DANGER_LINE_AGGREGATE"):
                 obj = self.create_dynamic_object(
                     content, index, danger_line_aggregate, four, six)
             elif len(row) > 0 and row[0].startswith("// ARROW"):
-                obj = self.create_static_object(content, index, arrow, ten, five, 8)
+                obj = self.create_static_object(
+                    content, index, arrow, ten, five, 8)
             elif len(row) > 0 and row[0].startswith("// POLYGON"):
-                obj = self.create_dynamic_object(content, index, polygon, three)
+                obj = self.create_dynamic_object(
+                    content, index, polygon, three)
             elif len(row) > 0 and row[0].startswith("// CIRCLE"):
-                obj = self.create_static_object(content, index, circle, six, three)
+                obj = self.create_static_object(
+                    content, index, circle, six, three)
             elif len(row) > 0 and row[0].startswith("// ELLIPSE"):
-                obj = self.create_static_object(content, index, ellipse, six, three)
+                obj = self.create_static_object(
+                    content, index, ellipse, six, three)
             elif len(row) > 0 and row[0].startswith("// FAN"):
-                obj = self.create_static_object(content, index, fan, six, three)
+                obj = self.create_static_object(
+                    content, index, fan, six, three)
             elif len(row) > 0 and row[0].startswith("// DANGER_AREA"):
                 obj = self.create_dynamic_object(
                     content, index, danger_area, three)
             elif len(row) > 0 and row[0].startswith("// TEXT"):
-                obj = self.create_static_object(content, index, text, six, three)
+                obj = self.create_static_object(
+                    content, index, text, six, three)
 
             if obj:
+                before_insert = len(objects)
                 objects.add(obj)
-
+                after_insert = len(objects)
+                # if before_insert == after_insert:
+                #     logger.debug(obj in objects)
+                #     logger.debug(str(obj.content))
             index = index + 1
 
         return objects

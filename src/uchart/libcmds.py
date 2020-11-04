@@ -84,7 +84,7 @@ class ReadCsvFiles(Command):
         filenames = ctx.filenames
         for filename in filenames:
             with open(join(ctx.uchart_work_dir, filename)) as csv_file:
-                logging.debug(f"Reading {filename}...")
+                logger.debug(f"Reading {filename}...")
                 content = tuple(tuple(i) for i in csv.reader(csv_file))
                 userchart_name = f"{content[2][0][3:]}.csv"
                 ctx.usercharts_by_name[userchart_name] = content
@@ -103,8 +103,23 @@ class ParseJAN9201Content(Command):
         return 'ParseJAN9201Content'
 
     def execute(self, ctx):
-        for userchart_name, content in ctx.usercharts_by_name.items():
-            ctx.objects_by_usermap[userchart_name] = self._object_factory.get_objects(
-                content[3:])
+        objects = set()
+        duplicates = 0
 
-        a = 5
+        for userchart_name, content in ctx.usercharts_by_name.items():
+            index = 0
+            while True:
+                if len(content) <= 0 or index >= len(content):
+                    break
+
+                row = content[index]
+                userchart_object = self._object_factory.get_object(
+                    row, content)
+                if userchart_object:
+                    before_insert = len(objects)
+                    objects.add(userchart_object)
+                    after_insert = len(objects)
+                    if before_insert == after_insert:
+                        duplicates = duplicates + 1
+
+                index = index + 1

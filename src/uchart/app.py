@@ -18,7 +18,7 @@ except ImportError:
 
 from . import __version__
 from .libuchart import (uchart_plugin)
-from . import filter
+from . import feature_filter
 
 LOGO = r'''
   _    _    _____   _    _              _____    _______

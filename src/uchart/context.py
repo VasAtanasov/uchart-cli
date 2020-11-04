@@ -36,6 +36,7 @@ class Context:
         self._jan = Jan9021()
         self._usercharts_by_name = {}
         self._objects_by_usermap = {}
+        self._userchart_objects =  set()
 
     @property
     def uchart_work_dir(self):
