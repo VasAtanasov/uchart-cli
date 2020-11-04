@@ -16,14 +16,15 @@ class Jan9021(BaseEcdisModel):
         header = [
             ['// USER CHART SHEET exported by JRC ECDIS.'],
             ['// <<NOTE>>This strings // indicate comment column/cells. You can edit freely.'],
-            ['// USERMAP','','']
+            ['// USERMAP', '', '']
         ]
         BaseEcdisModel.__init__(self, header)
 
-class BaseObject:
+
+class Jan9201Object:
     def __init__(self, object_type, total_lines, comments_count, vertex_start=5):
         self.object_type = object_type
-        self.content = []
+        self.content = ()
         self.total_lines = total_lines
         self.comments_count = comments_count
         self.vertex_start = vertex_start
@@ -32,9 +33,9 @@ class BaseObject:
         return self.object_type
 
     def __eq__(self, other):
-        if not isinstance(other, BaseObject):
-            # don't attempt to compare against unrelated types
+        if not isinstance(other, self.__class__):
             return NotImplemented
+        return set(self.content) == set(other.content)
 
-        return self.foo == other.foo and self.bar == other.bar
-
+    def __hash__(self):
+        return hash((frozenset(self.content)))

@@ -4,7 +4,7 @@ import os
 import sys
 import csv
 
-from .libcmds import Macro, ReadCsvFilenames
+from .libcmds import Macro, ListCsvFiles, ReadCsvFiles, ParseJAN9201Content
 from .libuchart import uchart_plugin
 from .context import create_global_context
 
@@ -64,9 +64,9 @@ class Filter:
         logger.debug(ctx.uchart_work_dir)
         macro = Macro()
 
-        macro.add(ReadCsvFilenames())
-        # macro.add(IsCsv())
-        # macro.add(OpenCsvFile())
+        macro.add(ListCsvFiles())
+        macro.add(ReadCsvFiles())
+        macro.add(ParseJAN9201Content())
         # macro.add(ParseFileContent())
         # macro.add(GenerateXmlFIle())
 

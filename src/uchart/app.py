@@ -37,6 +37,8 @@ def set_level_debug():
 def set_level_info():
     logging.getLogger().setLevel(logging.INFO)
 
+def set_level_critical():
+    logging.getLogger().setLevel(logging.CRITICAL)
 
 def create_logger():
     """
@@ -103,6 +105,8 @@ def uchart(argv):
 
     if args.debug:
         set_level_debug()
+    else:
+        set_level_critical()
 
     logger.info(LOGO)
     logger.info('%s %s started', os.path.basename(sys.argv[0]), __version__)
@@ -120,8 +124,6 @@ def main():
         The main function that operates as a wrapper around uchart.
     """
     try:
-
-        print(str(sys.argv))
         sys.exit(uchart(sys.argv[1:]))
     except Exception as err:
         logging.error('%s', err)

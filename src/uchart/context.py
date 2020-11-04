@@ -32,32 +32,22 @@ class Context:
     """
 
     def __init__(self):
-        self.__uchart_work_dir = os.getcwd()
+        self._uchart_work_dir = os.environ.get('UCHART_WORK_DIR', os.getcwd())
         self._jan = Jan9021()
-        self._state = {}
-        self._types = ["line", "area", "circle", "label"]
-        self._collection = {
-            "line": [],
-            "area": [],
-            "circle": [],
-            "label": []
-        }
+        self._usercharts_by_name = {}
+        self._objects_by_usermap = {}
 
     @property
     def uchart_work_dir(self):
-        return self.__uchart_work_dir
+        return self._uchart_work_dir
 
     @property
-    def state(self):
-        return self._state
+    def objects_by_usermap(self):
+        return self._objects_by_usermap
 
     @property
-    def types(self):
-        return self._types
-
-    @property
-    def collection(self):
-        return self._collection
+    def usercharts_by_name(self):
+        return self._usercharts_by_name
 
     @property
     def user_map_name(self):
