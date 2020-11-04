@@ -1,0 +1,56 @@
+// USER CHART SHEET exported by JRC ECDIS.
+// <<NOTE>>This strings // indicate comment column/cells. You can edit freely.
+// IFC REPORT,,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+22,00.000,N,074,00.000,E,1,3,9,
+13,00.000,S,074,00.000,E,1,3,4,
+13,00.000,S,141,00.000,E,1,3,4,
+22,00.000,N,141,00.000,E,1,3,4,
+22,00.000,N,074,00.074,E,1,3,4,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,IFC REP
+
+10,34.233,S,090,26.014,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,IFC REP FINAL REPORT
+
+20,41.107,N,118,49.070,E,0,22,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+01,30.000,N,104,17.161,E,1,3,9,
+01,30.000,N,107,00.000,E,1,3,9,
+04,00.000,N,107,00.000,E,1,3,9,
+04,00.000,N,103,24.712,E,1,3,9,
+END
+// LINE_CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+LINE_CIRCLE
+
+03,05.481,N,105,35.048,E,30.0
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,KEEP CLEAR 30NM OFF MANGKAI ISLAND
+
+03,10.242,N,105,10.040,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,DURING NIGHT TIME MORE THAN 18KN
+
+02,14.133,N,104,44.581,E,0,36,

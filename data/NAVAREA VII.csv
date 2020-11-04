@@ -1,0 +1,76 @@
+// USER CHART SHEET exported by JRC ECDIS.
+// <<NOTE>>This strings // indicate comment column/cells. You can edit freely.
+// NAVAREA VIII,,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+22,30.000,N,059,48.000,E,1,2,9,
+25,04.000,N,061,25.000,E,1,5,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,MARPOL V
+
+24,42.987,N,060,40.653,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,LINE FOR SPECIAL AREA 
+
+24,39.322,N,060,35.282,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,FOOD WASTE DISCH PROHIBITED
+
+24,55.749,N,059,09.848,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,MARPOL V
+
+24,33.043,N,061,43.784,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,OUT OF SPECIAL AREA
+
+24,29.165,N,061,39.580,E,0,22,
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,5,9,0,0
+24,36.761,N,060,43.595,E
+24,00.908,N,060,42.960,E
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,FOOD WASTE DISCH PERMITTED
+
+24,24.960,N,061,37.465,E,0,22,
+// CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+CIRCLE
+
+03,05.564,N,105,35.093,E,30.0
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,KEEP 30 NM FM MANGKAI ISLAND
+
+03,11.716,N,105,17.646,E,0,24,
+// CAUTION_SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+CAUTION_SYMBOL,~WARNSY0,***,***
+Pirate attack with a hostage taken
+01,03.500,N,103,38.700,E

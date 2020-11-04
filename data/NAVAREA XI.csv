@@ -1,0 +1,1417 @@
+// USER CHART SHEET exported by JRC ECDIS.
+// <<NOTE>>This strings // indicate comment column/cells. You can edit freely.
+// NAVAREA XI,,
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+Gunnery.Daily-03,04,06 Sep. 2300-0900.
+35,45.000,N,128,45.000,E
+34,48.000,N,129,00.000,E
+34,37.000,N,129,06.000,E
+34,20.000,N,128,52.000,E
+34,20.000,N,128,41.000,E
+35,45.000,N,128,45.000,E
+END
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~DIAMND0,***,***
+Capsized ship drifting  
+30,45.800,N,130,55.900,E
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+Bombing, 03-07 Sep, 10-14 and 18-21 Sep./1763/17
+31,47.120,N,128,45.520,E
+31,47.120,N,129,09.520,E
+32,20.120,N,129,09.520,E
+32,20.120,N,128,45.520,E
+31,47.120,N,128,45.520,E
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Call IRAGO PILOT on VHF Ch.16, 68 3 Hrs Before buoy1
+
+33,49.004,N,136,38.341,E,0,28,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL JINDO VTS CH,16 67, 68
+
+34,03.213,N,125,48.102,E,0,28,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL JINDO VTS CH,16 67, 68
+
+34,35.211,N,125,38.133,E,0,28,
+// DANGER_LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+DANGER_LINE_AGGREGATE
+
+35,55.087,N,126,31.609,E,0,0,9,
+35,55.080,N,126,29.994,E,0,0,9,
+35,59.999,N,126,30.008,E,0,0,9,
+35,59.998,N,126,41.357,E,1,-74,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,HARBOUR LIMIT
+
+35,57.588,N,126,29.648,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL GUNSAN VTS 1 HR FM HBR LIMIT
+
+35,55.778,N,126,18.192,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VHF CH 16, 12
+
+35,55.569,N,126,19.300,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL GUNSAN PILOTS 1 HR BEFORE ETA
+
+35,55.257,N,126,18.128,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VHF CH 12
+
+35,55.076,N,126,19.182,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL URAGA PILOTS CH 16, 12,68  3HRS BEFORE ETA
+
+34,31.379,N,139,01.812,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL TOKYO MARTIS CH 16, 13,12,14 22 66 69 3HRS BEFORE ETA
+
+34,33.556,N,139,07.113,E,0,26,
+// CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+CIRCLE
+GUAM
+13,36.378,N,144,57.722,E,100.0
+// DANGER_SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+DANGER_SYMBOL,~WARNSY0,***,***
+Underwater obstr.-buoy with light. 
+35,32.260,N,139,53.360,E
+// DANGER_SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+DANGER_SYMBOL,~WARNSY0,***,***
+UNDERWATER OBSTR /6.1m long/1.6m height /NR2214.17
+34,41.300,N,135,14.300,E
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+DEPTH 10.5m
+32,56.660,N,132,16.154,E
+// LINE_CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+LINE_CIRCLE
+EPIRB activated.08/0509.
+19,49.000,S,149,01.000,E,10.0
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,anchor position
+
+19,52.416,S,148,54.014,E,0,24,
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,3,9,0,1
+07,17.437,N,078,09.891,E
+07,07.707,N,078,00.693,E
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,SEND MESSAGE TO MSCHOA
+
+06,58.120,N,077,51.226,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL JEDDAH PORT CONTROL VHF 12/16
+
+19,59.210,N,039,23.400,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,100 n.m. BF PILOT ST.
+
+19,57.850,N,039,29.647,E,0,26,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+19,55.712,N,039,12.055,E,1,2,9,
+19,57.384,N,039,25.373,E,1,2,9,
+19,57.384,N,039,46.213,E,1,2,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+22,00.000,N,074,00.000,E,1,4,9,
+22,00.000,N,141,00.000,E,1,4,9,
+13,00.000,S,141,00.000,E,1,4,9,
+13,00.000,S,074,00.000,E,1,4,9,
+22,00.000,N,074,00.000,E,1,4,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,IFC INITIAL REPORT
+
+21,07.811,N,121,00.081,E,0,22,
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,5,9,0,0
+21,06.925,N,121,07.633,E
+21,01.235,N,121,09.174,E
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,IFC INITIAL/FINAL REPORT
+
+12,17.971,N,073,41.755,E,0,22,
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,5,9,0,0
+12,34.043,N,074,10.759,E
+12,17.528,N,074,02.737,E
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+12,28.500,N,043,19.600,E,1,4,9,
+12,40.400,N,043,30.200,E,1,4,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,MARPOL V SPECIAL AREA
+
+12,33.449,N,043,16.935,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,MARPOL V LINE SPECIAL AREA
+
+12,39.423,N,043,33.301,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,FOOD WASTE DISH PROHIBITED
+
+12,32.509,N,043,15.138,E,0,22,
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,5,9,0,0
+12,39.469,N,043,33.091,E
+12,37.076,N,043,27.385,E
+// CAUTION_SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+CAUTION_SYMBOL,~WARNSY0,***,***
+buoy ???
+25,55.709,N,127,47.364,E
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~XSHAPE0,***,***
+
+08,31.980,N,076,52.050,E
+// FAN
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm],Start Angle[deg],End Angle[deg]
+FAN
+Rocke launching . Cncl 14 Nov 2019 / 1200z
+08,31.980,N,076,52.050,E,5.00,190.0,300.0
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+11,58.107,N,065,00.000,E,1,3,9,
+09,48.872,N,065,00.000,E,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,065 E
+
+11,31.311,N,065,03.627,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+27,19.234,N,034,12.287,E,1,3,9,
+27,23.385,N,034,20.853,E,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL FALSE RAS GHARIB VTC CH 16
+
+27,24.229,N,034,21.791,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,FOR INSTRUCTIONS
+
+27,22.480,N,034,22.157,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,B4 ENTERING SOUTH SECTOR
+
+27,23.343,N,034,22.209,E,0,20,
+// DANGER_SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+DANGER_SYMBOL,~WARNSY0,***,***
+1344/19 SUBMERGED DANGEROUS WRECK ADRIFT. 
+37,24.420,N,009,49.800,E
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL SAGUNTO PILOTS CH 12
+
+39,33.759,N,000,16.750,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,1 HR B4 ARR
+
+39,32.944,N,000,16.900,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL SAGUNTO PILOTS CH 12
+
+39,37.194,N,000,00.351,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,30 MIN B4 ARR (TO CONFIRM)
+
+39,36.457,N,000,00.476,E,0,22,
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~XSHAPE0,***,***
+Anchor psn
+34,44.804,N,137,11.339,E
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+28,15.150,N,146,29.470,E,1,3,9,
+25,25.160,N,147,37.470,E,1,3,9,
+25,00.160,N,145,35.480,E,1,3,9,
+27,55.150,N,144,57.480,E,1,3,9,284 20 gunery 2300z to 0900z 31jul to 29sep
+28,14.875,N,146,29.991,E,1,3,9,
+END
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+153 20 observation buoy reported
+19,20.600,N,113,45.900,E
+// CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+CIRCLE
+037 20 DISCOLOURED WATERS
+27,14.600,N,140,52.700,E,5.0
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~SQUARE0,***,***
+672 19 platform reported
+04,33.600,N,106,22.800,E
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~SQUARE0,***,***
+664 19 OIL RIG
+07,42.100,N,107,55.800,E
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,474 19 extinguished
+
+01,05.838,N,103,43.675,E,0,18,
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~SQUARE0,***,***
+132 19 oil rig 
+07,47.500,N,108,12.000,E
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+538 18 buoy
+35,14.170,N,123,00.110,E
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~SQUARE0,***,***
+312 18 platform
+07,36.100,N,109,08.300,E
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~XSHAPE0,***,***
+932 15 off air
+01,07.438,N,103,46.513,E
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~XSHAPE0,***,***
+837 15 RADAR BEACON off air
+03,00.829,N,100,51.849,E
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+254 15 SUNKEN WRK
+02,43.000,N,101,16.600,E
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+NAVTEX MOB
+02,56.130,N,100,53.760,E
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,navtex out of psn
+
+01,14.321,N,103,29.909,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,navtex danger buoy  missing
+
+01,17.866,N,104,07.251,E,0,20,
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+
+01,17.880,N,104,07.240,E
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+navt vsl grounded
+01,11.283,N,103,52.867,E
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,navtex  buoy  removedg
+
+01,15.002,N,103,51.826,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,navtex  buoy unlit
+
+02,48.621,N,100,56.497,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,navtex  buoy unlit
+
+02,27.339,N,101,36.323,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,ESP A
+
+01,16.990,N,103,55.855,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL SECTOR 8 VTIS CENTRAL CH14
+
+01,15.019,N,103,56.566,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,when crossing TSS
+
+01,14.883,N,103,56.670,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CONFIRMATION FOR ARRIVAL
+
+01,13.314,N,103,20.100,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,WEST CONTROL CH 68
+
+01,14.165,N,103,48.345,E,0,26,
+// LINE_CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+LINE_CIRCLE
+316 20 eruption expect
+27,14.600,N,140,52.700,E,1.4
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~XSHAPE0,***,***
+
+01,17.110,N,103,54.660,E
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+01,17.049,N,103,53.904,E,1,3,4,
+01,17.213,N,103,54.174,E,1,3,9,
+01,17.180,N,103,54.428,E,1,3,9,
+01,17.187,N,103,54.474,E,1,3,9,
+01,17.270,N,103,54.490,E,1,3,9,
+01,17.507,N,103,54.848,E,1,3,9,
+01,17.689,N,103,55.403,E,1,3,9,
+01,17.865,N,103,55.830,E,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,EMCY ANCH
+
+01,16.219,N,103,56.460,E,0,24,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+01,28.505,N,104,34.011,E,1,3,4,
+01,32.379,N,104,40.104,E,1,3,4,
+01,43.213,N,104,44.981,E,1,3,4,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+01,43.227,N,104,44.979,E,1,3,4,
+01,47.650,N,104,47.120,E,1,3,4,
+03,18.445,N,105,05.784,E,1,3,4,
+03,21.186,N,105,07.782,E,1,3,4,
+END
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+TRAFFIC FLOW
+0,4,4,0,1
+02,03.607,N,104,49.138,E
+01,48.191,N,104,41.090,E
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+32,01.430,N,132,37.510,E,1,3,9,
+32,09.130,N,132,59.510,E,1,3,9,
+31,48.130,N,132,59.510,E,1,3,9,
+32,02.130,N,133,29.510,E,1,3,9,
+31,42.298,N,133,29.967,E,1,3,9,
+31,04.130,N,132,07.510,E,1,3,9,
+31,25.516,N,132,07.773,E,1,3,9,
+31,30.815,N,132,09.323,E,1,3,9,
+32,03.326,N,132,37.689,E,1,3,9,
+32,02.014,N,132,37.665,E,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,16TO20 23TO27 AND 30AUG
+
+31,32.949,N,132,27.489,E,0,18,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,LOC WARN123 removed
+
+32,50.982,N,133,56.904,E,0,14,
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+loc warn 245 anc chain exist
+35,33.900,N,140,04.400,E
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,LOC WARN200 extinguished and new fl y 4sec
+
+35,28.340,N,139,59.480,E,0,14,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+24,40.554,N,120,50.067,E,1,3,9,
+24,40.500,N,120,49.900,E,1,3,9,
+24,39.800,N,120,43.000,E,1,3,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+24,41.650,N,120,40.150,E,1,3,9,
+24,41.650,N,120,46.120,E,1,3,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+24,42.600,N,120,46.250,E,1,3,9,
+24,44.881,N,120,49.470,E,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,navtex cable operation fm29apr to31aug
+
+24,43.575,N,120,41.300,E,0,14,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+24,44.863,N,120,44.969,E,1,3,9,
+24,41.650,N,120,46.120,E,1,3,9,
+END
+// LINE_CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+LINE_CIRCLE
+KEEP CPA 2.0NM FROM PLATFORM
+07,54.899,N,108,34.152,E,2.0
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+DISTRESS 0045z 24aug
+11,59.000,N,114,31.000,E
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,EMCY ANC
+
+34,43.889,N,137,12.806,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+27,05.420,N,126,42.990,E,1,3,9,
+27,04.750,N,126,39.100,E,1,3,9,
+27,30.220,N,125,56.900,E,1,3,9,
+28,17.230,N,127,07.900,E,1,3,9,
+27,32.000,N,127,25.600,E,1,3,9,
+27,05.686,N,126,43.203,E,1,3,9,navtex gunnery fm 2300to0800z 30aug to 03sep 6to8sep
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+25,14.250,N,127,37.900,E,1,3,9,
+25,14.250,N,128,29.900,E,1,3,9,
+25,04.760,N,128,39.900,E,1,3,9,
+24,16.450,N,128,39.900,E,1,3,9,
+24,16.750,N,127,34.900,E,1,3,9,
+25,15.253,N,127,37.017,E,1,3,9,navtex 30aug to 3sep 6to8sep 23to0800z
+END
+// LINE_CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+LINE_CIRCLE
+navtex gunery 28aug 00to17z
+23,18.300,N,119,20.520,E,6.5
+// LINE_CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+LINE_CIRCLE
+gunnery navtex
+23,29.900,N,120,07.950,E,5.0
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+25,48.000,N,120,48.000,E,1,3,9,
+25,48.000,N,121,20.000,E,1,3,9,
+24,52.000,N,120,23.000,E,1,3,9,
+24,52.000,N,119,55.000,E,1,3,9,
+25,48.029,N,120,47.875,E,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,navtex 
+
+25,08.339,N,120,20.118,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,gunnery 23to24z 31aug 3sep 00-02z 06-9z 23-24z 1sep 00-02 6-9z
+
+25,04.463,N,120,17.092,E,0,20,
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+obstn
+25,10.000,N,121,21.000,E
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+0bstn
+25,10.500,N,121,21.300,E
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+22,54.900,N,119,25.500,E,1,3,9,
+22,54.900,N,119,45.500,E,1,3,9,0000 0900z 31aug to 4sep fire exercise
+22,34.900,N,119,45.500,E,1,3,9,
+22,34.900,N,119,25.500,E,1,3,9,
+22,54.933,N,119,25.422,E,1,3,9,navtex fire practices
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NAVTEX BOMBING 2300ZTO0800Z DAILY 31AUG TO 03SEP 6TO10
+
+31,30.424,N,132,19.906,E,0,18,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,13 TO 17  22 TO 24 27 to 29sep
+
+31,27.230,N,132,21.177,E,0,18,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,SEND FINAL REP
+
+20,54.574,N,118,38.969,E,0,18,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+27,06.233,N,129,09.866,E,1,3,9,
+27,06.233,N,130,59.866,E,1,3,9,
+26,10.250,N,130,59.866,E,1,3,9,
+26,19.500,N,129,10.000,E,1,3,9,
+27,06.242,N,129,09.757,E,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,z 2100to1500z start daily   4to12sep
+
+26,37.394,N,129,26.800,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+27,06.233,N,129,09.866,E,1,3,9,
+27,06.233,N,130,59.866,E,1,3,4,
+26,10.250,N,130,59.866,E,1,3,9,
+26,23.233,N,128,19.883,E,1,3,4,
+27,06.084,N,129,09.729,E,1,3,4,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,2100to 1500z daily ,2 and 3sep
+
+26,29.956,N,128,37.869,E,0,18,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,BOMBING RED AND BLUE
+
+26,48.500,N,129,06.641,E,0,18,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+24,48.000,N,119,50.000,E,1,3,9,
+24,48.000,N,120,20.000,E,1,3,9,
+23,55.000,N,119,27.000,E,1,3,9,
+24,10.000,N,119,08.000,E,1,3,9,
+24,47.910,N,119,50.110,E,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,FIRE PRACTICES 
+
+24,30.387,N,119,40.250,E,0,18,
+// CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+CIRCLE
+fire practice 28aug 0000to0200 0600to0900z
+22,26.900,N,120,35.500,E,5.0
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NAVTEX FIRE PRACTICE 
+
+22,38.457,N,119,15.999,E,0,22,
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+BUOY OFF PSN 28AUG2020
+21,03.692,N,119,00.281,E
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NAVTEX buoy established
+
+24,44.518,N,120,44.621,E,0,22,
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+ANC PSN
+25,10.300,N,121,15.900,E
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+25,12.551,N,121,13.796,E,1,3,9,
+25,13.173,N,121,14.838,E,1,3,4,MAN SPD
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+25,12.318,N,121,08.550,E,1,3,9,
+25,11.323,N,121,09.046,E,1,3,4,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,STBY ENG
+
+25,10.826,N,121,08.396,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,1HR NOTICE
+
+25,08.991,N,120,59.580,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+25,10.779,N,120,59.734,E,1,3,9,
+25,09.566,N,121,00.195,E,1,3,4,
+END
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+
+25,10.404,N,121,15.832,E
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,AND 2,4 sep
+
+24,58.297,N,120,10.406,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NAVTEX FIRE PRACTICE
+
+23,42.671,N,122,05.318,E,0,22,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+23,42.671,N,122,05.191,E,1,2,9,
+22,59.571,N,122,05.191,E,1,2,9,
+23,19.745,N,122,38.426,E,1,2,9,
+23,43.021,N,122,38.426,E,1,2,9,
+23,43.021,N,122,05.825,E,1,2,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+25,27.900,N,122,00.500,E,1,2,9,
+25,27.830,N,122,12.528,E,1,2,9,
+25,19.900,N,122,12.528,E,1,2,9,
+25,19.900,N,122,00.500,E,1,2,9,
+25,27.861,N,122,00.509,E,1,2,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,FIRE PRACTICES 0000z to 0900z 31aug to 4sep
+
+25,25.747,N,122,04.036,E,0,18,
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+fishing boat sunk
+25,24.700,N,120,41.300,E
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+
+25,21.299,N,121,10.269,E
+// LINE_CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+LINE_CIRCLE
+
+31,14.220,N,144,26.800,E,25.0
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+
+24,51.317,N,120,29.318,E
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,4,9,0,2
+28,48.408,N,127,42.574,E
+28,35.671,N,127,37.288,E
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,DISTRESS ALERT
+
+28,53.062,N,127,42.221,E,0,16,
+// LINE_CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+LINE_CIRCLE
+
+25,00.964,N,120,37.386,E,0.2
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+navtex 9.7mtrs
+33,53.741,N,131,12.633,E
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+9.7mtrs
+33,53.710,N,131,12.728,E
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+9.8mtrs
+33,53.695,N,131,12.766,E
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+34,35.200,N,140,16.800,E,1,4,9,
+34,18.383,N,140,33.100,E,1,4,9,
+34,08.300,N,140,46.850,E,1,4,9,
+33,47.100,N,140,21.833,E,1,4,9,
+34,31.200,N,140,07.800,E,1,4,9,
+34,35.219,N,140,16.830,E,1,4,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,08to11sep 00to08z 
+
+34,13.355,N,140,19.176,E,0,18,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+ROCKETS firing 23to08z 01 and4sep
+33,47.021,N,140,21.759,E,1,4,4,ROCKETS firing 23to08z 01 and4sep
+33,34.427,N,140,25.689,E,1,4,4,ROCKETS firing 23to08z 01 and4sep
+33,57.090,N,141,05.549,E,1,4,4,ROCKETS firing 23to08z 01 and4sep
+34,08.461,N,140,46.461,E,1,4,4,ROCKETS firing 23to08z 01 and4sep
+34,35.307,N,140,16.894,E,1,4,4,ROCKETS firing 23to08z 01 and4sep
+34,31.437,N,140,07.724,E,1,4,4,ROCKETS firing 23to08z 01 and4sep
+33,46.474,N,140,21.853,E,1,4,4,ROCKETS firing 23to08z 01 and4sep
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,EMCY ANC
+
+34,43.833,N,137,18.127,E,0,18,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,EMCY ANC
+
+35,33.272,N,139,57.965,E,0,20,
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+FM21AUG TO30SEP SURVEY
+21,42.750,N,113,04.517,E
+// LINE_CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+LINE_CIRCLE
+
+21,42.750,N,113,04.517,E,0.3
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~XSHAPE0,***,***
+local 118 missing
+34,26.840,N,136,55.827,E
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+loc 160 extinguish
+26,07.500,N,127,46.880,E
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~XSHAPE0,***,***
+loc 126 unexploded shell
+26,09.600,N,127,50.500,E
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+local 50 BREAKWATER LIGHT
+26,10.500,N,127,46.480,E
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+BUOY 07SEP'20
+25,45.547,N,127,55.663,E
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+BOUY 07SEP'20
+25,42.429,N,127,58.085,E
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+BUOY 07SEP'20
+25,49.636,N,128,00.364,E
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+BOUY 07SEP'20
+25,47.071,N,128,03.541,E
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+BOUY 07SEP'20
+25,55.118,N,128,06.080,E
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+BOUY 07SEP'20
+25,57.903,N,128,07.558,E
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+BUOY 07SEP'20
+26,02.806,N,128,14.300,E
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+BUOY 07SEP'20
+26,05.544,N,128,16.973,E
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+BOUY 07SEP'20
+26,01.821,N,128,20.673,E
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+BOUY 07SEP'20
+26,10.512,N,128,25.839,E
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+BUOY 07SEP'20
+26,16.464,N,128,27.581,E
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+BUOY 07SEP'20
+26,22.535,N,128,27.902,E
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+BUOY 07SEP'20
+26,19.730,N,128,31.431,E
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+BUOY 07SEP'20
+26,17.422,N,128,31.569,E
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+BUOY 07 SEP'20
+26,21.635,N,128,33.455,E
+// LINE_CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+LINE_CIRCLE
+
+33,47.894,N,136,42.184,E,0.9
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+22,55.000,N,116,30.666,E,1,3,9,
+22,41.500,N,116,48.166,E,1,3,9,
+22,07.000,N,116,19.000,E,1,3,9,
+22,21.500,N,115,59.833,E,1,3,9,
+22,55.177,N,116,30.687,E,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,MILITARY EXERCISE FM 231600Z TO 291600Z AUG KEEP 5NM OUTSIDE 
+
+22,31.752,N,115,16.252,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+34,22.077,N,137,02.470,E,1,3,4,
+34,22.123,N,137,05.225,E,1,3,4,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,E/R MANNED
+
+34,21.118,N,137,05.729,E,0,24,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+34,15.782,N,137,04.444,E,1,3,4,
+34,15.770,N,137,07.154,E,1,3,4,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,30 MIN NOTICE to MASTER/ENG ROOM
+
+34,14.931,N,137,05.469,E,0,24,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+35,04.284,N,139,44.033,E,1,3,4,
+35,03.717,N,139,45.489,E,1,3,4,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,ME MANNED
+
+35,03.211,N,139,44.780,E,0,24,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+34,57.977,N,139,40.618,E,1,3,4,
+34,57.931,N,139,43.016,E,1,4,4,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,30 MIN NOTICE to MASTER/ENG ROOM
+
+34,57.581,N,139,36.277,E,0,24,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+35,29.257,N,139,49.810,E,1,2,4,
+35,29.406,N,139,50.249,E,1,2,3,
+35,29.718,N,139,50.266,E,1,2,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,EMCY ANC
+
+35,28.089,N,139,48.001,E,0,24,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+29,14.000,N,139,07.700,E,1,3,9,
+29,14.000,N,139,07.700,E,1,3,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+29,14.000,N,139,07.700,E,1,3,9,
+29,14.800,N,139,20.000,E,1,3,9,
+28,37.500,N,139,20.200,E,1,3,9,
+28,38.000,N,139,07.900,E,1,3,9,
+29,14.305,N,139,07.297,E,1,3,9,344 20 cable rep till03oct
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,EMCY ANCHORAGE
+
+34,19.361,N,132,27.785,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL HIROSHIMA PORT RADIO 3HRS B4 ON CH 11,12,14,16
+
+33,55.319,N,132,37.164,E,0,22,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+01,47.000,N,104,46.400,E,1,2,9,
+01,45.900,N,104,48.300,E,1,2,9,
+01,42.400,N,104,46.100,E,1,2,9,
+01,36.200,N,104,43.400,E,1,2,9,
+01,37.100,N,104,41.400,E,1,2,9,
+01,42.400,N,104,43.500,E,1,2,9,
+01,46.933,N,104,46.352,E,1,2,9,346 20 CABLE REPAIRING
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,351 20 extinguished
+
+01,02.922,N,103,38.852,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,352 20 removed
+
+01,11.760,N,103,52.510,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+33,10.078,N,132,06.352,E,1,4,7,
+33,10.766,N,132,07.489,E,1,4,4,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,1 HR BEFORE SEKISAKI CALL E/R & GIVE 30MIN NOTICE
+
+33,11.712,N,132,07.055,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL
+
+21,53.795,N,114,48.895,E,0,22,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+33,28.901,N,131,54.572,E,1,4,7,
+33,29.522,N,131,56.426,E,1,4,4,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL MASTER
+
+33,29.957,N,131,56.723,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,
+
+34,19.640,N,132,22.481,E,0,20,
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+ANCHORAGE
+34,19.640,N,132,22.650,E
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,emcy anchorage
+
+34,01.784,N,132,29.487,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,emcy anchorage
+
+34,19.807,N,132,22.550,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,POB PIB
+
+34,01.272,N,132,29.278,E,0,20,

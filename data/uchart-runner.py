@@ -1,4 +1,4 @@
-from src.uchart.app import main
+from uchart.app import main
 
 if __name__ == '__main__':
     main()

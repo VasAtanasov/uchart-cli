@@ -1,0 +1,78 @@
+// USER CHART SHEET exported by JRC ECDIS.
+// <<NOTE>>This strings // indicate comment column/cells. You can edit freely.
+// NAVAREA VII,,
+// DANGER_LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+DANGER_LINE_AGGREGATE
+
+07,09.583,S,077,51.752,E,0,0,9,
+07,19.764,S,077,59.079,E,0,0,9,CALL MASTER, 30min before WP
+END
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+
+13,32.220,S,048,20.930,E
+13,32.020,S,048,21.030,E
+13,29.710,S,048,19.290,E
+13,29.570,S,048,19.460,E
+13,28.870,S,048,18.620,E
+13,28.790,S,048,18.830,E
+13,24.480,S,048,17.740,E
+13,24.490,S,048,17.970,E
+13,24.300,S,048,17.770,E
+13,24.350,S,048,17.980,E
+13,24.060,S,048,17.960,E
+13,24.220,S,048,18.060,E
+13,32.220,S,048,20.930,E
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,ABNORMAL WAVES CAN OCCUR
+
+35,13.903,S,023,20.806,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,ABNORMAL WAVES CAN OCCUR
+
+34,36.209,S,026,32.148,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,ABNORMAL WAVES CAN OCCUR
+
+32,36.560,S,030,05.633,E,0,24,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+33,59.200,S,025,44.750,E,1,3,9,
+34,26.900,S,027,24.140,E,1,3,9,
+36,41.060,S,023,54.310,E,1,3,9,
+33,59.216,S,025,44.733,E,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,MV FUGRO GAUSS CONDUCT SURVEY OPS 2NM CPA and 3NM ATERNB REQ
+
+34,47.372,S,025,49.467,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,MV FUGRO GAUSS CONDUCT SURVEY OPS 2NM CPA and 3NM ATERNB REQ
+
+32,51.418,S,030,36.409,E,0,20,
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+167 20 DRIFTING FISHING LINES 15NM
+20,52.030,S,054,51.410,E

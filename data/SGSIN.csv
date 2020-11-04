@@ -1,0 +1,336 @@
+// USER CHART SHEET exported by JRC ECDIS.
+// <<NOTE>>This strings // indicate comment column/cells. You can edit freely.
+// SGSIN,,MALACCA & SINGAPORE
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+02,46.630,N,100,40.000,E,2,3,9,
+03,47.683,N,100,40.000,E,2,3,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+01,15.500,N,103,30.750,E,2,3,9,
+01,09.200,N,103,24.350,E,2,3,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+01,20.115,N,104,02.200,E,2,3,9,
+01,09.895,N,104,02.200,E,2,3,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+01,18.271,N,103,44.600,E,2,3,9,
+01,03.388,N,103,44.600,E,2,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,SECTOR 8 VTIS CENTRAL
+
+01,11.507,N,103,54.064,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,SECTOR 9 VTIS EAST 
+
+01,13.683,N,104,03.503,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT, VTIS WEST CH73
+
+01,10.280,N,103,27.555,E,0,26,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+01,08.986,N,102,56.349,E,2,3,9,
+01,33.387,N,103,18.778,E,2,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,SECTOR 6  SECTOR PIAI
+
+01,22.363,N,103,09.410,E,315,26,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+01,31.000,N,102,24.040,E,2,3,9,
+01,53.240,N,102,40.900,E,2,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,SECTOR 5 SEGENTING 
+
+01,42.328,N,102,33.806,E,330,26,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+01,53.400,N,101,51.250,E,2,3,9,
+02,11.200,N,102,14.600,E,2,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,SECTOR 4 UNDAN 
+
+02,01.138,N,102,02.147,E,330,26,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+02,19.294,N,101,19.826,E,2,3,9,
+02,37.700,N,101,37.090,E,2,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,SECTOR 3 CAPE RACHADO
+
+02,26.822,N,101,30.707,E,320,26,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+02,54.500,N,100,38.500,E,2,3,9,
+02,54.500,N,101,09.928,E,2,3,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+02,54.538,N,100,38.604,E,2,3,9,
+03,03.550,N,100,57.950,E,2,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,SECTOR 2 JUGRA 
+
+02,53.601,N,100,51.164,E,330,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,SECTOR 1 ANGSA
+
+02,56.083,N,100,45.822,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Text
+
+03,00.638,N,100,54.430,E,0,10,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,KLANG VTS VHF CH 66
+
+02,55.082,N,100,45.537,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,KLANG VTS VHF CH 88
+
+02,53.103,N,100,50.516,E,330,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,KLANG VTS VHF CH 84
+
+02,26.273,N,101,30.695,E,320,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,KLANG VTS VHF CH 61
+
+02,00.563,N,102,02.020,E,330,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,KLANG VTS VHF CH 88
+
+01,41.664,N,102,33.412,E,330,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,JOHOR VTS VHF CH 88
+
+01,21.992,N,103,09.296,E,315,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,SINGAPORE VTS SECTOR 7
+
+01,11.109,N,103,27.752,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VHF CH 14
+
+01,11.152,N,103,54.311,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VHF CH 10
+
+01,13.251,N,104,03.625,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,EAST CONTROL CH 12
+
+01,19.011,N,104,07.080,E,0,24,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+01,27.885,N,102,53.028,E,1,3,9,
+01,32.837,N,102,58.064,E,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL SINGAPORE PILOTS ON CH 20 2HRS B4 ARR
+
+01,32.982,N,102,51.930,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,SECTOR 8 VTIS CENTRAL
+
+01,07.661,N,103,45.201,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VHF CH 14
+
+01,07.446,N,103,45.170,E,0,26,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+01,17.777,N,104,05.908,E,1,3,9,
+01,16.612,N,104,05.951,E,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL VTIS EAST ON CH10 WHEN ABEAM EASTERN BUOY
+
+01,16.854,N,104,05.666,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+01,11.249,N,103,20.949,E,1,3,9,
+01,13.622,N,103,22.945,E,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL VTIS WEST CH73 ABEAM PULAU LYU KECHIL LTH
+
+01,12.968,N,103,19.640,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+01,14.384,N,103,38.897,E,1,3,9,
+01,10.786,N,103,38.791,E,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL VTIS WEST CH73 ABEAM SULTAN SHOAL LTH
+
+01,11.444,N,103,38.293,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+01,13.308,N,103,51.277,E,1,3,9,
+01,12.105,N,103,51.514,E,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL VTIS CENTRAL CH14 ABEAM SAKIJANG  LTH
+
+01,12.141,N,103,51.289,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+01,18.539,N,103,55.962,E,1,3,9,
+01,14.351,N,103,56.364,E,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL VTIS CENTRAL CH14 ABEAM BEDOK LTH
+
+01,14.304,N,103,56.055,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+01,20.563,N,104,08.150,E,1,3,9,
+01,17.060,N,104,08.369,E,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL VTISEAST CH10 ABEAM TG SETAPA LTH
+
+01,17.335,N,104,08.420,E,0,20,
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+
+01,14.742,N,103,48.504,E

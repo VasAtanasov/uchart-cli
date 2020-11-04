@@ -1,0 +1,129 @@
+// USER CHART SHEET exported by JRC ECDIS.
+// <<NOTE>>This strings // indicate comment column/cells. You can edit freely.
+// MARPOL,,AUSTRALIAN GBR
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+12,00.247,S,141,44.104,E,2,3,6,
+09,10.617,S,141,44.024,E,2,3,6,
+09,10.000,S,143,52.000,E,2,3,6,
+09,00.000,S,144,30.000,E,2,3,6,
+10,41.000,S,145,00.000,E,2,3,6,
+13,00.000,S,145,00.000,E,2,3,6,
+15,00.000,S,146,00.000,E,2,3,6,
+17,30.000,S,147,00.000,E,2,3,6,
+21,00.000,S,152,55.000,E,2,3,6,
+24,30.000,S,154,00.000,E,2,3,6,
+24,42.000,S,153,15.000,E,2,3,6,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,DISCHARGE SEWAGE
+
+17,43.255,S,147,06.211,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,FM STP ALLOWED
+
+17,44.660,S,147,06.311,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,RAW SEWAGE PROHIBITED
+
+17,41.306,S,147,06.311,E,0,14,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,ALL KIND OF GARBAGE
+
+17,50.073,S,147,17.921,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,INCLUDING FOOD WASTE 
+
+17,51.222,S,147,18.121,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,PROHIBITED IN GBR
+
+17,52.339,S,147,18.021,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,FOOD WASTE DISPOSAL
+
+24,38.393,S,153,36.279,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,AT SEA PERMITED
+
+24,39.241,S,153,36.649,E,0,24,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+17,39.272,S,147,15.357,E,2,4,6,
+17,43.023,S,147,13.075,E,2,4,6,
+17,42.895,S,147,13.525,E,2,4,6,
+17,42.640,S,147,13.075,E,2,4,6,
+17,43.039,S,147,13.059,E,2,4,6,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+17,44.244,S,147,23.755,E,2,5,2,
+17,47.723,S,147,21.339,E,2,5,2,
+17,47.611,S,147,21.823,E,2,5,2,
+17,47.308,S,147,21.339,E,2,5,2,
+17,47.739,S,147,21.373,E,2,5,2,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,FOOD WASTE
+
+17,39.958,S,147,22.863,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,DISPOSAL ALLOWED
+
+17,40.516,S,147,23.063,E,0,24,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+17,44.969,S,147,25.404,E,2,5,2,
+17,40.527,S,147,25.544,E,2,5,2,
+17,40.871,S,147,25.244,E,2,5,2,
+17,40.852,S,147,25.923,E,2,5,2,
+17,40.603,S,147,25.564,E,2,5,2,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+24,35.086,S,153,41.427,E,2,5,2,
+24,37.652,S,153,41.343,E,2,5,2,
+24,37.326,S,153,41.762,E,2,5,2,
+24,37.307,S,153,41.071,E,2,5,2,
+24,37.632,S,153,41.301,E,2,5,2,
+END

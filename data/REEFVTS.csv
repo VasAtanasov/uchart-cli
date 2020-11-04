@@ -1,0 +1,51 @@
+// USER CHART SHEET exported by JRC ECDIS.
+// <<NOTE>>This strings // indicate comment column/cells. You can edit freely.
+// REEFVTS,,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,REEFVTS
+
+16,21.004,S,148,44.410,E,310,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VHF CH 14
+
+16,14.675,S,148,38.953,E,310,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,SEND PRE-ENTRY REPORT TO REEF VTS
+
+15,24.636,S,149,24.440,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VIA SAT-C PACIFIC OCEAN REGION
+
+15,25.809,S,149,24.209,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,AT LEAST 1HR BEFORE ENTRY IN REEF VTS AREA
+
+15,27.060,S,149,24.420,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,FINAL REPORT TO REEF VTS ON ARRIVAL VIA SAT-C
+
+19,15.367,S,146,49.730,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,PRE-ENTRY REPORT TO REEF VTS ON DEPARTURE
+
+19,15.398,S,146,49.697,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,FINAL REPORT TO REEF VTS ON EXIT REEF VTS AREA
+
+24,31.808,S,153,46.792,E,0,22,

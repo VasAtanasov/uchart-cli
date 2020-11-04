@@ -1,0 +1,5010 @@
+// USER CHART SHEET exported by JRC ECDIS.
+// <<NOTE>>This strings // indicate comment column/cells. You can edit freely.
+// - VTS,,IN USE
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL TOWNSVILLE PILOTS ON CH 06
+
+18,26.854,S,146,45.311,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL TOWNSVILLE VTS CH16
+
+18,27.188,S,146,45.779,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+18,27.041,S,146,53.920,E,1,3,9,
+18,28.024,S,146,55.151,E,1,3,9,
+18,27.743,S,146,55.191,E,1,3,9,
+18,28.011,S,146,54.883,E,1,3,9,
+18,28.024,S,146,55.124,E,1,3,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+18,14.610,S,147,06.967,E,1,3,9,
+18,14.853,S,147,05.163,E,1,3,9,
+18,14.661,S,147,05.350,E,1,3,9,
+18,15.018,S,147,05.363,E,1,3,9,
+18,14.865,S,147,05.163,E,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL REEF VTS CH 14
+
+18,14.572,S,147,07.287,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+19,05.995,S,146,53.345,E,1,3,9,
+19,05.999,S,146,53.893,E,1,3,9,
+19,05.949,S,146,53.820,E,1,3,9,
+19,06.045,S,146,53.824,E,1,3,9,
+19,05.999,S,146,53.901,E,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL REEF VTS CH 14
+
+19,05.846,S,146,52.503,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+19,15.240,S,147,29.902,E,1,1,8,
+19,16.213,S,147,28.609,E,1,1,8,
+19,16.117,S,147,29.012,E,1,1,8,
+19,15.958,S,147,28.660,E,1,1,8,
+19,16.149,S,147,28.660,E,1,1,8,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL REEF VTS CH 14
+
+19,14.729,S,147,29.136,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+20,10.795,S,149,16.888,E,1,3,9,
+20,11.848,S,149,14.810,E,1,3,9,
+20,11.928,S,149,15.232,E,1,3,9,
+20,11.561,S,149,14.945,E,1,3,9,
+20,11.880,S,149,14.844,E,1,3,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+21,50.040,S,150,45.452,E,1,3,9,
+21,51.763,S,150,43.726,E,1,3,9,
+21,51.715,S,150,44.051,E,1,3,9,
+21,51.428,S,150,43.743,E,1,3,9,
+21,51.763,S,150,43.743,E,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL REEF VTS CH 11
+
+21,49.801,S,150,45.571,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+24,26.989,S,153,37.668,E,1,3,9,
+24,29.360,S,153,34.576,E,1,3,9,
+24,29.335,S,153,35.384,E,1,3,9,
+24,28.748,S,153,34.631,E,1,3,9,
+24,29.411,S,153,34.492,E,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL REEF VTS CH 14
+
+24,26.543,S,153,36.922,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+26,20.152,S,153,15.062,E,1,3,9,
+26,20.588,S,153,17.033,E,1,3,9,
+26,20.366,S,153,16.735,E,1,3,9,
+26,20.688,S,153,16.684,E,1,3,9,
+26,20.565,S,153,17.016,E,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL BRISBANE VTS
+
+26,18.729,S,153,10.450,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,2 HRS BEFORE ETA
+
+26,19.342,S,153,10.762,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL BRISBANE VTS
+
+26,21.463,S,153,12.249,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,BEFORE PT CARTWRIGHT
+
+26,22.304,S,153,11.936,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,2 HRS & 1 HR
+
+26,21.921,S,153,13.140,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,1 HR BEFORE ETD
+
+27,22.853,S,153,09.888,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL BRISBANE VTS
+
+27,22.896,S,153,09.877,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CH 12 TO CONFIRM ETD
+
+27,22.876,S,153,09.875,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL PORT KEMBLA
+
+34,10.922,S,151,15.198,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,HARBOUR CTRL
+
+34,11.381,S,151,15.704,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,2 HRS & 1 HR BEFORE ETA
+
+34,11.745,S,151,14.576,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,ON CH 16
+
+34,12.089,S,151,16.948,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+34,10.692,S,151,22.543,E,1,3,9,
+34,10.165,S,151,24.816,E,1,3,9,
+34,10.111,S,151,24.659,E,1,3,9,
+34,10.287,S,151,24.724,E,1,3,9,
+34,10.172,S,151,24.816,E,1,3,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+34,18.438,S,151,04.683,E,1,3,9,
+34,18.468,S,151,06.093,E,1,3,9,
+34,18.323,S,151,05.908,E,1,3,9,
+34,18.575,S,151,05.918,E,1,3,9,
+34,18.476,S,151,06.084,E,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL PORT KEMBLA HARBOUR
+
+34,17.137,S,151,00.419,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,5 MILES BEFORE VTS AREA
+
+34,17.615,S,151,00.765,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,ON CH 11
+
+34,18.151,S,151,00.949,E,0,20,
+// CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+CIRCLE
+
+34,24.702,S,150,57.102,E,5.0
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL PORT KEMBLA HARBOUR
+
+34,20.483,S,151,00.842,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,ON CH 16
+
+34,20.655,S,151,01.095,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+34,11.687,S,151,14.162,E,1,3,9,
+34,16.971,S,151,10.246,E,1,3,9,
+34,16.646,S,151,10.776,E,1,3,9,
+34,16.512,S,151,10.153,E,1,3,9,
+34,16.913,S,151,10.269,E,1,3,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+38,33.029,S,144,43.600,E,1,1,9,
+38,31.399,S,144,45.984,E,1,1,9,
+38,31.653,S,144,45.968,E,1,1,9,
+38,31.450,S,144,45.676,E,1,1,9,
+38,31.411,S,144,45.984,E,1,1,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL PORT PHILLIP PILOTS 1 HR BEFORE ETA
+
+38,33.726,S,144,38.669,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL LONSDALE VTS CH 16
+
+38,52.148,S,145,07.391,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,3 HRS BEFORE ETA
+
+38,53.064,S,145,07.782,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+38,52.733,S,145,19.269,E,1,1,8,
+38,49.550,S,145,21.807,E,1,1,8,
+38,49.964,S,145,21.807,E,1,1,8,
+38,49.741,S,145,21.381,E,1,1,8,
+38,49.598,S,145,21.848,E,1,1,8,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+38,04.991,S,144,53.061,E,2,3,3,
+38,04.991,S,144,57.540,E,2,3,3,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,LONSDALE VTS
+
+38,05.144,S,144,53.322,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CH 12
+
+38,05.136,S,144,56.128,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,MELBOURNE VTS
+
+38,04.903,S,144,53.322,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CH 12
+
+38,04.865,S,144,56.104,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+35,50.343,S,138,19.795,E,1,3,9,
+35,49.604,S,138,13.034,E,1,3,9,
+35,49.426,S,138,13.629,E,1,3,9,
+35,49.833,S,138,13.441,E,1,3,9,
+35,49.604,S,138,13.159,E,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL ADELAIDE OUTER HBR
+
+35,49.349,S,138,20.703,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,4 HRS BEFORE ETA
+
+35,50.454,S,138,22.499,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VHF CH 12
+
+35,51.372,S,138,23.627,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+34,26.665,N,136,55.418,E,2,3,9,
+34,26.649,N,137,08.791,E,2,3,9,
+34,35.472,N,137,08.787,E,2,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL ISE WAN MARTIS WHEN CROSSING IS REP LINE ON CH 16, 13
+
+34,25.972,N,137,05.118,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL BAYPILOT KOBE 50nm before ETA CH 16,13,68
+
+33,23.736,N,135,17.800,E,0,22,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+33,58.500,N,130,52.100,E,2,3,3,
+34,02.438,N,130,52.065,E,2,3,3,
+34,02.422,N,130,53.589,E,2,3,3,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL KANMON MARTIS VHF 16/13
+
+34,01.897,N,130,50.231,E,0,24,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+34,01.867,N,130,50.947,E,1,3,9,
+34,01.219,N,130,52.067,E,1,3,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+34,01.214,N,130,52.067,E,1,1,8,
+34,01.229,N,130,51.939,E,1,1,8,
+34,01.306,N,130,52.006,E,1,1,8,
+34,01.229,N,130,52.080,E,1,1,8,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,ON CROSSING REP LINE
+
+34,02.103,N,130,50.345,E,0,24,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+33,58.689,N,125,50.389,E,1,3,9,
+34,03.431,N,125,56.236,E,1,3,9,
+34,01.819,N,125,55.970,E,1,3,9,
+34,02.262,N,125,54.945,E,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL JINDO VTS
+
+33,59.809,N,125,43.980,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CH 16
+
+33,58.988,N,125,44.587,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL JINDO VTS
+
+34,42.613,N,125,41.441,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+34,42.140,N,125,43.047,E,1,3,9,
+34,39.991,N,125,38.648,E,1,3,9,
+34,41.097,N,125,39.490,E,1,3,9,
+34,40.781,N,125,40.025,E,1,3,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+36,53.693,N,126,05.000,E,1,3,7,
+36,55.232,N,126,04.584,E,1,3,7,
+36,54.975,N,126,04.855,E,1,3,7,
+36,54.882,N,126,04.710,E,1,3,7,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL JANGAN VTS
+
+36,53.647,N,126,05.213,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CH 67
+
+36,53.320,N,126,05.136,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+34,21.036,N,126,28.313,E,2,3,3,
+34,03.865,N,126,21.017,E,2,3,3,
+34,03.808,N,126,21.015,E,2,3,3,
+34,03.794,N,125,43.219,E,2,3,3,
+34,08.089,N,125,35.110,E,2,3,3,
+34,31.183,N,125,32.004,E,2,3,3,
+34,39.814,N,125,31.996,E,2,3,3,
+34,39.791,N,125,56.403,E,2,3,3,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,JANGAN VTS CH 67
+
+37,03.965,N,126,12.719,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,INCHEON VTS SECTOR 1
+
+37,05.823,N,126,14.828,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+37,03.406,N,126,16.393,E,2,3,3,
+37,06.993,N,126,19.878,E,2,3,3,
+37,09.178,N,126,22.016,E,2,3,3,
+37,10.598,N,126,23.395,E,2,3,3,
+37,10.604,N,126,24.593,E,2,3,3,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+37,16.328,N,126,26.082,E,2,3,3,
+37,16.037,N,126,25.887,E,2,3,3,
+37,15.751,N,126,25.700,E,2,3,3,
+37,15.541,N,126,25.694,E,2,3,3,
+37,14.506,N,126,25.662,E,2,3,3,
+37,14.096,N,126,25.649,E,2,3,3,
+37,13.628,N,126,26.012,E,2,3,3,
+37,12.912,N,126,26.561,E,2,3,3,
+37,12.591,N,126,26.803,E,2,3,3,
+37,11.858,N,126,26.831,E,2,3,3,
+37,10.768,N,126,26.880,E,2,3,3,
+37,10.300,N,126,26.898,E,2,3,3,
+37,10.269,N,126,26.689,E,2,3,3,
+37,10.604,N,126,24.571,E,2,3,3,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+37,20.915,N,126,27.120,E,1,1,8,
+37,21.636,N,126,26.485,E,1,1,8,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CH 14
+
+37,05.671,N,126,15.472,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,INCHEON VTS
+
+37,20.695,N,126,27.809,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CH 68
+
+37,20.631,N,126,28.016,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,SECTOR 2
+
+37,20.784,N,126,27.949,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL TARIFA TRAFFIC ON CH 16; 10, 67
+
+36,04.494,N,005,13.517,W,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL TANGIER TRAFFIC ON CH 16
+
+36,05.522,N,005,59.239,W,270,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+35,54.984,N,005,58.772,W,1,3,9,
+35,54.984,N,005,55.385,W,1,3,9,
+35,55.386,N,005,56.044,W,1,3,9,
+35,55.022,N,005,56.044,W,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL ROCA CONTROL ON CH 16; 22,69 78 79
+
+36,06.807,N,008,24.239,W,90,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL ROCA CONTROL ON CH 16; 22,69,78 79
+
+39,46.885,N,009,58.312,W,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+39,42.174,N,009,44.914,W,1,3,9,
+39,46.988,N,009,44.914,W,1,3,9,
+39,45.613,N,009,43.726,W,1,3,9,
+39,45.651,N,009,44.865,W,1,3,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+39,47.038,N,010,01.220,W,1,3,9,
+39,42.143,N,010,01.207,W,1,3,9,
+39,43.251,N,009,59.970,W,1,3,9,
+39,43.251,N,010,01.207,W,1,3,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+36,37.050,N,008,27.238,W,1,3,9,
+36,37.050,N,008,32.688,W,1,3,9,
+36,37.927,N,008,31.029,W,1,3,9,
+36,36.974,N,008,30.935,W,1,3,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+36,20.981,N,008,32.701,W,1,3,9,
+36,20.981,N,008,28.119,W,1,3,9,
+36,21.802,N,008,29.160,W,1,3,9,
+36,20.998,N,008,29.207,W,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,LIANYUN GANG VTS
+
+34,50.570,N,119,36.426,E,35,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,LIANYUN GANG VTS
+
+34,42.008,N,119,46.515,E,35,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VHF CH 16
+
+34,52.387,N,119,49.531,E,0,24,
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+
+34,49.470,N,119,37.780,E
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+
+34,46.460,N,119,33.900,E
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,1
+
+34,49.630,N,119,37.697,E,0,14,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,2
+
+34,46.700,N,119,33.944,E,0,14,
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+
+34,49.580,N,119,41.710,E
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,3
+
+34,49.770,N,119,41.685,E,0,14,
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+
+34,51.760,N,119,46.930,E
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,4
+
+34,51.929,N,119,46.889,E,0,14,
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+
+34,48.380,N,119,42.080,E
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,5
+
+34,48.527,N,119,42.082,E,0,14,
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+
+34,51.230,N,119,49.760,E
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,6
+
+34,51.343,N,119,49.678,E,0,14,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,REPORT TIME OF
+
+35,01.441,N,119,44.295,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,DROP & HEAVE UP ANCHOR
+
+35,00.551,N,119,41.944,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,TO LIANYUN GANG VTS
+
+34,57.904,N,119,43.243,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,BEFORE ACTUAL DROP OR HEAVE UP
+
+34,59.304,N,119,41.109,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL LAEM CHABANG PORT CONTROL CH.16 2HR BEFORE
+
+12,24.247,N,100,45.160,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL LAEM CHABANG PILOT CH.16 2HR BEFORE
+
+12,23.094,N,100,44.970,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+27,40.800,N,034,36.441,E,1,3,9,
+27,40.855,N,034,23.567,E,1,3,9,
+27,41.200,N,034,26.822,E,1,3,9,
+27,40.823,N,034,26.964,E,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL FALSE RAS GHARIB VTC CH 16, 61
+
+27,41.330,N,034,28.004,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+12,23.437,N,100,43.290,E,1,3,9,
+12,24.839,N,100,37.648,E,1,3,9,
+12,25.306,N,100,39.423,E,1,3,9,
+12,24.496,N,100,39.169,E,1,3,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+11,42.385,N,043,03.906,E,1,3,9,
+11,42.199,N,043,05.305,E,1,3,9,
+11,42.397,N,043,05.059,E,1,3,9,
+11,42.225,N,043,05.033,E,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VHF WATCH CH 12
+
+11,42.780,N,043,04.035,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,DJIBOUTI PORT CONTROL
+
+11,43.004,N,043,04.081,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+21,06.852,N,038,57.291,E,1,3,9,
+21,08.991,N,038,56.304,E,1,3,9,
+21,08.641,N,038,56.785,E,1,3,9,
+21,08.369,N,038,56.611,E,1,3,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+21,25.150,N,039,05.478,E,1,3,9,
+21,25.635,N,039,05.339,E,1,3,9,
+21,26.098,N,039,05.223,E,1,3,9,
+21,25.677,N,039,05.438,E,1,3,9,
+21,25.635,N,039,05.345,E,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL JEDDAH PORT CONTROL 2NM TO P/S
+
+21,24.912,N,039,04.892,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+50,10.000,N,002,58.000,W,2,3,3,
+50,10.000,N,002,00.000,W,2,3,3,
+49,20.000,N,002,00.000,W,2,3,3,
+49,20.000,N,002,58.000,W,2,3,3,
+50,10.000,N,002,58.000,W,2,3,3,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+37,30.066,N,023,56.128,E,1,3,9,
+37,29.747,N,023,51.408,E,1,3,9,
+37,30.155,N,023,52.448,E,1,3,9,
+37,29.849,N,023,52.880,E,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL PIRAEUS TRAFFIC
+
+37,32.167,N,023,54.329,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CH 13; 14, 15
+
+37,31.231,N,023,56.224,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,15 MIN. BEFORE VTS AREA
+
+37,30.371,N,023,53.442,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+37,36.104,N,023,38.598,E,1,3,9,
+37,36.470,N,023,43.105,E,1,3,9,
+37,36.773,N,023,41.582,E,1,3,9,
+37,36.327,N,023,41.422,E,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL PIRAEUS VTS
+
+37,37.983,N,023,37.317,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,15 MIN BEFORE EXITING VTS AREA
+
+37,37.362,N,023,35.856,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CH 13
+
+37,36.709,N,023,38.598,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL SALAM ON CH 13, 16
+
+27,55.934,N,034,28.466,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,AND
+
+27,55.723,N,034,29.050,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VTS GULF OF AQABA
+
+27,55.411,N,034,28.488,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,ON CH 16; 08, 09, 10
+
+27,55.092,N,034,29.091,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,AND
+
+28,02.027,N,034,25.743,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VTS GULF OF AQABA
+
+28,01.825,N,034,25.104,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL SALAM ON CH 13, 16 
+
+28,02.259,N,034,25.042,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,ON CH 16, 08
+
+28,01.606,N,034,25.414,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+28,01.507,N,034,26.264,E,1,3,9,
+28,01.264,N,034,27.004,E,1,3,9,
+28,01.351,N,034,26.952,E,1,3,9,
+28,01.322,N,034,26.836,E,1,3,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+28,59.817,N,034,47.831,E,1,3,9,
+29,00.269,N,034,47.262,E,1,3,9,
+29,00.214,N,034,47.454,E,1,3,9,
+29,00.105,N,034,47.483,E,1,3,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+01,10.304,N,104,24.337,E,2,5,7,
+01,27.312,N,104,24.337,E,2,5,7,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+01,18.271,N,103,44.600,E,2,5,7,
+01,03.388,N,103,44.600,E,2,5,7,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,SECTOR 8 VTIS CENTRAL
+
+01,17.192,N,104,00.231,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,SECTOR 9 VTIS EAST
+
+01,22.935,N,104,20.146,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,SECTOR 7 VTIS WEST ch 73
+
+01,10.176,N,103,41.799,E,0,22,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+01,08.194,N,102,55.877,E,2,5,7,
+01,34.127,N,103,19.350,E,2,5,7,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,SECTOR 6 VTIS WEST SECTOR PIAI
+
+01,15.695,N,103,26.440,E,350,22,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+01,31.510,N,102,24.719,E,2,5,7,
+01,54.399,N,102,41.547,E,2,5,7,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,SECTOR 5 SEGENTING
+
+01,33.256,N,103,09.893,E,330,22,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+01,51.385,N,101,49.068,E,2,5,7,
+02,11.129,N,102,14.607,E,2,5,7,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,SECTOR 4 UNDAN
+
+01,53.491,N,102,33.150,E,330,22,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+02,19.966,N,101,20.055,E,2,5,7,
+02,37.791,N,101,37.493,E,2,5,7,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,SECTOR 3 CAPE RACHADO
+
+02,10.781,N,102,06.496,E,320,22,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+02,54.521,N,100,39.211,E,2,5,7,
+02,54.500,N,101,09.928,E,2,5,7,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+02,54.553,N,100,39.195,E,2,5,7,
+03,03.892,N,100,57.993,E,2,5,7,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,SECTOR 2 JUGRA
+
+02,37.334,N,101,31.685,E,330,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,SECTOR 1 ANGSA
+
+02,55.759,N,100,57.878,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Text
+
+03,00.638,N,100,54.430,E,0,10,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,KLANG VTS VHF CH 66
+
+02,55.057,N,100,57.865,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,KLANG VTS VHF CH 88
+
+02,36.970,N,101,30.847,E,330,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,KLANG VTS VHF CH 84
+
+02,09.580,N,102,05.861,E,320,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,KLANG VTS VHF CH 61
+
+01,52.884,N,102,32.356,E,330,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,KLANG VTS VHF CH 88
+
+01,31.979,N,103,09.798,E,330,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,JOHOR VTS VHF CH 88
+
+01,15.234,N,103,26.749,E,350,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,(SINGAPORE VTS )
+
+01,10.010,N,103,41.894,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VHF CH 14
+
+01,16.972,N,104,00.576,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VHF CH 10
+
+01,22.641,N,104,20.696,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL AQABA PORT CONTROL
+
+28,03.709,N,034,29.871,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,6 HRS BEFORE ARRIVAL
+
+28,03.326,N,034,30.082,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL AQABA VTS ON CH 12 
+
+29,30.786,N,034,59.783,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL REEF VTS CH 11
+
+20,10.295,S,149,16.771,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+11,57.950,N,043,56.907,E,1,3,9,
+11,55.421,N,043,54.670,E,1,3,9,
+11,56.322,N,043,54.865,E,1,3,9,
+11,56.168,N,043,55.312,E,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL DJIBOUTI PORT CONTROL
+
+11,58.704,N,043,55.819,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,ON CH 12, 16 - 3 HRS BEFORE ETA
+
+11,58.244,N,043,55.858,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL FALSE RAS GHARIB VTC CH 16
+
+27,56.787,N,034,20.459,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,2 HRS BEFORE GULF OF SUEZ TSS
+
+27,56.358,N,034,20.588,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+29,33.149,N,032,39.903,E,1,3,9,
+29,34.162,N,032,35.615,E,1,3,9,
+29,34.393,N,032,36.387,E,1,3,9,
+29,33.949,N,032,36.631,E,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL PORT SUEZ HARBOUR OFFICE
+
+29,34.200,N,032,38.402,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,ON CH 14
+
+29,33.471,N,032,38.804,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+51,28.500,N,000,40.700,E,2,3,3,
+51,29.060,N,000,52.630,E,2,3,3,
+51,24.900,N,000,54.300,E,2,3,3,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+51,22.400,N,000,57.100,E,2,3,3,
+51,20.800,N,000,58.000,E,2,3,3,
+51,17.600,N,000,30.200,E,2,3,3,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL JEDDAH PORT CONTROL VHF 12/16
+
+20,04.298,N,040,24.698,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,100 nm before PILOT ST
+
+19,59.478,N,040,26.033,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL JEDDAH PORT CONTROL VHF 12/16
+
+21,07.905,N,039,11.879,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,12 nm off for FINAL ETA confirm.
+
+21,06.057,N,039,16.771,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+42,53.017,N,009,16.208,W,2,3,3,
+42,41.395,N,010,15.132,W,2,3,3,
+43,47.627,N,010,14.946,W,2,3,3,
+43,09.579,N,009,12.703,W,2,3,3,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL FINISTERRE TRAFFIC ON CH16, 11, 74
+
+42,41.165,N,010,02.198,W,15,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL OUESSANT TRAFFIC ON CH 13,16 or79 
+
+48,21.982,N,006,04.998,W,300,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+50,43.458,N,000,26.092,E,2,3,3,
+50,20.655,N,001,33.025,E,2,3,3,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+51,22.492,N,001,26.698,E,2,3,3,
+51,05.356,N,002,33.161,E,2,3,3,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL GRIZ-NEZ TRAFFIC ON CH 13 2NM B4 ENTRY
+
+50,33.322,N,000,51.641,E,332,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+51,20.628,N,001,33.967,E,2,3,3,
+51,21.096,N,001,34.820,E,2,3,3,
+51,21.585,N,001,35.582,E,2,3,3,
+51,22.062,N,001,36.242,E,2,3,3,
+51,22.623,N,001,36.905,E,2,3,3,
+51,23.198,N,001,37.495,E,2,3,3,
+51,23.679,N,001,37.922,E,2,3,3,
+51,24.229,N,001,38.349,E,2,3,3,
+51,24.913,N,001,38.782,E,2,3,3,
+51,25.226,N,001,39.004,E,2,3,3,
+51,25.668,N,001,39.217,E,2,3,3,
+51,26.168,N,001,39.411,E,2,3,3,
+51,26.788,N,001,39.599,E,2,3,3,
+51,27.581,N,001,39.743,E,2,3,3,
+51,28.354,N,001,39.779,E,2,3,3,
+51,29.159,N,001,39.733,E,2,3,3,
+51,29.846,N,001,39.595,E,2,3,3,
+51,30.580,N,001,39.373,E,2,3,3,
+51,31.191,N,001,39.103,E,2,3,3,
+51,31.849,N,001,38.741,E,2,3,3,
+51,32.720,N,001,38.143,E,2,3,3,
+51,33.651,N,001,37.322,E,2,3,3,
+51,34.086,N,001,36.852,E,2,3,3,
+51,34.589,N,001,36.255,E,2,3,3,
+51,35.021,N,001,35.628,E,2,3,3,
+51,35.587,N,001,34.753,E,2,3,3,
+51,35.933,N,001,34.120,E,2,3,3,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL LONDON VTS 
+
+51,29.040,N,001,40.063,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,ESTUARY SECTOR ON CH 18, 69
+
+51,28.754,N,001,39.987,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL MEDWAY VTS CH 16, 74
+
+51,30.142,N,001,36.905,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,2,5 HRS BEFORE MEDWAY LT BUOY
+
+51,29.933,N,001,36.962,E,0,20,
+// CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+CIRCLE
+
+51,28.847,N,000,52.779,E,0.1
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+51,30.214,N,001,36.862,E,1,3,9,
+51,30.552,N,000,53.047,E,1,3,9,
+51,29.028,N,000,52.805,E,1,3,9,
+51,29.089,N,000,52.921,E,1,3,9,
+51,29.108,N,000,52.701,E,1,3,9,
+51,29.036,N,000,52.786,E,1,3,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+51,08.019,N,002,30.398,E,2,3,9,
+51,12.204,N,002,26.713,E,2,3,9,
+51,16.148,N,002,23.298,E,2,3,9,
+51,23.666,N,002,19.350,E,2,3,9,
+51,25.966,N,002,27.485,E,2,3,9,
+51,21.388,N,002,31.124,E,2,3,9,
+51,25.957,N,002,27.481,E,2,3,9,
+51,25.944,N,002,39.930,E,2,3,9,
+51,28.770,N,002,56.005,E,2,3,9,
+51,33.849,N,003,06.756,E,2,3,9,
+51,34.582,N,003,08.416,E,2,3,9,
+51,49.986,N,003,08.358,E,2,3,9,
+51,49.943,N,003,29.925,E,2,3,9,
+51,44.029,N,003,29.925,E,2,3,9,
+51,34.058,N,003,29.934,E,2,3,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+51,28.770,N,002,55.972,E,2,3,3,
+51,25.122,N,002,57.924,E,2,3,3,
+51,15.493,N,002,57.989,E,2,3,3,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+51,21.396,N,002,31.116,E,2,3,3,
+51,19.602,N,002,31.488,E,2,3,3,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,1 HOUR BEFORE ETA
+
+51,15.366,N,002,16.946,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+51,18.087,N,002,21.147,E,1,3,9,
+51,19.196,N,002,21.480,E,1,3,9,
+51,18.861,N,002,21.537,E,1,3,9,
+51,18.799,N,002,21.391,E,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL WANDELAAR APPROACH ON CH 60
+
+51,17.620,N,002,19.139,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+51,21.077,N,002,29.730,E,1,3,0,
+51,21.917,N,002,30.571,E,1,3,0,
+51,21.504,N,002,30.559,E,1,3,0,
+51,21.558,N,002,30.218,E,1,3,0,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL TRAFFIC CENTER WANDELAAR ON CH 65
+
+51,20.026,N,002,25.479,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+51,19.604,N,002,31.516,E,2,3,3,
+51,18.187,N,002,42.805,E,2,3,3,
+51,10.747,N,002,47.452,E,2,3,3,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+53,47.265,N,006,50.483,E,1,3,9,
+53,48.114,N,006,51.482,E,1,3,9,
+53,47.961,N,006,50.902,E,1,3,9,
+53,47.828,N,006,51.128,E,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL WESER PILOT ON CH. 06,16 2 HRS BEFORE ETA
+
+54,24.939,N,006,56.991,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL GERMAN BIGHT TRAFFIC ON VHF CH.79WHEN CROSSING TSS
+
+53,40.559,N,006,15.355,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+53,50.588,N,007,19.552,E,1,4,9,
+53,52.049,N,007,21.228,E,1,4,9,
+53,51.807,N,007,20.433,E,1,4,9,
+53,51.655,N,007,20.756,E,1,4,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL EMS TRAFFIC ON CH.74 or 18
+
+53,56.987,N,006,53.497,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+51,48.756,N,003,07.029,E,1,4,9,
+51,48.718,N,003,08.229,E,1,4,9,
+51,48.928,N,003,07.860,E,1,4,9,
+51,48.709,N,003,07.829,E,1,4,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL TRAFFIC CENTER STEENBANK ON CH.64
+
+51,48.070,N,003,02.721,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL DOVER COAST GUARD ON CH 11
+
+51,18.286,N,001,43.406,E,338,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+51,18.413,N,001,50.015,E,1,3,9,
+51,17.269,N,001,48.636,E,1,3,9,
+51,17.701,N,001,48.717,E,1,3,9,
+51,17.726,N,001,49.204,E,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,
+
+50,12.524,N,001,58.841,W,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,2 MILES BEFORE ENTERING THE AREA
+
+50,11.992,N,001,58.763,W,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+43,36.280,N,009,54.372,W,1,4,9,
+43,35.173,N,009,53.952,W,1,4,9,
+43,35.567,N,009,54.425,W,1,4,9,
+43,35.949,N,009,54.197,W,1,4,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL FINISTERRE TRAFFIC ON CH.11,16,74
+
+43,37.167,N,009,56.587,W,320,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+51,26.451,N,002,34.218,E,1,4,0,
+51,26.175,N,002,32.983,E,1,4,0,
+51,26.528,N,002,33.501,E,1,4,0,
+51,26.356,N,002,33.730,E,1,4,0,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL TRAFFIC CENTER WANDELAAR ON CH 65
+
+51,27.095,N,002,34.351,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+34,06.657,S,025,49.021,E,1,3,9,
+34,05.410,S,025,47.679,E,1,3,9,
+34,05.525,S,025,48.148,E,1,3,9,
+34,05.747,S,025,48.056,E,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL PORT ELIZABETH PORT CONTROL
+
+34,07.046,S,025,48.304,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,15 MIN BEFORE ENTERING TSS 
+
+34,07.306,S,025,48.313,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,ON VHF CH 12
+
+34,07.536,S,025,48.571,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+34,02.750,S,025,48.438,E,1,3,9,
+34,01.924,S,025,47.648,E,1,3,9,
+34,02.062,S,025,48.024,E,1,3,9,
+34,02.245,S,025,47.932,E,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL PORT CONTROL ON CH 12 PASSING RP 1A
+
+34,03.025,S,025,48.428,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL PORT CONTROL ON CH 12 PASSING RP 2A
+
+33,56.607,S,025,46.595,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+33,56.270,S,025,46.830,E,1,3,9,
+33,56.186,S,025,45.297,E,1,3,9,
+33,56.040,S,025,45.600,E,1,3,9,
+33,56.186,S,025,45.719,E,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL PORT CONTROL ON CH 12
+
+33,57.455,S,025,37.967,E,5,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,ON ARRIVAL & 15MIN BEFORE ETD
+
+33,57.513,S,025,37.977,E,5,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL PORT CONTROL ON CH 12 PASSING RP 2B
+
+33,55.668,S,025,45.764,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+33,55.431,S,025,45.695,E,1,3,9,
+33,55.060,S,025,45.205,E,1,3,9,
+33,55.125,S,025,45.425,E,1,3,9,
+33,55.155,S,025,45.393,E,1,3,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+33,56.671,S,025,53.575,E,1,3,9,
+33,55.377,S,025,53.636,E,1,3,9,
+33,55.709,S,025,53.858,E,1,3,9,
+33,55.874,S,025,53.636,E,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL PORT CONTROL ON CH 12 PASSING 1B
+
+33,56.843,S,025,52.688,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL TAIPEI PORT CTRL ON ENTERING 
+
+25,11.205,N,120,53.399,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VTS AREA ON CH 68
+
+25,10.848,N,120,54.459,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+25,11.796,N,120,56.361,E,1,3,9,
+25,15.716,N,121,00.181,E,1,3,9,
+25,15.121,N,121,00.013,E,1,3,9,
+25,14.769,N,120,59.323,E,1,3,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+25,13.509,N,121,13.306,E,1,3,9,
+25,13.815,N,121,15.648,E,1,3,9,
+25,14.006,N,121,15.059,E,1,3,9,
+25,13.700,N,121,14.919,E,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL TAIPEI PILOTS 
+
+25,14.289,N,121,12.879,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,ON CH 11, 16 - 6NM BEFORE PS
+
+25,14.025,N,121,12.454,E,0,20,
+// DANGER_LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+DANGER_LINE_AGGREGATE
+
+31,13.183,N,122,28.041,E,1,1,9,
+31,13.151,N,122,40.186,E,1,1,9,
+30,55.527,N,122,40.075,E,1,1,9,
+30,55.463,N,122,28.115,E,1,1,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL WUSONG VTS WHEN PASSING REP LINE ON CH 08
+
+31,08.197,N,122,41.223,E,0,18,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+31,08.216,N,122,52.028,E,1,2,9,
+31,08.197,N,122,41.268,E,1,2,9,
+31,07.126,N,122,40.445,E,1,2,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+31,07.571,N,122,40.595,E,1,2,9,
+31,07.102,N,122,40.440,E,1,2,9,
+31,07.360,N,122,40.884,E,1,2,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+31,08.217,N,122,41.110,E,1,2,9,
+31,12.969,N,122,36.939,E,1,2,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+31,12.568,N,122,37.062,E,1,2,9,
+31,12.988,N,122,36.939,E,1,2,9,
+31,12.797,N,122,37.340,E,1,2,9,
+END
+// DANGER_LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+DANGER_LINE_AGGREGATE
+
+31,07.941,N,122,25.356,E,1,1,9,
+31,04.046,N,122,25.408,E,1,1,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,WUSONG VTS - VHF CH 08
+
+31,06.979,N,122,25.626,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,WUSONG VTS - VHF CH 09
+
+31,06.976,N,122,23.309,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL NORTH PILOT STATION 2HRS BEFORE ARRIVAL ON VHF CH 69
+
+31,12.675,N,122,54.897,E,0,16,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,WUSONG VTS - CH 71
+
+31,20.558,N,121,42.045,E,0,26,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+31,20.505,N,121,42.157,E,1,3,9,
+31,20.513,N,121,43.414,E,1,3,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+34,26.641,N,136,56.672,E,1,2,8,
+34,26.660,N,137,08.764,E,1,2,8,
+34,35.027,N,137,08.764,E,1,2,8,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+34,26.269,N,137,04.861,E,1,2,8,
+34,26.524,N,137,03.861,E,1,2,8,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+34,26.269,N,137,04.031,E,1,1,8,
+34,26.537,N,137,03.846,E,1,1,8,
+34,26.562,N,137,04.277,E,1,1,8,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL URAGA SUIDO PILOTS 3HRS BEFORE ARRIVAL ON CH 16,12,68
+
+34,50.559,N,139,43.521,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+35,10.068,N,139,43.763,E,1,2,8,
+35,10.173,N,139,44.217,E,1,2,8,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+35,10.237,N,139,48.956,E,2,2,8,
+35,10.237,N,139,39.654,E,2,2,8,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+35,10.167,N,139,43.994,E,1,2,8,
+35,10.186,N,139,44.219,E,1,2,8,
+35,10.078,N,139,44.095,E,1,2,8,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+29,24.350,N,178,06.750,W,3,3,4,
+29,12.267,N,177,04.417,W,3,3,4,
+28,44.300,N,175,14.267,W,3,3,4,
+27,00.467,N,173,25.617,W,3,3,4,
+26,45.417,N,171,28.367,W,3,3,4,
+26,24.583,N,170,20.417,W,3,3,4,
+25,56.817,N,167,32.050,W,3,3,4,
+24,50.383,N,165,58.933,W,3,3,4,
+24,03.017,N,161,42.500,W,3,3,4,
+24,00.852,N,161,34.406,W,3,3,4,
+23,58.457,N,161,27.853,W,3,3,4,
+23,55.423,N,161,21.709,W,3,3,4,
+23,53.643,N,161,18.733,W,3,3,4,
+23,51.786,N,161,15.902,W,3,3,4,
+23,49.232,N,161,12.344,W,3,3,4,
+23,46.534,N,161,09.308,W,3,3,4,
+23,45.670,N,161,08.320,W,3,3,4,
+23,43.202,N,161,05.951,W,3,3,4,
+23,41.983,N,161,04.760,W,3,3,4,
+23,38.420,N,161,01.829,W,3,3,4,
+23,33.618,N,160,58.300,W,3,3,4,
+23,26.262,N,160,54.444,W,3,3,4,
+23,19.502,N,160,52.067,W,3,3,4,
+23,11.733,N,160,50.344,W,3,3,4,
+23,06.168,N,160,49.791,W,3,3,4,
+23,01.101,N,160,49.767,W,3,3,4,
+22,54.715,N,160,50.462,W,3,3,4,
+22,49.079,N,160,51.646,W,3,3,4,
+22,41.985,N,160,54.012,W,3,3,4,
+22,36.051,N,160,57.041,W,3,3,4,
+22,33.396,N,160,58.525,W,3,3,4,
+22,30.155,N,161,00.766,W,3,3,4,
+22,25.660,N,161,04.434,W,3,3,4,
+22,23.722,N,161,06.218,W,3,3,4,
+22,18.811,N,161,11.033,W,3,3,4,
+22,13.690,N,161,18.607,W,3,3,4,
+22,11.036,N,161,23.403,W,3,3,4,
+22,09.454,N,161,26.472,W,3,3,4,
+22,07.775,N,161,30.627,W,3,3,4,
+22,05.972,N,161,36.054,W,3,3,4,
+22,04.512,N,161,42.380,W,3,3,4,
+22,03.370,N,161,51.357,W,3,3,4,
+22,03.430,N,162,00.444,W,3,3,4,
+22,04.528,N,162,08.054,W,3,3,4,
+22,05.829,N,162,14.926,W,3,3,4,
+22,35.533,N,164,53.767,W,3,3,4,
+22,48.433,N,166,40.733,W,3,3,4,
+24,03.500,N,168,27.883,W,3,3,4,
+24,26.983,N,170,50.617,W,3,3,4,
+24,46.817,N,171,53.450,W,3,3,4,
+25,07.383,N,174,30.383,W,3,3,4,
+27,05.833,N,176,35.667,W,3,3,4,
+27,15.183,N,177,35.433,W,3,3,4,
+27,26.167,N,178,32.383,W,3,3,4,
+27,27.383,N,178,38.436,W,3,3,4,
+27,29.307,N,178,44.806,W,3,3,4,
+27,31.588,N,178,50.424,W,3,3,4,
+27,35.166,N,178,57.930,W,3,3,4,
+27,41.867,N,179,06.966,W,3,3,4,
+27,46.603,N,179,12.088,W,3,3,4,
+27,54.794,N,179,18.560,W,3,3,4,
+28,01.995,N,179,22.584,W,3,3,4,
+28,05.982,N,179,24.301,W,3,3,4,
+28,11.397,N,179,26.069,W,3,3,4,
+28,18.168,N,179,27.729,W,3,3,4,
+28,26.971,N,179,28.023,W,3,3,4,
+28,35.607,N,179,27.364,W,3,3,4,
+28,44.678,N,179,24.527,W,3,3,4,
+28,54.664,N,179,19.932,W,3,3,4,
+29,01.721,N,179,14.593,W,3,3,4,
+29,11.079,N,179,04.307,W,3,3,4,
+29,16.180,N,178,56.349,W,3,3,4,
+29,20.383,N,178,47.269,W,3,3,4,
+29,22.349,N,178,41.250,W,3,3,4,
+29,24.257,N,178,34.148,W,3,3,4,
+29,25.054,N,178,27.973,W,3,3,4,
+29,25.630,N,178,20.376,W,3,3,4,
+29,25.317,N,178,13.326,W,3,3,4,
+29,24.350,N,178,06.750,W,3,3,4,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CORAL SHIPREP
+
+28,38.978,N,178,49.853,W,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CORAL SHIPREP
+
+23,17.027,N,163,04.741,W,0,22,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+03,25.000,S,080,18.917,W,1,3,4,
+03,25.000,S,086,31.000,W,1,3,4,
+18,20.000,S,077,45.000,W,1,3,4,
+18,20.000,S,070,22.718,W,1,3,4,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+CHILREP
+18,21.060,S,070,20.705,W,1,3,6,CHILREP
+18,21.060,S,120,00.000,W,1,3,6,CHILREP
+30,00.000,S,120,00.000,W,1,3,6,CHILREP
+30,00.000,S,131,00.000,W,1,3,6,CHILREP
+74,21.500,S,131,00.000,W,1,3,6,CHILREP
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+CHILREP
+54,56.682,S,066,58.088,W,1,2,6,CHILREP
+55,03.785,S,066,42.359,W,1,2,6,CHILREP
+55,04.914,S,066,17.641,W,1,2,6,CHILREP
+55,20.812,S,065,41.128,W,1,2,6,CHILREP
+56,21.000,S,065,45.553,W,1,2,6,CHILREP
+56,21.000,S,067,14.000,W,1,2,6,CHILREP
+58,21.000,S,067,14.000,W,1,2,6,CHILREP
+58,21.000,S,053,00.000,W,1,2,6,CHILREP
+76,53.000,S,053,00.000,W,1,2,6,CHILREP
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CHILREP
+
+60,45.531,S,067,08.683,W,0,16,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CHILREP
+
+21,45.384,S,083,47.528,W,0,16,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,PERU SHIP REPORTING
+
+07,57.217,S,082,45.940,W,0,16,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,PERU SHIP REORTING
+
+17,16.828,S,077,17.223,W,0,16,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+SITRAME REP LINE
+01,28.300,N,094,10.000,W,1,2,2,SITRAME REP LINE
+01,28.300,N,095,22.700,W,1,2,2,SITRAME REP LINE
+03,26.000,S,095,25.600,W,1,2,2,SITRAME REP LINE
+03,26.000,S,093,50.000,W,1,2,2,SITRAME REP LINE
+03,55.000,S,092,35.000,W,1,2,2,SITRAME REP LINE
+04,50.000,S,090,45.000,W,1,2,2,SITRAME REP LINE
+03,55.000,S,088,55.000,W,1,2,2,SITRAME REP LINE
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,SITRAME REP LINE
+
+02,43.234,S,094,39.507,W,0,14,
+// ARC
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm],Start Angle[deg],End Angle[deg]
+ARC
+4NN FROM SEA BUOY
+12,02.213,S,077,13.639,W,4.06,172.0,76.1
+// ARC
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm],Start Angle[deg],End Angle[deg]
+ARC
+10NM FROM SEA BUOY
+12,02.222,S,077,13.613,W,10.05,125.0,18.2
+// ARC
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm],Start Angle[deg],End Angle[deg]
+ARC
+20NM FROM SEA BUOY
+12,02.221,S,077,13.643,W,20.05,130.0,7.0
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+11,52.287,S,077,24.328,W,1,2,9,
+11,52.287,S,077,30.592,W,1,2,9,
+11,53.403,S,077,31.668,W,1,2,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+11,52.917,S,077,31.409,W,1,2,9,
+11,53.415,S,077,31.681,W,1,2,9,
+11,53.185,S,077,31.124,W,1,2,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL CALLAO PORT CONTROL (TRAMAR)
+
+11,57.019,S,077,21.708,W,0,16,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL CALLAO PORT CONTROL (TRAMAR)
+
+11,58.963,S,077,17.933,W,0,16,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,WHEN 10 NM FROM SEA BUOY ON CH. 16 13
+
+11,57.239,S,077,21.640,W,0,16,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,WHEN 4 NM FROM SEA BUOY ON CH. 16, 13
+
+11,59.173,S,077,17.907,W,0,16,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+11,57.030,S,077,18.819,W,1,2,9,
+11,57.030,S,077,21.683,W,1,2,9,
+11,57.708,S,077,22.515,W,1,2,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+11,57.420,S,077,22.316,W,1,2,9,
+11,57.696,S,077,22.510,W,1,2,9,
+11,57.585,S,077,22.172,W,1,2,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+11,59.211,S,077,17.708,W,1,2,9,
+12,00.046,S,077,17.420,W,1,2,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+11,59.844,S,077,17.620,W,1,2,9,
+12,00.045,S,077,17.426,W,1,2,9,
+11,59.780,S,077,17.416,W,1,2,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,REDUCE SPEED TO 5 KNOTS
+
+12,00.796,S,077,19.812,W,0,16,
+// ARC
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm],Start Angle[deg],End Angle[deg]
+ARC
+
+12,02.214,S,077,13.635,W,4.04,172.0,76.0
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+12,00.902,S,077,19.791,W,1,3,4,
+12,00.894,S,077,17.860,W,1,3,4,
+12,00.488,S,077,17.517,W,1,3,4,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+12,00.681,S,077,17.784,W,1,3,4,
+12,00.481,S,077,17.504,W,1,3,4,
+12,00.780,S,077,17.636,W,1,3,4,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,MAX SPEED 5 KNOTS INSIDE THE AREA
+
+12,01.860,S,077,17.495,W,0,16,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALLAO PILOTS ON CH. 69
+
+11,53.203,S,077,29.757,W,0,18,
+// DANGER_LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+DANGER_LINE_AGGREGATE
+
+11,53.286,S,077,30.223,W,1,1,9,
+11,53.286,S,077,25.000,W,1,1,9,
+END
+// DANGER_SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+DANGER_SYMBOL,~WARNSY0,***,***
+
+12,01.663,S,077,16.857,W
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL CALLAO PORT CONTROL (TRAMAR)
+
+11,52.144,S,077,30.365,W,0,16,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,WHEN 20 NM FROM SEA BUOY ON CH. 16, 13
+
+11,52.624,S,077,30.336,W,0,16,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,LEAVING PERU SHIP REPORTING
+
+18,18.205,S,075,45.507,W,0,18,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,ENTERING CHILREP
+
+18,23.711,S,075,44.990,W,0,18,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,ENTERING PERU SHIP REPORTING
+
+09,17.664,S,082,59.997,W,0,18,
+// CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+CIRCLE
+
+33,35.665,S,071,38.478,W,0.1
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Pilot Waiting Area - 1nm 60* from Molo Sur Light
+
+33,35.575,S,071,38.805,W,0,18,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Pilot Boarding Area
+
+33,35.119,S,071,38.946,W,0,18,
+// ARC
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm],Start Angle[deg],End Angle[deg]
+ARC
+
+33,34.998,S,071,38.832,W,0.15,180.0,179.9
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL SAN ANTONIO RADIO 3HRS BEFORE ARRIVAL ON CH 16, 09, 14
+
+32,51.969,S,072,01.727,W,0,18,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+32,52.241,S,072,05.295,W,1,2,9,
+32,52.249,S,071,34.342,W,1,2,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+12,01.915,S,077,13.581,W,1,3,9,
+12,02.804,S,077,13.773,W,1,3,9,
+12,02.804,S,077,12.300,W,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL CALLAO PORT CONTOL(TRAMAR) ON CH16, 13
+
+12,02.772,S,077,13.705,W,0,14,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+MERCHANT VESSELS ANCHORAGE
+12,00.828,S,077,12.179,W,1,1,4,MERCHANT VESSELS ANCHORAGE
+12,01.063,S,077,10.622,W,1,1,4,MERCHANT VESSELS ANCHORAGE
+12,02.248,S,077,10.793,W,1,1,4,MERCHANT VESSELS ANCHORAGE
+12,02.003,S,077,12.368,W,1,1,4,MERCHANT VESSELS ANCHORAGE
+12,02.006,S,077,12.364,W,1,1,4,MERCHANT VESSELS ANCHORAGE
+12,00.825,S,077,12.181,W,1,1,4,MERCHANT VESSELS ANCHORAGE
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+TANKERS AND HAZARDOUS CARGOES ANCHORAGE
+12,00.189,S,077,12.093,W,1,1,4,TANKERS AND HAZARDOUS CARGOES ANCHORAGE
+12,00.660,S,077,12.164,W,1,1,4,TANKERS AND HAZARDOUS CARGOES ANCHORAGE
+12,00.912,S,077,10.591,W,1,1,4,TANKERS AND HAZARDOUS CARGOES ANCHORAGE
+12,00.426,S,077,10.531,W,1,1,4,TANKERS AND HAZARDOUS CARGOES ANCHORAGE
+12,00.191,S,077,12.096,W,1,1,4,TANKERS AND HAZARDOUS CARGOES ANCHORAGE
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+SAFETY AND QUARANTINE ANCHORAGE
+11,59.213,S,077,12.566,W,1,1,4,SAFETY AND QUARANTINE ANCHORAGE
+11,59.217,S,077,11.575,W,1,1,4,SAFETY AND QUARANTINE ANCHORAGE
+11,59.786,S,077,11.578,W,1,1,4,SAFETY AND QUARANTINE ANCHORAGE
+11,59.787,S,077,12.574,W,1,1,4,SAFETY AND QUARANTINE ANCHORAGE
+11,59.210,S,077,12.574,W,1,1,4,SAFETY AND QUARANTINE ANCHORAGE
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+FUEL LOADNG/UNLOADING ANCHORAGE
+12,00.650,S,077,13.313,W,1,1,4,FUEL LOADNG/UNLOADING ANCHORAGE
+12,01.682,S,077,13.479,W,1,1,4,FUEL LOADNG/UNLOADING ANCHORAGE
+12,01.836,S,077,12.515,W,1,1,4,FUEL LOADNG/UNLOADING ANCHORAGE
+12,00.799,S,077,12.356,W,1,1,4,FUEL LOADNG/UNLOADING ANCHORAGE
+12,00.658,S,077,13.315,W,1,1,4,FUEL LOADNG/UNLOADING ANCHORAGE
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+FISHING VESSELS DREDGERS ANCHORAGE
+12,01.093,S,077,10.447,W,1,1,4,FISHING VESSELS DREDGERS ANCHORAGE
+12,01.808,S,077,10.547,W,1,1,4,FISHING VESSELS DREDGERS ANCHORAGE
+12,01.924,S,077,09.706,W,1,1,4,FISHING VESSELS DREDGERS ANCHORAGE
+12,01.213,S,077,09.595,W,1,1,4,FISHING VESSELS DREDGERS ANCHORAGE
+12,01.094,S,077,10.446,W,1,1,4,FISHING VESSELS DREDGERS ANCHORAGE
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+PILOT WAITING/BOARDING AREA
+12,02.103,S,077,11.713,W,1,1,4,PILOT WAITING/BOARDING AREA
+12,01.839,S,077,11.670,W,1,1,4,PILOT WAITING/BOARDING AREA
+12,01.882,S,077,11.395,W,1,1,4,PILOT WAITING/BOARDING AREA
+12,02.146,S,077,11.440,W,1,1,4,PILOT WAITING/BOARDING AREA
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,WHEN ABEAM OF TSS BUOY
+
+12,02.900,S,077,13.695,W,0,14,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+ANCHORAGE AREA - 1.5 NM AND SOUTH OFF MOLO SUR LIGHT
+33,36.622,S,071,38.380,W,1,3,4,ANCHORAGE AREA - 1.5 NM AND SOUTH OFF MOLO SUR LIGHT
+33,35.865,S,071,39.117,W,1,3,4,ANCHORAGE AREA - 1.5 NM AND SOUTH OFF MOLO SUR LIGHT
+33,35.200,S,071,39.331,W,1,3,4,ANCHORAGE AREA - 1.5 NM AND SOUTH OFF MOLO SUR LIGHT
+33,35.200,S,071,40.084,W,1,3,4,ANCHORAGE AREA - 1.5 NM AND SOUTH OFF MOLO SUR LIGHT
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,MOLO SUR LIGHT
+
+33,35.194,S,071,37.520,W,0,16,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,ANCHORAGE AREA - 1.5 NM AND SOUTH OF MOLO SUR LIGHT
+
+33,35.271,S,071,40.069,W,0,14,
+// ARC
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm],Start Angle[deg],End Angle[deg]
+ARC
+1.5NM OFF MOLO SUR LIGHT
+33,35.168,S,071,37.431,W,1.51,205.0,270.0
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,1.5NM OFF MOLO SUR LIGHT
+
+33,35.884,S,071,38.975,W,0,14,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+33,35.167,S,071,39.236,W,1,2,7,
+33,35.167,S,071,40.313,W,1,2,7,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CHILREP
+
+22,01.688,S,118,01.465,W,0,16,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,ON CH 16/67
+
+36,34.677,N,125,57.643,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,JANGAN VTS ON CH 67
+
+36,59.944,N,126,04.736,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,INCHEON VTS - SECTOR 1 - CH 14
+
+37,03.260,N,126,05.323,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,INCHEON VTS - SECTOR 3 - CH 68
+
+37,25.814,N,126,32.999,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,INCHEON VTS - SECTOR 2 - CH 68
+
+37,24.640,N,126,32.066,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,INCHEON VTS - SECTOR 1 - CH 14
+
+37,19.985,N,126,25.587,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+18,27.041,S,146,53.920,E,1,1,8,
+18,28.024,S,146,55.151,E,1,1,8,
+18,27.743,S,146,55.191,E,1,1,8,
+18,28.011,S,146,54.883,E,1,1,8,
+18,28.024,S,146,55.124,E,1,1,8,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+18,27.041,S,146,53.920,E,1,1,8,
+18,28.024,S,146,55.151,E,1,1,8,
+18,27.743,S,146,55.191,E,1,1,8,
+18,28.011,S,146,54.883,E,1,1,8,
+18,28.024,S,146,55.124,E,1,1,8,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+37
+37,18.940,N,126,28.830,E,2,4,6,37
+37,18.500,N,126,27.520,E,2,4,6,37
+37,16.470,N,126,25.980,E,2,4,6,37
+37,15.680,N,126,25.680,E,2,4,6,37
+37,14.100,N,126,25.650,E,2,4,6,37
+37,12.600,N,126,26.800,E,2,4,6,37
+37,10.300,N,126,26.910,E,2,4,6,37
+37,10.020,N,126,24.990,E,2,4,6,37
+37,10.600,N,126,24.600,E,2,4,6,37
+37,10.600,N,126,23.400,E,2,4,6,37
+37,03.406,N,126,16.393,E,2,4,6,37
+37,04.809,N,126,14.733,E,2,4,6,37
+37,04.810,N,126,14.733,E,2,4,6,37
+37,05.423,N,126,13.982,E,2,4,6,37
+37,05.553,N,126,13.832,E,2,4,6,37
+37,06.700,N,126,12.500,E,2,4,6,37
+37,00.770,N,126,05.090,E,2,4,6,37
+37,00.737,N,126,05.068,E,2,4,6,37
+37,05.010,N,126,04.200,E,2,4,6,37
+37,11.600,N,126,11.000,E,2,4,6,37
+37,16.670,N,126,14.230,E,2,4,6,37
+37,20.100,N,126,19.990,E,2,4,6,37
+37,21.690,N,126,26.440,E,2,4,6,37
+37,21.690,N,126,26.440,E,2,4,6,37
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+37
+37,18.940,N,126,28.830,E,3,4,6,37
+37,21.690,N,126,26.440,E,3,4,6,37
+37,26.790,N,126,29.180,E,3,4,6,37
+37,28.080,N,126,30.880,E,3,4,6,37
+37,25.254,N,126,33.106,E,3,4,6,37
+37,24.331,N,126,35.031,E,3,4,6,37
+37,24.001,N,126,36.360,E,3,4,6,37
+37,24.360,N,126,36.600,E,3,4,6,37
+37,17.320,N,126,31.980,E,3,4,6,37
+37,18.936,N,126,28.825,E,3,4,6,37
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+37
+37,30.600,N,126,36.130,E,2,4,6,37
+37,30.600,N,126,34.080,E,2,4,6,37
+37,28.080,N,126,30.880,E,2,4,6,37
+37,25.254,N,126,33.106,E,2,4,6,37
+37,24.329,N,126,35.031,E,2,4,6,37
+37,23.997,N,126,36.365,E,2,4,6,37
+37,24.360,N,126,36.600,E,2,4,6,37
+37,30.270,N,126,38.370,E,2,4,6,37
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+36,51.785,N,126,07.051,E,2,4,7,
+36,51.781,N,126,04.390,E,2,4,7,
+37,00.202,N,126,04.400,E,2,4,7,
+37,06.699,N,126,12.507,E,2,4,7,
+37,05.556,N,126,13.829,E,2,4,7,
+37,05.423,N,126,13.982,E,2,4,7,
+37,04.809,N,126,14.731,E,2,4,7,
+37,03.400,N,126,16.397,E,2,4,7,
+37,02.565,N,126,17.297,E,2,4,7,
+37,00.762,N,126,14.716,E,2,4,7,
+37,00.524,N,126,14.376,E,2,4,7,
+37,00.322,N,126,14.086,E,2,4,7,
+36,59.713,N,126,13.215,E,2,4,7,
+36,59.529,N,126,12.948,E,2,4,7,
+36,59.348,N,126,12.688,E,2,4,7,
+36,59.132,N,126,12.379,E,2,4,7,
+36,58.118,N,126,10.923,E,2,4,7,
+36,57.918,N,126,10.633,E,2,4,7,
+36,57.527,N,126,10.078,E,2,4,7,
+36,56.753,N,126,09.665,E,2,4,7,
+36,56.164,N,126,09.358,E,2,4,7,
+36,55.675,N,126,09.095,E,2,4,7,
+36,55.016,N,126,08.749,E,2,4,7,
+36,54.416,N,126,08.433,E,2,4,7,
+36,53.613,N,126,08.007,E,2,4,7,
+36,52.490,N,126,07.420,E,2,4,7,
+36,51.785,N,126,07.046,E,2,4,7,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+34,27.553,N,134,56.426,E,1,3,7,
+34,27.546,N,135,10.075,E,1,3,7,
+34,37.306,N,135,10.095,E,1,3,7,
+34,37.296,N,135,03.915,E,1,3,7,
+34,40.380,N,134,54.610,E,1,3,7,
+34,38.433,N,134,49.056,E,1,3,7,
+34,31.523,N,134,52.680,E,1,3,7,
+34,27.553,N,134,56.423,E,1,3,7,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,OSAKA MARTIS - CH 16, 13
+
+34,28.664,N,135,06.485,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,OSAKA MARTIS - CH 16, 13
+
+34,33.449,N,134,52.392,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,YOKOHAMA PORT RADIO ON CH 16, 11, 12, 14
+
+35,27.815,N,139,40.508,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,HIROSHIMA PORT RADIO ON CH 11,12,14,16
+
+34,20.237,N,132,23.757,E,0,24,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+34,22.172,N,134,12.476,E,1,3,7,
+34,24.972,N,134,13.860,E,1,3,7,
+34,29.429,N,134,16.183,E,1,3,7,
+34,29.402,N,134,11.894,E,1,3,7,
+34,27.571,N,134,04.856,E,1,3,7,
+34,27.244,N,134,00.746,E,1,3,7,
+34,26.844,N,134,00.012,E,1,3,7,
+34,26.942,N,133,58.598,E,1,3,7,
+34,26.829,N,133,58.149,E,1,3,7,
+34,25.511,N,133,50.220,E,1,3,7,
+34,27.153,N,133,46.459,E,1,3,7,
+34,26.872,N,133,45.190,E,1,3,7,
+34,25.987,N,133,45.191,E,1,3,7,
+34,19.126,N,133,37.322,E,1,3,7,
+34,14.175,N,133,37.258,E,1,3,7,
+34,20.006,N,134,13.350,E,1,3,7,
+34,22.168,N,134,12.496,E,1,3,7,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,BISAN MARTIS CH 13,16,14,22
+
+34,25.386,N,134,12.586,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,BISAN SETO
+
+34,26.648,N,133,51.188,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,BISAN MARTIS CH 13,16,14,22
+
+34,18.296,N,133,37.904,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+34,07.099,N,132,53.508,E,1,3,7,
+34,07.721,N,132,53.866,E,1,3,7,
+34,08.522,N,132,56.509,E,1,3,7,
+34,07.728,N,132,59.046,E,1,3,7,
+34,06.955,N,132,58.720,E,1,3,7,
+34,05.283,N,132,59.672,E,1,3,7,
+34,03.037,N,133,00.402,E,1,3,7,
+34,00.479,N,133,03.094,E,1,3,7,
+34,07.340,N,133,09.532,E,1,3,7,
+34,10.679,N,133,06.713,E,1,3,7,
+34,07.712,N,133,00.881,E,1,3,7,
+34,08.992,N,132,59.630,E,1,3,7,
+34,09.279,N,132,59.439,E,1,3,7,
+34,11.507,N,132,58.436,E,1,3,7,
+34,09.892,N,132,51.192,E,1,3,7,
+34,09.506,N,132,48.030,E,1,3,7,
+34,07.258,N,132,48.031,E,1,3,7,
+34,07.098,N,132,53.508,E,1,3,7,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL OMAEZAKI PORT RADIO 2 HRS BEFORE ARRIVAL
+
+34,37.557,N,138,25.742,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,ON CH 16
+
+34,36.978,N,138,29.384,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL YOKOHAMA COAST GUARD ch16 RADIO 2 HRS BEFORE ARRIVAL
+
+35,24.296,N,138,58.718,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,KURUSHIMA MARTIS CH 16,13,14,22
+
+34,08.444,N,133,05.353,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,KURUSHIMA MARTIS CH 16,13,14,22
+
+34,09.024,N,132,48.419,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,KURUSHIMA KAIKYO
+
+34,04.721,N,132,56.573,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,AKASHI KAIKYO
+
+34,39.389,N,134,58.899,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,REPORT TO
+
+01,23.317,N,104,20.627,E,0,26,
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+
+01,30.657,N,104,06.385,E
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL SINGAPORE PILOTS 2 HRS
+
+01,22.022,N,104,19.282,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,BEFORE ARRIVAL ON CH 20
+
+01,21.818,N,104,19.440,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,APPROACHING TSS
+
+27,40.010,N,034,28.842,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+27,27.200,N,034,02.200,E,2,3,7,
+27,27.200,N,034,22.000,E,2,3,7,
+28,37.200,N,033,29.972,E,2,3,7,
+28,37.200,N,032,29.752,E,2,3,7,
+27,27.200,N,033,20.000,E,2,3,7,
+27,27.194,N,034,02.230,E,2,3,7,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+28,37.210,N,032,30.295,E,2,3,6,
+28,37.210,N,033,29.981,E,2,3,6,
+29,46.146,N,032,52.000,E,2,3,6,
+29,46.155,N,031,46.000,E,2,3,6,
+28,36.918,N,032,29.713,E,2,3,6,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,SOUTH SECTOR VTC
+
+28,04.902,N,033,35.635,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NORTH SECTOR VTC
+
+29,09.252,N,032,55.987,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,GULF OF SUEZ
+
+29,12.715,N,032,57.726,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,GULF OF SUEZ
+
+28,08.220,N,033,37.304,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL FALSE RAS GHARIB VTC
+
+28,34.586,N,033,06.216,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Text
+
+28,35.216,N,033,08.530,E,0,10,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VHF CH 16, 61
+
+28,34.308,N,033,07.054,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL RAS EL ADABIYA VTC
+
+28,38.269,N,033,05.258,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CH 16, 20
+
+28,38.020,N,033,06.582,E,0,22,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+28,34.594,N,033,06.128,E,1,3,7,
+28,37.051,N,033,03.507,E,1,3,7,
+28,36.546,N,033,04.271,E,1,3,7,
+28,36.533,N,033,04.061,E,1,3,7,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+28,37.732,N,033,05.001,E,1,3,6,
+28,37.304,N,033,03.475,E,1,3,6,
+28,37.604,N,033,03.945,E,1,3,6,
+28,37.419,N,033,03.887,E,1,3,6,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NORTH SECTOR VTC
+
+28,38.753,N,033,05.680,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,SOUTH SECTOR VTC
+
+28,35.105,N,033,06.678,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CHANGE VTC AND REPORT TO BOTH
+
+28,36.982,N,033,04.850,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,GULF OF SUEZ TSS OUT
+
+29,45.752,N,032,34.307,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,GULF OF SUEZ VTC 
+
+27,38.212,N,034,06.657,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,FALSE RAS GHARIB VTC CH 16, 61
+
+27,37.062,N,034,06.640,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+27,56.148,N,034,22.458,E,1,3,7,
+27,55.550,N,034,25.637,E,1,3,7,
+27,56.056,N,034,24.138,E,1,3,7,
+27,55.812,N,034,24.397,E,1,3,7,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+28,03.194,N,034,30.551,E,1,3,4,
+28,02.365,N,034,29.315,E,1,3,4,
+28,02.812,N,034,29.746,E,1,3,4,
+28,02.639,N,034,29.710,E,1,3,4,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+27,55.711,N,034,28.528,E,1,3,4,
+27,56.380,N,034,27.968,E,1,3,4,
+27,56.135,N,034,28.301,E,1,3,4,
+27,56.173,N,034,28.137,E,1,3,4,
+END
+// ARC
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm],Start Angle[deg],End Angle[deg]
+ARC
+
+48,28.600,N,005,03.100,W,40.00,140.0,70.0
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+29,46.587,N,032,32.176,E,1,2,9,
+29,46.587,N,032,35.796,E,1,2,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL PORT SUEZ HARBOUR OFFICE
+
+29,47.062,N,032,33.750,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,APPROACHING THE ANCHORAGE AREA
+
+29,46.812,N,032,33.632,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,ON CH 14
+
+29,46.604,N,032,34.628,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,BUOY No.1
+
+29,39.185,N,032,32.149,E,0,14,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+30,35.000,N,032,19.558,E,1,3,6,
+30,35.000,N,032,20.234,E,1,3,6,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,ISMAILIA PS
+
+30,35.023,N,032,20.063,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CHANGE POB TO PIB
+
+30,34.965,N,032,20.051,E,0,22,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+37,52.400,N,023,26.900,E,2,3,7,
+37,45.800,N,023,25.100,E,2,3,7,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+37,45.810,N,023,33.910,E,2,3,7,
+37,31.400,N,023,31.500,E,2,3,7,
+37,35.650,N,023,57.090,E,2,3,7,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,PIRAEUS VTS
+
+37,36.105,N,023,50.041,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,PIRAEUS VTS
+
+37,47.947,N,023,26.784,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,PIRAEUS VTS
+
+37,40.309,N,023,33.752,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,PIRAEUS PILOTS - CH 12
+
+37,33.586,N,023,51.306,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL GATA TRAFICO ON CH 16, 11
+
+36,35.666,N,002,00.995,W,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,3NM BEFORE ENTERING TSS
+
+36,34.082,N,002,00.759,W,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+36,04.111,N,005,12.104,W,1,2,9,
+36,02.723,N,005,14.566,W,1,2,9,
+36,03.614,N,005,13.719,W,1,2,9,
+36,03.207,N,005,13.751,W,1,2,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,(EASTBOUND)
+
+36,03.862,N,005,59.839,W,270,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,(WESTBOUND)
+
+36,04.132,N,005,10.667,W,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL FALMOUTH COAST GUARD ON CH 16, 67
+
+49,41.784,N,005,49.600,W,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,1HR BEFORE ENTERING TSS
+
+49,40.965,N,005,48.041,W,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+49,51.713,N,006,09.008,W,2,3,7,
+50,02.183,N,005,46.920,W,2,3,7,
+50,20.000,N,005,47.000,W,2,3,7,
+50,20.000,N,006,09.000,W,2,3,7,
+49,52.000,N,006,09.000,W,2,3,7,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,LANDS END TSS
+
+49,56.890,N,005,58.855,W,36,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,LANDS END TSS
+
+50,19.446,N,006,00.068,W,0,18,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+49,40.654,N,005,42.993,W,1,2,9,
+49,40.654,N,005,53.173,W,1,2,9,
+49,41.292,N,005,49.792,W,1,2,9,
+49,40.654,N,005,50.854,W,1,2,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL FALMOUTH COAST GUARD ON CH 16, 67
+
+50,21.232,N,005,49.034,W,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,LEAVING TSS
+
+50,20.851,N,005,45.484,W,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL FALMOUTH COAST GUARD ON CH 16, 67
+
+49,51.292,N,006,12.561,W,0,18,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,LEAVING TSS
+
+49,50.916,N,006,09.662,W,0,18,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+49,51.969,N,006,05.048,W,1,2,9,
+49,54.162,N,006,02.171,W,1,2,9,
+49,53.256,N,006,04.089,W,1,2,9,
+49,53.368,N,006,03.056,W,1,2,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL FALMOUTH COAST GUARD ON CH 16, 67
+
+50,32.794,N,006,04.905,W,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,1HR BEFORE ENTERING TSS
+
+50,31.418,N,006,02.929,W,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL BRISTOL PILOTS ON CH 06
+
+51,20.347,N,003,47.821,W,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,1HR BEFORE ARRIVAL
+
+51,20.016,N,003,47.009,W,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+51,19.716,N,003,44.698,W,1,2,9,
+51,18.942,N,003,46.235,W,1,2,9,
+51,19.466,N,003,45.691,W,1,2,9,
+51,19.207,N,003,45.707,W,1,2,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+51,19.710,N,003,02.160,W,2,3,7,
+51,20.350,N,003,06.950,W,2,3,7,
+51,22.534,N,003,07.188,W,2,3,7,
+51,23.920,N,003,05.650,W,2,3,7,
+51,24.900,N,003,06.020,W,2,3,7,
+51,26.528,N,003,07.177,W,2,3,7,
+51,29.376,N,002,59.121,W,2,3,7,
+51,31.920,N,002,54.300,W,2,3,7,
+51,29.000,N,002,54.300,W,2,3,7,
+51,31.540,N,002,46.850,W,2,3,7,
+51,33.000,N,002,40.200,W,2,3,7,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,BRISTOL VTS
+
+51,20.847,N,003,06.734,W,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL BRISTOL VTS CH 12
+
+51,21.579,N,003,06.474,W,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,ENTERING VTS AREA
+
+51,21.474,N,003,06.300,W,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+51,21.366,N,003,06.031,W,1,2,9,
+51,21.703,N,003,07.148,W,1,2,9,
+51,21.637,N,003,06.600,W,1,2,9,
+51,21.605,N,003,06.818,W,1,2,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL BRISTOL PILOTS ON CH 06
+
+51,18.619,N,004,10.299,W,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,2HRS BEFORE ARRIVAL
+
+51,18.333,N,004,09.112,W,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+50,31.790,N,000,54.014,E,1,2,9,
+50,27.994,N,001,02.669,E,1,2,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+51,34.571,N,003,08.434,E,2,3,9,
+51,24.908,N,003,24.393,E,2,3,9,
+51,29.703,N,003,29.747,E,2,3,9,
+51,34.110,N,003,29.934,E,2,3,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+51,15.199,N,002,58.013,E,2,3,7,
+51,23.373,N,002,58.099,E,2,3,7,
+51,25.125,N,002,57.929,E,2,3,7,
+51,28.762,N,002,56.001,E,2,3,7,
+51,34.576,N,003,08.405,E,2,3,7,
+51,34.392,N,003,08.287,E,2,3,7,
+51,26.442,N,003,21.608,E,2,3,7,
+51,26.485,N,003,21.799,E,2,3,7,
+51,26.312,N,003,21.863,E,2,3,7,
+51,24.846,N,003,24.229,E,2,3,7,
+51,23.132,N,003,24.236,E,2,3,7,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,TRAFFIC CENTER ZEEBRUGGE CH 69
+
+51,22.055,N,002,59.569,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,TRAFFIC CENTER ZEEBRUGGE CH 69
+
+51,31.866,N,003,08.961,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,TRAFFIC CENTER STEENBANK CH 64
+
+51,33.175,N,003,11.796,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,TRAFFIC CENTER WANDELAAR CH 65
+
+51,23.610,N,002,51.136,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL WANDELAAR PILOT CH 65
+
+51,11.615,N,002,03.200,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,2HRS BEFORE ARRIVAL
+
+51,11.221,N,002,03.726,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+51,11.132,N,002,02.997,E,1,2,9,
+51,11.818,N,002,00.548,E,1,2,9,
+51,11.640,N,002,02.329,E,1,2,9,
+51,11.526,N,002,01.479,E,1,2,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL WANDELAAR PILOT CH 65
+
+51,16.189,N,002,17.230,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+51,55.069,N,003,07.551,E,2,3,9,
+51,54.783,N,003,07.479,E,2,3,9,
+51,51.228,N,003,09.278,E,2,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL MAAS APPROACH CH 01
+
+51,50.920,N,003,05.910,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,ENTERING OUTER TSS
+
+51,50.729,N,003,06.772,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+51,51.248,N,003,07.487,E,1,2,9,
+51,52.225,N,003,08.387,E,1,2,9,
+51,51.721,N,003,07.759,E,1,2,9,
+51,51.848,N,003,08.084,E,1,2,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+51,56.926,N,003,24.784,E,2,3,9,
+51,54.111,N,003,24.278,E,2,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL MAAS APPROACH CH 01
+
+51,56.125,N,003,20.531,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,ENTERING INNER TSS
+
+51,55.904,N,003,21.333,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+51,55.698,N,003,22.789,E,1,2,9,
+51,55.408,N,003,24.110,E,1,2,9,
+51,55.713,N,003,23.357,E,1,2,9,
+51,55.530,N,003,23.592,E,1,2,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+52,00.224,N,003,38.718,E,2,2,9,
+51,58.553,N,003,38.286,E,2,2,9,
+51,56.880,N,003,38.852,E,2,2,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL VTS PILOT MAAS CH 02
+
+51,58.463,N,003,34.522,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+51,58.052,N,003,36.097,E,1,2,9,
+51,57.766,N,003,37.960,E,1,2,9,
+51,58.021,N,003,37.095,E,1,2,9,
+51,57.855,N,003,37.342,E,1,2,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,ENTERING PRECAUTIONARY AREA
+
+51,58.246,N,003,34.764,E,0,18,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,MAAS CENTER LIGHT BUOY
+
+52,00.633,N,003,47.888,E,0,18,
+// CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+CIRCLE
+
+52,00.920,N,003,48.791,E,0.2
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+52,01.178,N,003,57.998,E,2,3,9,
+52,06.982,N,003,59.813,E,2,3,9,
+52,07.186,N,004,00.069,E,2,3,9,
+52,07.133,N,003,44.642,E,2,3,9,
+52,05.834,N,003,42.389,E,2,3,9,
+52,02.167,N,003,39.208,E,2,3,9,
+52,01.982,N,003,39.167,E,2,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL PILOT MAAS CH 02
+
+52,06.255,N,003,44.616,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL MAAS APPROACH CH 01
+
+52,06.814,N,003,40.393,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,ENTERING NW TSS
+
+52,06.022,N,003,42.052,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL MAAS APPROACH CH 01
+
+52,12.068,N,003,34.566,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,LEAVING VTS AREA / NW TSS
+
+52,11.737,N,003,34.876,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+52,11.313,N,003,35.547,E,1,2,9,
+52,12.124,N,003,32.644,E,1,2,9,
+52,11.971,N,003,34.289,E,1,2,9,
+52,11.857,N,003,33.606,E,1,2,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+52,14.026,N,003,44.953,E,2,2,9,
+52,11.541,N,003,25.709,E,2,2,9,
+52,08.517,N,003,22.870,E,2,2,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL MAAS APPROACH CH 01
+
+51,36.160,N,003,12.902,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,3HRS BEFORE MAAS CETER LT BUOY(~PS)
+
+51,35.725,N,003,12.706,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+51,35.656,N,003,13.233,E,1,3,9,
+51,35.580,N,003,11.383,E,1,3,9,
+51,35.786,N,003,12.351,E,1,3,9,
+51,35.618,N,003,12.069,E,1,3,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+52,06.110,N,003,45.844,E,1,2,9,
+52,05.608,N,003,42.779,E,1,2,9,
+52,05.887,N,003,43.605,E,1,2,9,
+52,05.722,N,003,43.409,E,1,2,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+52,06.729,N,003,40.961,E,1,2,9,
+52,05.890,N,003,41.808,E,1,2,9,
+52,06.386,N,003,41.704,E,1,2,9,
+52,06.113,N,003,41.580,E,1,2,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VTS - PILOT MAAS CH 02
+
+52,04.711,N,003,54.791,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CH 16, 77
+
+28,03.145,N,034,30.782,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+29,55.092,N,032,33.958,E,2,5,6,
+29,55.994,N,032,33.347,E,2,5,6,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,DEPARTURE SUEZ - CHANGE TO POB
+
+29,55.575,N,032,33.692,E,300,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+31,13.479,N,032,20.136,E,2,5,6,
+31,13.236,N,032,21.200,E,2,5,6,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,ARR/DEP PORT SAID CHANGE TO POB
+
+31,13.364,N,032,20.867,E,347,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+31,13.355,N,032,20.783,E,1,3,6,
+31,13.519,N,032,20.832,E,1,3,6,
+31,13.422,N,032,20.773,E,1,3,6,
+31,13.447,N,032,20.815,E,1,3,6,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL PIRAEUS TRAFFIC 15 MINS
+
+37,57.657,N,023,36.375,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,BEFORE DEPARTURE ON CH 13
+
+37,57.631,N,023,36.383,E,0,20,
+// DANGER_LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+DANGER_LINE_AGGREGATE
+
+37,57.684,N,023,36.357,E,1,1,9,
+37,57.682,N,023,36.715,E,1,1,9,
+37,57.622,N,023,36.714,E,1,1,9,
+37,57.621,N,023,36.359,E,1,1,9,
+37,57.684,N,023,36.362,E,1,1,9,
+END
+// FAN
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm],Start Angle[deg],End Angle[deg]
+FAN
+
+50,40.080,N,000,57.150,W,10.00,62.0,245.0
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+50,35.109,N,000,42.274,W,1,3,9,
+50,35.052,N,000,43.401,W,1,3,9,
+50,35.140,N,000,43.156,W,1,3,9,
+50,35.083,N,000,42.934,W,1,3,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+40,28.079,N,072,47.721,W,1,4,7,
+40,20.474,N,072,41.395,W,1,4,7,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Call Sandy Hook Pilots on VHF Ch 16 ; 73  3hrs B4 ARR
+
+40,26.457,N,072,43.309,W,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+22,22.590,N,097,21.935,W,1,3,7,
+22,22.131,N,097,03.196,W,1,3,7,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+22,22.335,N,097,11.086,W,1,1,8,
+22,22.335,N,097,11.086,W,1,1,8,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,1HR B4 ARR PS
+
+22,25.799,N,097,19.524,W,0,16,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Call Altamira Pilots VHF 14
+
+22,24.016,N,097,19.086,W,0,16,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+22,04.388,N,097,14.439,W,1,3,7,
+22,04.439,N,096,58.112,W,1,3,7,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,2HRS B4 PS
+
+22,09.544,N,097,12.960,W,0,14,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Call Altamira Traffic VHF Ch 17
+
+22,08.268,N,097,13.233,W,0,16,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+30,04.669,N,080,50.742,W,1,3,7,
+30,04.771,N,080,44.998,W,1,3,7,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,2HRS  B4  ARRVL
+
+30,05.293,N,080,49.481,W,0,16,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Call  JAX  Pilots on  VHF ch 13, 16, 14
+
+30,04.962,N,080,50.024,W,0,16,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+10,42.800,N,075,40.110,W,1,3,7,
+10,42.927,N,075,32.803,W,1,3,7,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,2hrs b4 arr PS
+
+10,43.898,N,075,39.723,W,0,16,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Call Cartagena Pilots on VHF ch 16, 11
+
+10,43.387,N,075,39.774,W,0,16,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+20,19.500,S,040,16.600,W,1,3,7,
+20,19.600,S,040,21.000,W,1,3,7,
+20,19.430,S,040,21.000,W,1,3,7,
+20,18.670,S,040,16.930,W,1,3,7,
+20,16.420,S,040,14.000,W,1,3,7,
+20,16.420,S,040,08.000,W,1,3,7,
+20,24.000,S,040,08.000,W,1,3,7,
+20,24.000,S,040,17.000,W,1,3,7,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VTS AREA
+
+20,16.097,S,040,10.758,W,0,16,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VTS   AREA
+
+20,18.612,S,040,07.267,W,90,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+20,18.670,S,040,16.935,W,1,3,7,
+20,19.499,S,040,16.600,W,1,3,7,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,SECTOR 1
+
+20,17.347,S,040,12.280,W,0,18,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,SECTOR 2
+
+20,18.923,S,040,17.763,W,0,16,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VHF CH 73
+
+20,19.784,S,040,11.832,W,0,18,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,ENTER/EXIT VTS AREA
+
+20,21.564,S,040,06.843,W,0,14,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL VITORIA VTS ON VHF CH 73
+
+20,21.896,S,040,06.748,W,0,14,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+20,20.850,S,040,07.898,W,1,4,4,
+20,21.462,S,040,06.978,W,1,4,4,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+20,19.047,S,039,50.773,W,1,4,4,
+20,20.782,S,039,46.308,W,1,4,4,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,1hr b4 enter  VTS AREA
+
+20,21.548,S,039,49.231,W,0,14,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Call VITORIA VTS on VHF Ch 73
+
+20,22.224,S,039,49.227,W,0,14,
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~DIAMND0,***,***
+Reporting point
+20,19.570,S,040,15.270,W
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~DIAMND0,***,***
+PN 02
+20,18.900,S,040,16.030,W
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~DIAMND0,***,***
+PN 03
+20,18.900,S,040,16.030,W
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~DIAMND0,***,***
+PN 03
+20,19.280,S,040,16.930,W
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~DIAMND0,***,***
+PN04
+20,19.330,S,040,18.000,W
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+20,19.458,S,039,57.273,W,1,4,4,
+20,20.684,S,039,55.842,W,1,4,4,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,1 hr B4 PS
+
+20,20.942,S,039,55.883,W,0,12,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Call VITORIA PILOTS on VHF Ch  16, 10, 12, 13, 14
+
+20,21.182,S,039,56.837,W,0,14,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+26,33.079,S,048,10.616,W,1,3,7,
+26,42.441,S,047,52.546,W,1,3,7,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Call Itajai Pilots
+
+26,40.532,S,047,49.038,W,0,16,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VHF Ch  12, 14
+
+26,48.358,S,047,49.782,W,0,14,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,2Hrs  b4  PS
+
+26,44.541,S,047,49.676,W,0,14,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+09,29.830,S,034,54.413,W,1,3,7,
+09,29.574,S,034,28.952,W,1,3,7,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Call  Suape Pilots VHF ch 16; 13
+
+09,33.277,S,034,51.327,W,0,14,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,4hrs B4 Arr PS
+
+09,35.497,S,034,51.867,W,0,14,
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+
+29,45.130,N,122,20.220,E
+29,45.330,N,122,20.300,E
+29,42.000,N,122,33.010,E
+29,40.230,N,122,33.010,E
+29,40.230,N,122,18.430,E
+29,41.230,N,122,18.430,E
+29,45.130,N,122,20.220,E
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,No 1 ZONE VHF 08
+
+29,40.909,N,122,22.611,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL NINGBO ZOUSHAN CENTRE VHF 08
+
+29,45.001,N,122,31.005,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,30 MIN B4 ARR AT ANCHORAGE
+
+29,44.706,N,122,31.067,E,0,22,
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~XSHAPE0,***,***
+
+29,38.300,N,122,36.700,E
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL NINGBO ZHOUSHAN VTS CH 08
+
+29,46.047,N,122,18.970,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,B4 CROSSING LINE L1
+
+29,45.937,N,122,18.989,E,0,22,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+29,44.697,N,122,18.219,E,2,3,3,
+29,46.346,N,122,18.614,E,2,5,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,LINE L1
+
+29,46.383,N,122,18.614,E,0,22,
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,5,9,0,0
+29,46.086,N,122,18.945,E
+29,45.923,N,122,18.534,E
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+
+29,47.580,N,122,09.180,E
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL MASAN VTS VHF 16/14
+
+35,09.994,N,128,34.398,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,WHEN BERTHING
+
+35,09.938,N,128,34.406,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,10 MIN B4 DEPARTURE
+
+35,09.883,N,128,34.408,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,WHEN DEPARTING PORT
+
+35,09.836,N,128,34.412,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL BUSAN VTS ON ENTERING THE VTS AREA (SECTOR 2)
+
+34,52.929,N,129,09.295,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL BUSAN VTS 1HR B4 ENTERING THE VTS AREA
+
+34,50.673,N,129,21.206,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+34,50.572,N,129,02.595,E,2,4,6,
+34,55.963,N,129,14.946,E,2,4,6,
+35,00.205,N,129,17.311,E,2,4,6,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL WANDELAAR APPROACH ON CH 60 30min b4 entry
+
+51,16.371,N,002,03.069,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL TRAFFIC CENTER WANDELAAR ON CH 65 30min b4 entry
+
+51,33.492,N,002,30.347,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL ZEEBRUGGE PORT CONTROL ON VHF CH. 71 1HOUR BEFORE DEPARTURE
+
+51,17.562,N,003,12.949,E,0,18,
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,5,9,1,2
+53,42.521,N,006,17.892,E
+53,41.066,N,006,21.063,E
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+54,10.698,N,006,53.768,E,1,5,9,
+54,05.772,N,006,53.715,E,1,5,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+54,10.734,N,007,07.498,E,1,5,9,
+54,06.646,N,007,07.603,E,1,5,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL GERMAN BIGHT TRAFFIC CH 80
+
+54,04.509,N,006,49.412,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,SP
+
+54,09.293,N,006,52.505,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,SP CALL GERMAN BIGHT TRAFFIC CH 79
+
+54,16.522,N,006,26.876,E,0,22,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+54,08.960,N,007,53.490,E,1,5,9,
+54,03.460,N,008,06.920,E,1,5,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,SP CALL GERMAN BIGHT TRAFFIC CH 80
+
+54,06.479,N,008,00.717,E,0,22,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+54,02.486,N,007,58.494,E,1,5,9,
+53,59.563,N,008,01.386,E,1,5,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,SP CALL GERMAN BIGHT TRAFFIC CH 80
+
+54,01.035,N,008,00.630,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,PR
+
+54,11.024,N,007,07.689,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+53,52.515,N,007,26.614,E,1,5,9,
+53,55.754,N,007,49.969,E,1,5,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+53,52.031,N,007,52.639,E,1,5,9,
+53,52.964,N,007,55.714,E,1,5,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+53,52.337,N,007,53.642,E,1,5,9,
+53,52.395,N,007,53.203,E,1,5,9,
+53,52.317,N,007,53.249,E,1,5,9,
+53,52.414,N,007,53.229,E,1,5,9,
+53,52.437,N,007,53.439,E,1,5,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,SP CALL GERMAN BIGHT TRAFFIC CH80
+
+53,52.654,N,007,53.308,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+53,51.337,N,007,49.968,E,1,5,9,
+53,55.860,N,007,59.761,E,1,5,7,
+53,53.362,N,008,06.805,E,1,5,7,
+53,50.482,N,008,09.266,E,1,5,7,
+53,49.354,N,008,07.700,E,1,5,7,
+53,46.837,N,008,10.259,E,1,5,7,
+53,46.294,N,008,08.975,E,1,5,7,
+53,47.624,N,008,07.037,E,1,5,7,
+53,47.984,N,008,06.376,E,1,5,7,
+53,51.340,N,007,49.973,E,1,5,7,
+END
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,5,7,0,0
+53,52.836,N,007,49.192,E
+53,51.817,N,007,53.195,E
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,PR CALL BREMERHAVEN WESER TRAFFIC CH22 ON ENT VTS AREA
+
+53,52.876,N,007,47.097,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+53,52.396,N,007,44.439,E,1,5,9,
+53,54.071,N,007,50.069,E,1,5,7,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,SP CALL BREMERHAVEN WESER TRAFFIC CH22 ON  before ENT VTS AREA
+
+53,53.883,N,007,41.011,E,0,20,
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,5,7,0,2
+53,53.821,N,007,44.342,E
+53,53.519,N,007,47.818,E
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,5,9,2,0
+53,55.651,N,007,44.485,E
+53,54.981,N,007,44.123,E
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,SP CALL BREMERHAVEN WESER TRAFFIC CH07 B4 1hr DEPARTURE
+
+53,34.526,N,008,33.914,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT, 
+
+51,30.892,N,002,41.379,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT, 
+
+49,39.600,N,003,37.561,W,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,
+
+49,37.551,N,003,18.861,W,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,2 MILES BEFORE ENTERING THE AREA
+
+49,41.799,N,003,23.337,W,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL JOBOURG TRAFFIC CH 13;16
+
+49,44.508,N,003,24.954,W,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+49,51.525,N,003,01.918,W,1,4,9,
+49,40.452,N,003,01.678,W,1,4,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,WHEN LEAVE VTS AREA
+
+49,03.860,N,004,42.761,W,0,18,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+41,51.584,N,008,49.970,W,1,3,9,
+41,51.500,N,010,14.000,W,1,3,9,
+39,44.783,N,010,13.472,W,1,3,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+36,14.615,N,008,29.963,W,1,3,9,
+36,05.000,N,007,24.000,W,1,3,9,
+37,11.195,N,007,24.000,W,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,COPREP SEND EMAIL
+
+36,28.879,N,008,37.576,W,90,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL ROCA CONTROL ON CH 16; 22,69 79
+
+38,54.989,N,010,51.821,W,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,COPREP SEND EMAIL
+
+39,38.782,N,009,48.205,W,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL ROCA CONTROL ON CH 16; 22,69 78 79
+
+36,28.011,N,007,21.426,W,90,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,COPREP
+
+37,29.436,N,009,26.871,W,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL ROCA CONTROL ON CH 16; 22,69,78 79
+
+41,55.493,N,010,02.345,W,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+28,55.994,N,018,12.882,W,1,3,9,
+27,35.855,N,018,25.214,W,1,3,9,
+27,23.283,N,017,58.585,W,1,3,9,
+27,46.940,N,017,12.368,W,1,3,9,
+27,47.990,N,016,45.874,W,1,3,9,
+27,31.836,N,015,35.208,W,1,3,9,
+27,57.192,N,013,47.648,W,1,3,9,
+29,17.283,N,013,05.902,W,1,3,9,
+29,36.855,N,013,18.474,W,1,3,9,
+29,36.971,N,013,38.852,W,1,3,9,
+28,19.240,N,014,36.018,W,1,3,9,
+28,22.218,N,015,18.938,W,1,3,9,
+28,47.762,N,016,03.735,W,1,3,9,
+29,04.216,N,017,47.266,W,1,3,9,
+28,56.166,N,018,13.012,W,1,3,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+28,38.359,N,015,30.000,W,3,3,9,
+27,20.002,N,015,30.000,W,3,3,9,
+END
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,5,9,0,2
+28,54.654,N,015,48.944,W
+28,37.362,N,015,45.160,W
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL MRCC TENERIFE ON CH 16;70 ON ENTERING VTS
+
+28,56.976,N,015,55.192,W,0,20,
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,5,9,0,0
+27,31.086,N,016,48.487,W
+27,44.056,N,016,30.634,W
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL MRCC TENERIFE ON CH 16;70 ON LEAVING VTS
+
+27,28.777,N,016,51.287,W,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL MRCC LAS PALMAS ON CH 16;70 ON ENTER AND LEAVING VTS
+
+28,04.044,N,015,06.656,W,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+04,21.586,N,008,00.000,W,3,3,9,
+01,30.000,N,008,00.000,W,3,3,9,
+01,30.000,N,001,30.000,E,3,3,9,
+02,30.000,S,006,00.000,E,3,3,9,
+02,30.000,S,009,54.009,E,3,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,KLINE POLICY
+
+03,09.874,N,001,18.884,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+53,45.272,N,006,28.875,E,1,3,4,
+53,44.078,N,006,28.548,E,1,3,4,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL WESER PILOT ON CH. 06,16 3 HRS BEFORE ETA
+
+53,45.365,N,006,28.521,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,EM ANCHORAGE
+
+53,53.124,N,007,52.117,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,EM ANCHORAGE
+
+01,11.890,N,103,40.394,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+53,51.991,N,007,53.595,E,1,3,4,
+53,51.542,N,007,53.083,E,1,3,7,
+END
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,5,9,0,0
+28,36.233,N,015,00.007,W
+28,21.118,N,014,55.256,W
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,5,9,0,0
+27,22.681,N,014,55.546,W
+27,37.103,N,015,08.464,W
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL MRCC LAS PALMAS ON CH 16;70 ON ENTERING VTS
+
+28,40.887,N,015,09.928,W,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL MRCC LAS PALMAS ON CH 16;70 ON LEAVING VTS
+
+27,21.224,N,014,54.668,W,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,SEND EMAIL
+
+20,46.702,N,017,57.904,W,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+16,37.493,N,053,00.000,E,1,3,3,
+15,00.000,N,053,00.000,E,1,3,3,
+12,26.000,N,053,00.000,E,1,3,3,
+11,50.247,N,051,15.612,E,1,3,3,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL TAIPEI PILOT 2HRS B4 DEP CH11 16
+
+25,09.515,N,121,23.755,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL TAIPEI PORT CONTROL ON LEAVING VTS CH68
+
+25,24.652,N,121,20.179,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+25,27.603,N,121,29.026,E,1,3,9,
+25,25.410,N,121,27.022,E,1,3,4,
+25,27.603,N,121,28.975,E,1,3,9,
+25,27.183,N,121,27.896,E,1,3,4,
+25,27.603,N,121,28.975,E,1,3,9,
+25,26.669,N,121,28.975,E,1,3,4,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Call Ise Wan Martis on VHF Ch.16, 13, 14,66 3 Hrs Before P/S
+
+33,46.080,N,136,37.298,E,0,28,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,buoy1
+
+34,30.892,N,137,03.538,E,0,28,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL ISE WAN MARTIS WHEN CROSSING IE REP LINE ON CH 16, 13
+
+34,28.833,N,137,09.196,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,MIKAWA WAN PORT RADIO ch16 11 12
+
+34,45.162,N,137,13.131,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,on VHF 16;13
+
+35,09.690,N,139,45.341,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CHIBA PORT RADIO CH22 14,16 11 12 18 20 
+
+35,34.115,N,139,54.586,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,DURING NIGHT TIME MORE THAN 18KN
+
+01,32.052,N,104,41.836,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,DURING NIGHT TIME MORE THAN 18KN
+
+03,56.156,N,105,34.862,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,EMCY ANCH
+
+01,14.100,N,103,47.239,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,EMCY ANCH
+
+25,10.230,N,121,20.943,E,0,26,
+// ARC
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm],Start Angle[deg],End Angle[deg]
+ARC
+
+26,12.988,S,045,21.756,E,10.10,110.0,260.0
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+01,11.112,N,103,48.742,E,1,3,9,
+01,11.745,N,103,50.300,E,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL SECTOR 8 VTIS CENTRAL CH14
+
+01,11.490,N,103,48.574,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,on crossing TSS
+
+01,11.389,N,103,48.963,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL  VTIS WEST CH73
+
+01,08.345,N,103,30.082,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,when crossing TSS
+
+01,07.901,N,103,30.329,E,0,26,
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+MV WAKASHIO AGROUND
+20,26.600,S,057,44.600,E
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+25,12.244,N,121,17.157,E,1,3,9,
+25,12.617,N,121,17.598,E,1,3,4,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,MAN SPD
+
+25,12.598,N,121,17.657,E,0,18,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+25,15.528,N,121,13.297,E,1,3,9,
+25,15.092,N,121,13.262,E,1,3,4,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,STB ENG
+
+25,15.665,N,121,13.249,E,0,18,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+25,13.015,N,120,58.841,E,1,3,9,
+25,10.378,N,121,00.021,E,1,3,4,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,1HR NOTICE/CALL MASTER
+
+25,10.202,N,121,00.225,E,0,20,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+25,11.529,N,122,07.229,E,1,3,9,
+25,13.593,N,122,06.905,E,1,3,9,
+25,17.651,N,122,05.537,E,1,3,9,
+25,21.547,N,122,03.089,E,1,3,9,
+25,23.864,N,122,00.812,E,1,3,9,
+25,26.041,N,121,58.175,E,1,3,9,
+25,28.063,N,121,54.148,E,1,3,9,
+25,29.152,N,121,50.636,E,1,3,9,
+25,29.696,N,121,47.059,E,1,3,9,
+25,29.657,N,121,43.096,E,1,3,9,
+25,28.996,N,121,39.562,E,1,3,9,
+25,28.015,N,121,36.503,E,1,3,9,
+25,25.742,N,121,32.094,E,1,3,9,
+25,23.118,N,121,28.948,E,1,3,9,
+25,18.548,N,121,25.502,E,1,3,9,
+25,16.232,N,121,24.469,E,1,3,9,
+25,13.900,N,121,23.828,E,1,3,9,
+25,12.171,N,121,23.508,E,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,KEELUNG PORT RADIO CH 14 12 16
+
+25,26.628,N,121,37.519,E,0,22,
+// LINE_CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+LINE_CIRCLE
+
+25,09.430,N,121,21.180,E,20.0
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+22,59.000,N,119,39.000,E,1,3,9,
+22,59.000,N,119,39.000,E,1,3,9,
+END
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+ps1
+22,07.330,N,113,45.800,E
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+ps2
+22,07.333,N,113,47.900,E
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+ps3
+22,08.500,N,113,45.800,E
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+ps4
+22,08.500,N,113,47.900,E
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+large vsl
+33,13.134,N,131,57.507,E
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+21,49.449,N,113,53.348,E,1,3,9,
+21,49.383,N,113,53.498,E,1,3,9,
+21,49.570,N,113,53.558,E,1,3,9,
+21,49.654,N,113,53.318,E,1,3,9,
+21,49.514,N,113,53.328,E,1,3,9,
+21,49.430,N,113,53.398,E,1,3,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+21,48.916,N,113,55.918,E,1,3,9,
+21,48.515,N,113,56.088,E,1,3,9,
+21,48.608,N,113,56.668,E,1,3,9,
+21,48.160,N,113,57.768,E,1,3,9,
+21,49.215,N,113,58.808,E,1,3,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+21,49.224,N,113,59.588,E,1,3,9,
+21,49.187,N,113,59.918,E,1,3,9,
+21,49.794,N,113,59.888,E,1,3,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VHF CH 09
+
+21,58.243,N,113,53.430,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,GUISHAN/ Guangzhou Pilots on Ch71 for pilot boarding arrangement
+
+21,52.328,N,114,42.425,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,3HRS B4 ARRIVAL
+
+21,50.035,N,114,51.627,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CH08
+
+22,47.890,N,113,36.886,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CH09
+
+22,47.770,N,113,37.101,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,SEND EMAIL
+
+22,47.760,N,113,36.928,E,0,22,

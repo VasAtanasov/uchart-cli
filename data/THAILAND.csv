@@ -1,0 +1,69 @@
+// USER CHART SHEET exported by JRC ECDIS.
+// <<NOTE>>This strings // indicate comment column/cells. You can edit freely.
+// THAILLAN,,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+12,30.094,N,101,00.004,E,1,4,4,
+12,30.018,N,100,39.014,E,1,4,4,
+13,20.070,N,100,30.007,E,1,4,4,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+12,30.078,N,101,00.034,E,1,4,4,
+12,38.784,N,101,00.034,E,1,4,4,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+13,00.032,N,100,55.547,E,1,4,4,
+13,00.080,N,100,45.024,E,1,4,4,
+13,13.041,N,100,45.056,E,1,4,4,
+13,13.063,N,100,56.277,E,1,4,4,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL SI RACHA VTS CH: 71
+
+12,50.525,N,100,36.240,E,0,18,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,W REPORTING LINE (APPROACHING SECTOTR)
+
+12,51.614,N,100,35.923,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL SI RACHA VTS CH: 73
+
+12,59.054,N,100,49.162,E,0,18,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,S REPORTING LINE (PORT LIMIT SECTOR)
+
+12,58.479,N,100,49.293,E,0,18,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL LAEM CHABANG PILOTS CH: 16, 13, 14
+
+12,40.729,N,100,50.924,E,0,18,
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~XSHAPE0,***,***
+
+13,06.000,N,100,45.600,E

@@ -1,0 +1,292 @@
+// USER CHART SHEET exported by JRC ECDIS.
+// <<NOTE>>This strings // indicate comment column/cells. You can edit freely.
+// LCH_NGA,,
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+
+13,01.148,N,100,49.021,E
+13,01.700,N,100,48.978,E
+13,02.696,N,100,49.281,E
+13,02.447,N,100,49.626,E
+13,01.907,N,100,49.557,E
+13,01.365,N,100,49.571,E
+13,00.373,N,100,49.226,E
+13,00.459,N,100,48.956,E
+13,01.148,N,100,49.021,E
+END
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+
+12,57.447,N,100,38.572,E
+12,58.885,N,100,38.991,E
+13,00.711,N,100,39.791,E
+12,59.623,N,100,39.900,E
+12,58.516,N,100,40.100,E
+12,57.680,N,100,40.724,E
+12,55.904,N,100,41.547,E
+12,54.138,N,100,41.142,E
+12,51.525,N,100,40.411,E
+12,51.852,N,100,40.116,E
+12,57.447,N,100,38.572,E
+END
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+
+13,04.042,N,100,52.767,E
+13,04.238,N,100,52.507,E
+13,04.433,N,100,52.249,E
+13,04.542,N,100,52.160,E
+13,04.892,N,100,51.952,E
+13,05.044,N,100,52.241,E
+13,04.042,N,100,52.767,E
+END
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+
+13,03.932,N,100,52.409,E
+13,04.239,N,100,52.064,E
+13,04.282,N,100,51.877,E
+13,03.833,N,100,51.518,E
+13,03.167,N,100,51.236,E
+13,02.472,N,100,50.879,E
+13,02.169,N,100,53.095,E
+13,03.080,N,100,52.869,E
+13,03.932,N,100,52.409,E
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+12,58.983,N,100,39.284,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+12,57.395,N,100,39.351,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+12,56.064,N,100,39.733,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+12,53.692,N,100,40.066,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+13,00.755,N,100,49.133,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+13,01.287,N,100,49.247,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+13,02.072,N,100,49.314,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+13,02.622,N,100,51.109,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+13,03.101,N,100,51.359,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+13,03.614,N,100,51.661,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+13,04.027,N,100,51.958,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+13,03.447,N,100,52.264,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+13,02.533,N,100,52.720,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+13,04.890,N,100,52.107,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+13,04.512,N,100,52.341,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+13,04.341,N,100,52.599,E,0,36,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+06,01.279,N,103,47.841,E,1,4,9,
+05,59.971,N,103,46.767,E,1,4,9,
+05,57.681,N,103,47.747,E,1,4,9,
+05,55.858,N,103,48.914,E,1,4,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+06,37.102,N,103,41.539,E,1,4,9,
+06,35.468,N,103,40.885,E,1,4,9,
+06,33.601,N,103,41.586,E,1,4,9,
+06,32.994,N,103,43.313,E,1,4,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+06,56.503,N,103,38.073,E,1,4,9,
+06,55.570,N,103,37.372,E,1,4,9,
+06,54.077,N,103,37.325,E,1,4,9,
+06,52.863,N,103,38.026,E,1,4,9,
+06,52.163,N,103,39.287,E,1,4,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+07,27.403,N,103,25.654,E,1,4,9,
+07,24.788,N,103,26.777,E,1,4,9,
+07,22.173,N,103,27.900,E,1,4,9,
+07,19.558,N,103,26.403,E,1,4,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+05,38.876,N,103,53.317,E,1,4,9,
+05,37.242,N,103,52.478,E,1,4,9,
+05,33.833,N,103,53.177,E,1,4,9,
+05,33.086,N,103,54.855,E,1,4,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+05,02.636,N,103,59.371,E,1,4,9,
+04,59.319,N,103,58.579,E,1,4,9,
+04,58.105,N,103,58.672,E,1,4,9,
+04,57.030,N,104,00.070,E,1,4,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+04,58.877,N,103,59.668,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+05,35.480,N,103,53.850,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+05,59.593,N,103,48.094,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+06,34.995,N,103,42.507,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+06,54.128,N,103,38.731,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+07,22.445,N,103,24.426,E,0,36,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+01,15.535,N,103,58.085,E,1,4,5,
+01,14.559,N,103,58.387,E,1,4,5,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,MAN.SPD.
+
+01,14.821,N,103,58.455,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,STAND BY ENG.
+
+01,15.755,N,104,03.318,E,0,24,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+01,16.558,N,104,03.101,E,1,4,5,
+01,15.568,N,104,03.217,E,1,4,5,
+END

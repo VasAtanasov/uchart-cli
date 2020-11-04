@@ -1,0 +1,290 @@
+// USER CHART SHEET exported by JRC ECDIS.
+// <<NOTE>>This strings // indicate comment column/cells. You can edit freely.
+// CHINA,,CHINA REPORTS
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+39,02.621,N,118,15.017,E,1,3,8,
+38,42.961,N,118,14.978,E,1,3,8,
+38,42.993,N,118,54.984,E,1,3,8,
+39,07.440,N,118,54.991,E,1,3,8,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Call CAOFEIDIAN VTS when passing East Reporting Point on Ch 08
+
+38,48.000,N,118,53.000,E,0,14,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Call CAOFEIDIAN VTS when passing West Reporting Point on Ch 08
+
+38,52.757,N,118,12.000,E,0,14,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Call Tianjin Pilots on Ch12 1hr before ETA
+
+38,50.501,N,118,41.024,E,0,14,
+// ARC
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm],Start Angle[deg],End Angle[deg]
+ARC
+
+37,23.690,N,122,42.120,E,24.00,285.8,199.6
+// ARC
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm],Start Angle[deg],End Angle[deg]
+ARC
+DALIAN VTS
+38,43.618,N,121,08.028,E,20.00,69.0,312.0
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Report to Dalian VTS on entering/leaving VTS Area on Ch 10
+
+38,23.363,N,121,16.455,E,0,14,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Report to Dalian VTS on entering/leaving VTS Area on Ch 10
+
+38,40.800,N,120,38.554,E,0,14,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+Wusong VTS Ch 08
+31,13.170,N,122,40.000,E,1,3,8,Wusong VTS Ch 08
+30,55.470,N,122,40.000,E,1,3,8,Wusong VTS Ch 08
+30,55.470,N,122,28.000,E,1,3,8,Wusong VTS Ch 08
+31,13.170,N,122,28.000,E,1,3,8,Wusong VTS Ch 08
+31,13.172,N,122,40.008,E,1,3,8,Wusong VTS Ch 08
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Call Wusong VTS on Ch 08 passing reporting line "L1"
+
+31,07.300,N,122,40.500,E,0,14,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+Wusong VTS Ch 09 (E of line)
+31,18.960,N,121,42.820,E,1,3,8,Wusong VTS Ch 09 (E of line)
+31,19.280,N,121,43.540,E,1,3,8,Wusong VTS Ch 09 (E of line)
+31,19.983,N,121,45.103,E,1,3,8,Wusong VTS Ch 09 (E of line)
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+Wusong VTS Ch 09
+31,07.820,N,122,28.000,E,1,3,8,Wusong VTS Ch 09
+31,07.778,N,122,18.972,E,1,3,8,Wusong VTS Ch 09
+31,14.443,N,122,07.964,E,1,3,8,Wusong VTS Ch 09
+31,15.806,N,122,05.496,E,1,3,8,Wusong VTS Ch 09
+31,16.854,N,122,02.819,E,1,3,8,Wusong VTS Ch 09
+31,17.344,N,122,00.848,E,1,3,8,Wusong VTS Ch 09
+31,17.718,N,121,58.370,E,1,3,8,Wusong VTS Ch 09
+31,17.838,N,121,55.316,E,1,3,8,Wusong VTS Ch 09
+31,17.945,N,121,51.293,E,1,3,8,Wusong VTS Ch 09
+31,17.770,N,121,51.005,E,1,3,8,Wusong VTS Ch 09
+31,18.344,N,121,49.780,E,1,3,8,Wusong VTS Ch 09
+31,19.922,N,121,48.276,E,1,3,8,Wusong VTS Ch 09
+31,20.702,N,121,48.016,E,1,3,8,Wusong VTS Ch 09
+31,20.694,N,121,47.181,E,1,3,8,Wusong VTS Ch 09
+31,19.571,N,121,47.311,E,1,3,8,Wusong VTS Ch 09
+31,19.053,N,121,46.819,E,1,3,8,Wusong VTS Ch 09
+31,19.009,N,121,46.452,E,1,3,8,Wusong VTS Ch 09
+31,19.240,N,121,45.728,E,1,3,8,Wusong VTS Ch 09
+31,19.965,N,121,45.087,E,1,3,8,Wusong VTS Ch 09
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Wusong VTS Ch 09
+
+31,04.518,N,122,26.396,E,0,14,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Wusong VTS Ch 08
+
+31,04.550,N,122,28.266,E,0,14,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+S border ov Wusong VTS Ch 09 Sector
+31,04.070,N,122,28.000,E,1,3,8,S border ov Wusong VTS Ch 09 Sector
+31,04.070,N,122,16.400,E,1,3,8,S border ov Wusong VTS Ch 09 Sector
+31,10.514,N,122,06.475,E,1,3,8,S border ov Wusong VTS Ch 09 Sector
+31,11.948,N,122,04.074,E,1,3,8,S border ov Wusong VTS Ch 09 Sector
+31,13.036,N,122,01.270,E,1,3,8,S border ov Wusong VTS Ch 09 Sector
+31,13.698,N,121,58.183,E,1,3,8,S border ov Wusong VTS Ch 09 Sector
+31,14.690,N,121,53.124,E,1,3,8,S border ov Wusong VTS Ch 09 Sector
+31,14.972,N,121,52.072,E,1,3,8,S border ov Wusong VTS Ch 09 Sector
+31,15.841,N,121,49.522,E,1,3,8,S border ov Wusong VTS Ch 09 Sector
+31,16.893,N,121,46.627,E,1,3,8,S border ov Wusong VTS Ch 09 Sector
+31,17.901,N,121,44.961,E,1,3,8,S border ov Wusong VTS Ch 09 Sector
+31,17.969,N,121,44.697,E,1,3,8,S border ov Wusong VTS Ch 09 Sector
+31,18.959,N,121,42.801,E,1,3,8,S border ov Wusong VTS Ch 09 Sector
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+31,18.509,N,121,43.688,E,1,1,8,
+31,18.501,N,121,43.674,E,1,1,8,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Wusong VTS Ch 09
+
+31,18.933,N,121,43.500,E,0,14,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+Wusong VTS Ch 26 // W border
+31,18.965,N,121,42.804,E,1,3,8,Wusong VTS Ch 26 // W border
+31,18.391,N,121,41.685,E,1,3,8,Wusong VTS Ch 26 // W border
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+30,55.487,N,122,27.989,E,1,3,8,
+31,00.000,N,122,20.000,E,1,3,8,
+31,00.000,N,121,56.000,E,1,3,8,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Wusong VTS Ch 26
+
+31,02.554,N,122,25.755,E,0,14,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Wusong VTS Ch 26
+
+31,18.496,N,121,42.336,E,0,14,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Wusong VTS Ch 71
+
+31,19.903,N,121,42.457,E,0,18,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Call Wusong VTS on Ch 08/09 passing reporting line "L1"
+
+30,54.464,N,122,23.221,E,0,14,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Contact Shanghai North/South Pilot Station on Ch 69
+
+30,52.491,N,122,23.624,E,0,14,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Guangzhou VTS North Sector Ch 08
+
+22,47.957,N,113,36.630,E,0,16,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Guangzhou VTS South Sector Ch 09
+
+22,47.738,N,113,37.028,E,0,16,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+Humen Bridge separates Guangzhou VTS North & South Sectors
+22,47.997,N,113,37.241,E,1,3,8,Humen Bridge separates Guangzhou VTS North & South Sectors
+22,47.588,N,113,36.531,E,1,3,8,Humen Bridge separates Guangzhou VTS North & South Sectors
+22,47.349,N,113,36.151,E,1,3,8,Humen Bridge separates Guangzhou VTS North & South Sectors
+22,47.155,N,113,35.889,E,1,3,8,Humen Bridge separates Guangzhou VTS North & South Sectors
+22,46.842,N,113,35.547,E,1,3,8,Humen Bridge separates Guangzhou VTS North & South Sectors
+END
+// ARC
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm],Start Angle[deg],End Angle[deg]
+ARC
+Reporting Line "L1"
+22,07.910,N,113,46.880,E,10.00,84.0,220.0
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Call Guangzhou VTS passing reporting line  "L1" (10nm b4 PS)
+
+21,58.506,N,113,53.022,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL TIANJIN PASSING REPORTING LINE(GATE LINE) CH 09
+
+38,54.923,N,118,10.000,E,0,10,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+22,06.264,N,113,52.040,E,1,3,8,
+22,03.475,N,113,52.014,E,1,3,8,
+22,03.511,N,113,55.045,E,1,3,8,
+22,06.252,N,113,55.045,E,1,3,8,
+22,06.264,N,113,52.040,E,1,3,8,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,13ZH ANCHORAGE
+
+22,05.873,N,113,52.561,E,0,14,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,18GS ANCHORAGE
+
+22,08.302,N,113,46.383,E,0,14,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+22,07.325,N,113,45.839,E,1,3,8,
+22,08.505,N,113,45.848,E,1,3,8,
+22,08.489,N,113,47.929,E,1,3,8,
+22,07.325,N,113,47.946,E,1,3,8,
+22,07.333,N,113,45.856,E,1,3,8,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL GUANGZHOU VTS MINIMUM 30MIN B4 DEP ON CH 08
+
+23,01.305,N,113,31.813,E,0,22,

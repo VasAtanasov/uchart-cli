@@ -1,3 +1,6 @@
+"""
+    Setup script for uchart, a tool for managing JRC user charts
+"""
 import io
 import re
 
@@ -5,7 +8,10 @@ from glob import glob
 from os.path import abspath, dirname, join, splitext, basename
 from setuptools import setup, find_packages
 
-from src.uchart import __version__
+from uchart import __version__
+
+__license__ = 'MIT'
+__copyright__ = 'Copyright (c) Atanasov, 2020'
 
 def read(*names, **kwargs):
     with io.open(

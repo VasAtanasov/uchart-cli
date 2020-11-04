@@ -1,0 +1,54 @@
+// USER CHART SHEET exported by JRC ECDIS.
+// <<NOTE>>This strings // indicate comment column/cells. You can edit freely.
+// Copy of ENG CH,,english channel reports
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Anchorage A
+
+51,24.152,N,003,44.166,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Anchorage B
+
+51,23.536,N,003,45.244,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Anchorage C
+
+51,23.384,N,003,45.646,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Anchorage D
+
+51,23.228,N,003,46.438,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Anchorage D
+
+51,23.080,N,003,47.259,E,0,22,
+// LINE_CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+LINE_CIRCLE
+
+50,06.407,N,003,19.256,W,0.5
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+00,00.000,N,101,38.000,W,3,3,4,
+00,00.000,N,101,25.000,W,3,3,4,! Equator !
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL YOKOHAMA COAST GUARD ch16 RADIO 2 HRS BEFORE ARRIVAL
+
+35,26.728,N,138,59.594,E,0,20,

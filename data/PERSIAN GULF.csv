@@ -1,0 +1,2379 @@
+// USER CHART SHEET exported by JRC ECDIS.
+// <<NOTE>>This strings // indicate comment column/cells. You can edit freely.
+// PERSIAN GULF UCHART,,PERSIAN GULF
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+NO GO AREA
+26,45.000,N,056,37.000,E
+26,30.000,N,056,47.000,E
+25,18.000,N,057,10.000,E
+25,00.000,N,059,00.000,E
+24,47.000,N,061,35.000,E
+25,47.000,N,061,34.757,E
+27,11.632,N,056,38.531,E
+26,45.055,N,056,00.002,E
+26,45.000,N,056,37.000,E
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NO GO AREA
+
+25,15.635,N,057,13.166,E,350,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NO GO AREA
+
+25,32.156,N,057,03.471,E,285,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NO GO AREA
+
+25,58.999,N,056,54.948,E,285,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NO GO AREA
+
+26,37.842,N,056,39.765,E,300,26,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+25,00.000,N,059,00.000,E,1,4,9,
+24,00.000,N,059,00.000,E,1,4,7,NAV FULL SPEED ZONE
+24,00.000,N,057,00.000,E,1,4,7,NAV FULL SPEED ZONE
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+26,45.027,N,056,00.190,E,1,4,9,
+25,51.147,N,056,00.068,E,1,4,7,NAV FULL SPEED ZONE
+END
+// LINE_CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+LINE_CIRCLE
+NO GO AREA
+26,14.677,N,056,03.562,E,3.0
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+NO GO AREA
+26,06.607,N,055,44.601,E
+26,11.231,N,055,48.067,E
+26,13.845,N,055,42.117,E
+26,10.017,N,055,39.323,E
+26,06.607,N,055,44.601,E
+END
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+NO GO AREA
+25,51.515,N,055,07.401,E
+25,54.455,N,055,13.799,E
+25,49.694,N,055,16.172,E
+25,46.892,N,055,09.672,E
+25,51.515,N,055,07.401,E
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+26,24.248,N,055,56.068,E,1,4,9,
+26,26.064,N,055,56.948,E,1,4,9,
+26,26.669,N,055,57.982,E,1,4,9,
+26,26.157,N,055,59.224,E,1,4,9,
+26,25.319,N,056,00.310,E,1,4,9,NGA
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+26,24.958,N,055,58.735,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+26,24.375,N,055,56.509,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+26,25.704,N,055,57.570,E,0,22,
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+NO GO AREA
+02,50.912,N,101,00.048,E
+02,50.880,N,101,00.331,E
+02,50.983,N,101,00.396,E
+02,51.146,N,101,00.294,E
+02,51.436,N,100,59.885,E
+02,51.417,N,100,59.602,E
+02,51.216,N,100,59.574,E
+02,50.912,N,101,00.048,E
+02,50.912,N,101,00.048,E
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+02,52.576,N,101,00.339,E,1,4,9,
+02,52.698,N,100,59.763,E,1,4,9,
+02,53.029,N,100,59.224,E,1,4,9,
+02,53.506,N,100,58.644,E,1,4,9,
+02,54.169,N,100,57.909,E,1,4,9,
+02,54.907,N,100,57.166,E,1,4,9,
+02,55.919,N,100,56.253,E,1,4,9,
+02,56.358,N,100,56.192,E,1,4,9,
+02,54.485,N,100,58.706,E,1,4,9,
+02,53.649,N,100,59.863,E,1,4,9,
+02,52.575,N,101,00.392,E,1,4,9,NO GO AREA
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+02,55.695,N,100,56.643,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+02,55.373,N,100,56.908,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+02,54.971,N,100,57.326,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+02,54.471,N,100,57.897,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+02,54.060,N,100,58.348,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+02,53.635,N,100,58.794,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+02,53.285,N,100,59.263,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+02,52.850,N,100,59.844,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+02,51.297,N,100,59.771,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+02,51.050,N,101,00.124,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+02,51.097,N,100,59.827,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+02,50.924,N,100,59.999,E,0,22,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+01,29.048,N,103,06.614,E,1,4,9,
+01,28.095,N,103,07.533,E,1,4,9,
+01,27.338,N,103,08.471,E,1,4,9,
+01,27.572,N,103,08.796,E,1,4,9,
+01,28.048,N,103,08.499,E,1,4,9,
+01,28.571,N,103,07.988,E,1,4,9,
+01,29.253,N,103,07.106,E,1,4,9,
+01,29.010,N,103,06.716,E,1,4,9,NGA
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+01,27.562,N,103,08.239,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+01,28.188,N,103,07.672,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+01,28.796,N,103,07.074,E,0,22,
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+
+09,57.500,N,075,59.500,E
+09,57.700,N,076,14.200,E
+09,44.000,N,076,17.500,E
+09,42.500,N,076,09.500,E
+09,57.500,N,075,59.500,E
+END
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+
+03,39.817,N,099,51.892,E
+03,39.419,N,099,51.636,E
+03,37.784,N,099,50.241,E
+03,39.817,N,099,51.892,E
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+26,37.997,N,050,15.759,E,1,4,9,
+26,37.783,N,050,16.044,E,1,4,9,
+26,37.802,N,050,16.540,E,1,4,9,
+26,37.968,N,050,17.175,E,1,4,9,
+26,38.329,N,050,17.547,E,1,4,9,NGA
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+26,37.870,N,050,16.232,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+26,37.948,N,050,16.664,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+26,38.115,N,050,17.170,E,0,22,
+// LINE_CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+LINE_CIRCLE
+NGA
+25,34.499,N,053,08.876,E,2.0
+// LINE_CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+LINE_CIRCLE
+NGA
+25,31.762,N,053,09.263,E,2.7
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,36.066,N,053,09.234,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,35.106,N,053,10.499,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,35.367,N,053,07.290,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,34.089,N,053,07.115,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,32.372,N,053,06.950,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,30.197,N,053,07.598,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,32.643,N,053,11.466,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,31.523,N,053,11.774,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,29.871,N,053,10.756,E,0,24,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+26,16.022,N,050,45.658,E,1,4,9,
+26,16.067,N,050,45.809,E,1,4,9,
+26,16.350,N,050,45.871,E,1,4,9,
+26,16.638,N,050,46.020,E,1,4,9,
+26,17.033,N,050,46.115,E,1,4,9,
+26,17.396,N,050,46.074,E,1,4,9,
+26,17.686,N,050,45.663,E,1,4,9,
+26,18.170,N,050,45.309,E,1,4,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+26,16.150,N,050,45.627,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+26,16.487,N,050,45.768,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+26,16.883,N,050,45.899,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+26,17.247,N,050,45.903,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+26,17.628,N,050,45.569,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+26,18.035,N,050,45.259,E,0,24,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+26,34.129,N,050,11.061,E,1,4,9,
+26,34.132,N,050,11.180,E,1,4,9,
+26,34.297,N,050,11.378,E,1,4,9,
+26,34.438,N,050,11.372,E,1,4,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+26,34.054,N,050,11.571,E,1,4,9,
+26,34.168,N,050,11.583,E,1,4,9,
+26,34.249,N,050,11.656,E,1,4,9,
+26,34.337,N,050,11.768,E,1,4,9,
+26,34.477,N,050,11.929,E,1,4,9,
+26,34.525,N,050,12.123,E,1,4,9,
+26,34.660,N,050,12.220,E,1,4,9,
+26,34.717,N,050,12.386,E,1,4,9,
+26,34.475,N,050,12.523,E,1,4,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+26,34.778,N,050,13.601,E,1,4,9,
+26,35.578,N,050,13.819,E,1,4,9,
+26,35.779,N,050,14.050,E,1,4,9,
+26,36.059,N,050,14.232,E,1,4,9,
+26,36.202,N,050,14.576,E,1,4,9,
+26,36.224,N,050,14.935,E,1,4,9,
+26,36.080,N,050,15.283,E,1,4,9,
+26,36.214,N,050,15.464,E,1,4,9,
+26,36.321,N,050,15.559,E,1,4,9,
+26,36.321,N,050,15.637,E,1,4,9,
+26,36.200,N,050,15.756,E,1,4,9,
+26,36.226,N,050,16.009,E,1,4,9,
+26,36.311,N,050,16.303,E,1,4,9,
+26,36.023,N,050,16.576,E,1,4,9,
+26,35.796,N,050,16.695,E,1,4,9,
+26,35.471,N,050,17.002,E,1,4,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+26,41.320,N,050,24.949,E,1,4,9,
+26,42.146,N,050,24.720,E,1,4,9,
+26,42.943,N,050,24.949,E,1,4,9,
+26,43.634,N,050,25.380,E,1,4,9,
+26,43.801,N,050,26.315,E,1,4,9,
+END
+// LINE_CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+LINE_CIRCLE
+                                NGA. REEF.
+26,35.944,N,050,58.505,E,2.0
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+26,37.608,N,050,58.928,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+26,37.149,N,050,59.283,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+26,36.489,N,050,59.932,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+26,35.190,N,050,59.776,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+26,34.444,N,050,59.101,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+26,43.391,N,050,25.776,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+26,42.843,N,050,25.269,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+26,41.968,N,050,25.308,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+26,34.932,N,050,13.839,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+26,35.566,N,050,14.261,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+26,35.809,N,050,14.980,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+26,35.921,N,050,15.977,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+26,34.282,N,050,10.980,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+26,34.136,N,050,11.717,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+26,34.385,N,050,12.194,E,0,24,
+// CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+CIRCLE
+
+29,24.079,N,047,58.087,E,0.0
+// CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+CIRCLE
+
+29,21.736,N,047,56.651,E,0.0
+// CAUTION_SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+CAUTION_SYMBOL,~WARNSY0,***,***
+VESSEL BOARDED BY IRANIAN FORCES AT 12 AUG 2020
+25,38.000,N,056,41.000,E
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+NO GO AREA
+25,32.584,N,055,13.223,E
+25,34.794,N,055,15.127,E
+25,38.699,N,055,15.230,E
+25,39.927,N,055,13.137,E
+25,37.081,N,055,11.215,E
+25,35.665,N,055,09.448,E
+25,32.584,N,055,13.223,E
+END
+// LINE_CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+LINE_CIRCLE
+IRANIAN TTW. NO GO AREA
+26,15.491,N,055,18.448,E,12.0
+// LINE_CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+LINE_CIRCLE
+IRANIAN TTW.NO GO AREA
+26,14.435,N,055,08.803,E,12.0
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+25,26.130,N,053,25.543,E,1,4,9,
+25,25.979,N,053,32.967,E,1,4,9,
+25,19.176,N,053,32.813,E,1,4,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,25.792,N,053,26.301,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,25.745,N,053,28.035,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,25.582,N,053,30.128,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,25.442,N,053,31.952,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,24.031,N,053,32.273,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,22.421,N,053,32.081,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,20.915,N,053,32.119,E,0,24,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+22,30.000,N,059,48.000,E,1,4,9,SPECIAL AREA. DISCHARGE OF GARBAGE PROHIBITED
+25,04.000,N,061,25.000,E,1,5,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,SPECIAL AREA.
+
+23,51.496,N,060,36.049,E,60,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,DISCHARGE OF GARBAGE PROHIBITED
+
+23,05.752,N,060,24.179,E,60,24,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+26,23.020,N,055,56.278,E,1,5,9,
+26,21.714,N,055,57.882,E,1,5,9,
+26,21.574,N,055,59.901,E,1,5,9,
+26,24.418,N,056,00.832,E,1,5,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+26,22.787,N,055,57.313,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,3 HRS BEFORE P/S CALL DAMMAM PORT CONTROL CH 16/19/10/13
+
+26,46.469,N,050,40.142,E,341,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL MENORAH CONTROL CH 12/16 OUTER ANCHORAGE
+
+24,35.791,N,066,43.766,E,29,24,
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~TRIANG0,***,***
+DRILL PLATFORM SAHAR2. WIDE BERTH. 049/19
+25,43.510,N,054,36.160,E
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~TRIANG0,***,***
+PLATFORM. 050/19
+28,33.110,N,049,41.850,E
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+TEMPORARY REMOVED 244/20
+29,05.504,N,048,29.498,E
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+MISSING 251/20
+24,45.600,N,066,57.980,E
+// SYMBOL,InstName
+// Comment
+// Lat,,,Lon
+SYMBOL,~CIRCLE0,***,***
+MISSING 251/20
+24,46.160,N,066,58.530,E
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+29,27.401,N,048,00.863,E,1,4,9,
+29,27.716,N,048,03.220,E,1,4,9,
+29,26.760,N,048,04.712,E,1,4,9,
+29,26.014,N,048,06.390,E,1,4,9,
+29,24.755,N,048,07.681,E,1,4,9,
+29,23.764,N,048,08.687,E,1,4,9,
+29,23.583,N,048,08.964,E,1,4,9,
+29,23.291,N,048,09.091,E,1,4,9,
+29,22.589,N,048,09.645,E,1,4,9,
+29,22.427,N,048,09.915,E,1,4,9,
+29,22.284,N,048,09.901,E,1,4,9,
+29,21.780,N,048,10.220,E,1,4,9,
+29,20.648,N,048,10.987,E,1,4,9,
+29,19.678,N,048,11.434,E,1,4,9,
+29,19.325,N,048,11.732,E,1,4,9,
+29,19.114,N,048,11.704,E,1,4,9,
+29,19.064,N,048,11.945,E,1,4,9,
+29,18.840,N,048,12.179,E,1,4,9,
+29,17.592,N,048,13.005,E,1,4,9,
+29,16.214,N,048,13.374,E,1,4,9,
+29,14.523,N,048,14.491,E,1,4,9,
+29,12.897,N,048,18.188,E,1,4,9,
+29,11.767,N,048,21.894,E,1,4,9,
+29,11.102,N,048,24.618,E,1,4,9,
+29,10.964,N,048,27.831,E,1,4,9,
+29,12.025,N,048,32.404,E,1,4,9,NGA
+29,13.098,N,048,36.976,E,1,4,9,NGA
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+29,23.159,N,048,09.444,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+29,21.978,N,048,10.296,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+29,20.183,N,048,11.316,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+29,18.333,N,048,12.664,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+29,16.403,N,048,14.310,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+29,14.942,N,048,15.968,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+29,12.541,N,048,22.380,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+29,12.253,N,048,27.289,E,0,24,
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+LIVE FIRING. AVOID AREA. 0400-1700UTC,21-25,28-30SEP2020.285/20
+24,19.000,N,066,58.000,E
+24,00.000,N,066,39.000,E
+24,11.000,N,066,27.000,E
+24,24.300,N,066,42.000,E
+24,19.000,N,066,58.000,E
+END
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+LIVE FIRING.AVOID AREA.0400-1700UTC 21-25,28-30SEP2020.285/20
+24,36.020,N,063,15.030,E
+24,36.020,N,062,30.030,E
+24,21.020,N,062,30.030,E
+24,21.020,N,063,15.030,E
+24,36.020,N,063,15.030,E
+END
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+AVOID AREA. LIVE FIRING. 21-25,28-30SEP2020,0400-1700UTC.285/20
+24,36.020,N,062,30.030,E
+24,36.020,N,061,45.030,E
+24,21.020,N,061,45.030,E
+24,21.020,N,062,30.030,E
+24,36.020,N,062,30.030,E
+END
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+DEPTH CHARGE FIRING AREA.0400-1700UTC,21-25,28-30SEP2020.285/20
+24,16.180,N,066,20.500,E
+24,22.000,N,066,27.000,E
+24,16.300,N,066,33.000,E
+24,10.300,N,066,27.000,E
+24,16.180,N,066,20.500,E
+END
+// LINE_CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+LINE_CIRCLE
+
+24,47.069,N,066,58.921,E,5.0
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,5,9,0,1
+24,44.571,N,066,51.226,E
+24,45.324,N,066,53.706,E
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,ANCHOR BEYOUND THIS LINE
+
+24,44.331,N,066,50.100,E,0,24,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+06,18.747,N,085,07.604,E,1,4,9,
+05,32.966,N,085,08.071,E,1,4,9,START BALLAST
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL JEBEL ALI PORT CONTROL 2H BEFORE ARRIVAL
+
+25,40.903,N,055,13.550,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL KHALIFA PORT CONTROL 3HR & 1HR BEFORE ARRIVAL
+
+25,12.620,N,054,37.755,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VHF CH 16, 69, 72
+
+25,39.580,N,055,18.355,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VHF CH 16, 13
+
+25,11.405,N,054,42.238,E,0,26,
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+
+25,15.046,N,053,51.945,E
+25,17.843,N,053,54.508,E
+25,17.656,N,054,02.849,E
+25,15.232,N,054,04.592,E
+25,06.772,N,053,59.157,E
+25,06.741,N,053,57.585,E
+25,15.046,N,053,51.945,E
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,MANDOUS OILFIELD
+
+25,12.590,N,053,56.286,E,0,26,
+// CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+CIRCLE
+
+25,40.469,N,052,24.648,E,1.8
+// CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+CIRCLE
+
+25,35.615,N,052,32.473,E,3.3
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,40.313,N,052,24.287,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,41.371,N,052,23.481,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,39.551,N,052,24.064,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,38.135,N,052,31.478,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,36.237,N,052,30.277,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,33.261,N,052,33.323,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,34.195,N,052,30.217,E,0,26,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+25,28.661,N,052,01.020,E,1,4,9,
+25,28.848,N,052,03.806,E,1,4,9,
+25,29.305,N,052,05.451,E,1,4,9,
+25,29.977,N,052,05.831,E,1,4,9,
+25,30.956,N,052,05.996,E,1,4,9,
+25,32.549,N,052,04.870,E,1,4,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,30.021,N,052,02.989,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,30.338,N,052,04.325,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,31.607,N,052,04.397,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,31.224,N,052,03.143,E,0,26,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+25,09.620,N,051,43.131,E,1,4,9,
+25,10.734,N,051,43.569,E,1,4,9,
+25,10.983,N,051,43.897,E,1,4,9,
+25,10.927,N,051,44.588,E,1,4,9,
+25,10.815,N,051,45.490,E,1,4,9,
+25,12.078,N,051,45.976,E,1,4,9,
+25,13.851,N,051,47.089,E,1,4,9,
+25,14.604,N,051,47.548,E,1,4,9,
+25,15.108,N,051,47.917,E,1,4,9,
+25,15.748,N,051,48.293,E,1,4,9,
+25,16.115,N,051,48.683,E,1,4,9,
+25,16.090,N,051,49.878,E,1,4,9,
+25,16.171,N,051,51.178,E,1,4,9,
+25,16.101,N,051,52.209,E,1,4,9,
+25,16.201,N,051,53.091,E,1,4,9,
+25,16.960,N,051,54.199,E,1,4,9,
+25,17.227,N,051,54.938,E,1,4,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+25,14.336,N,051,43.427,E,1,4,9,
+25,13.939,N,051,43.427,E,1,4,9,
+25,13.948,N,051,43.709,E,1,4,9,
+25,14.191,N,051,43.771,E,1,4,9,
+25,14.480,N,051,43.863,E,1,4,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+25,15.129,N,051,43.704,E,1,4,9,
+25,15.287,N,051,44.043,E,1,4,9,
+25,15.521,N,051,43.970,E,1,4,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+25,09.292,N,051,40.108,E,1,4,9,
+25,09.568,N,051,40.693,E,1,4,9,
+25,10.114,N,051,40.918,E,1,4,9,
+25,10.669,N,051,41.093,E,1,4,9,
+25,11.439,N,051,41.006,E,1,4,9,
+25,11.872,N,051,41.190,E,1,4,9,
+25,12.689,N,051,41.770,E,1,4,9,
+25,13.462,N,051,41.827,E,1,4,9,
+25,13.905,N,051,42.068,E,1,4,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+25,02.916,N,051,40.694,E,1,4,9,
+25,03.663,N,051,40.976,E,1,4,9,
+25,04.265,N,051,41.032,E,1,4,9,
+25,05.207,N,051,40.658,E,1,4,9,
+25,05.786,N,051,40.284,E,1,4,9,
+25,06.308,N,051,39.890,E,1,4,9,
+25,08.443,N,051,39.861,E,1,4,9,
+25,09.264,N,051,40.057,E,1,4,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+25,08.711,N,051,43.003,E,1,4,9,
+25,08.562,N,051,42.757,E,1,4,9,
+25,08.244,N,051,42.747,E,1,4,9,
+25,07.862,N,051,43.167,E,1,4,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,06.540,N,051,39.570,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,05.588,N,051,39.960,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,04.562,N,051,40.538,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,03.133,N,051,40.239,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,07.349,N,051,39.323,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,08.389,N,051,39.600,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,09.678,N,051,40.017,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,10.191,N,051,40.586,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,10.909,N,051,40.633,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,12.032,N,051,40.683,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,12.475,N,051,41.242,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,13.259,N,051,41.555,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,14.383,N,051,43.604,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,15.372,N,051,43.768,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,11.358,N,051,46.017,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,12.688,N,051,46.786,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,13.556,N,051,47.598,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,15.189,N,051,48.419,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,15.629,N,051,49.138,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,15.639,N,051,51.920,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,10.425,N,051,45.316,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,10.136,N,051,43.659,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,08.394,N,051,43.075,E,0,26,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+25,01.251,N,051,38.605,E,1,4,9,
+25,01.886,N,051,40.387,E,1,4,9,
+25,02.224,N,051,41.074,E,1,4,9,
+25,01.695,N,051,41.055,E,1,4,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+25,01.722,N,051,39.413,E,1,4,9,
+25,02.052,N,051,40.322,E,1,4,9,
+25,02.186,N,051,40.578,E,1,4,9,
+25,02.671,N,051,40.600,E,1,4,9,
+25,02.876,N,051,40.679,E,1,4,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,01.322,N,051,39.442,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,01.429,N,051,39.896,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,01.791,N,051,40.703,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,02.288,N,051,40.297,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,02.046,N,051,39.553,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,POINT OF NO RETURN
+
+25,02.027,N,051,41.112,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,EM'CY ANCHORAGE
+
+25,18.492,N,051,46.718,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL HAMAD PORT CONTROL 3HR BEFORE ARRIVAL
+
+25,34.348,N,052,16.261,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VHF CH 14
+
+25,33.357,N,052,16.647,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL HAMAD PORT CONTROL ON  CALLING POINT
+
+25,15.913,N,051,47.197,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VHF CH 14
+
+25,15.637,N,051,47.259,E,0,26,
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,3,9,0,0
+25,15.725,N,051,47.182,E
+25,15.799,N,051,46.710,E
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+24,50.667,N,054,39.543,E,1,4,9,
+24,51.164,N,054,38.988,E,1,4,9,
+24,52.011,N,054,38.224,E,1,4,9,
+24,53.034,N,054,37.242,E,1,4,9,
+24,53.584,N,054,36.641,E,1,4,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+24,49.836,N,054,40.180,E,1,4,9,
+24,50.660,N,054,39.552,E,1,4,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+24,50.645,N,054,39.873,E,1,4,9,
+24,51.450,N,054,39.170,E,1,4,9,
+24,51.711,N,054,39.066,E,1,4,9,
+24,52.019,N,054,39.424,E,1,4,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+24,51.179,N,054,38.268,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+24,51.418,N,054,39.437,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+24,51.648,N,054,39.437,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+24,50.961,N,054,38.776,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+24,50.466,N,054,39.390,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+24,50.799,N,054,39.894,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,POINT OF NO RETURN
+
+24,51.046,N,054,39.789,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,EM'CY ANCHORAGE
+
+24,53.521,N,054,40.352,E,0,26,
+// CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+CIRCLE
+
+25,57.448,N,052,01.769,E,0.3
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+25,58.469,N,051,59.698,E,1,4,9,
+25,58.379,N,051,59.884,E,1,4,9,
+25,58.167,N,052,00.039,E,1,4,9,
+25,57.897,N,051,59.994,E,1,4,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,58.093,N,051,59.681,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,57.265,N,052,01.676,E,0,26,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,ENTRY PROHIBITED
+
+25,51.337,N,051,57.712,E,0,24,
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+
+25,50.935,N,051,54.294,E
+25,53.075,N,051,54.488,E
+25,52.201,N,052,03.627,E
+25,50.020,N,052,03.459,E
+25,50.935,N,051,54.294,E
+END
+// CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+CIRCLE
+
+25,51.127,N,055,02.838,E,12.0
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,IRANIAN TTW
+
+25,47.720,N,054,58.867,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,AVOID
+
+25,44.077,N,055,02.013,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,AVOID
+
+25,43.139,N,054,58.106,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,AVOID
+
+25,45.240,N,055,09.033,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+26,30.724,N,051,17.985,E,0,24,
+// CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+CIRCLE
+
+25,40.958,N,052,06.328,E,0.1
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+25,40.905,N,052,06.128,E,0,28,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,EM'CY ANCHORAGE
+
+26,09.710,N,050,46.014,E,0,28,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,POINT OF NO RETURN
+
+26,10.815,N,050,42.990,E,0,20,
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,3,9,1,2
+26,10.536,N,050,43.374,E
+26,10.772,N,050,43.445,E
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,REPORT ETA, DRAUGHT TO BAHRAIN PORT CONTROL
+
+26,10.883,N,050,43.410,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,WHEN IN VHF RANGE
+
+26,10.826,N,050,43.415,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VHF CH 16, 74
+
+26,10.791,N,050,43.421,E,0,20,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL BAHRAIN PORT CONTROL OUTBOUBD/OUTBOUND
+
+26,33.677,N,051,00.425,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VHF CH 16, 74
+
+26,33.494,N,051,00.587,E,0,24,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+26,30.491,N,050,59.307,E,1,4,9,
+26,29.121,N,051,01.467,E,1,4,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VHF CH 16, 74
+
+26,29.859,N,051,00.468,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL BAHRAIN PORT CONTROL INBOUND/OUTBOUND
+
+26,30.090,N,051,00.458,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL BAHRAIN PORT CONTROL INBOUND/OUTBOUND
+
+26,26.832,N,050,52.671,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VHF CH 16, 74
+
+26,26.658,N,050,52.903,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL BAHRAIN PORT CONTROL INBOUND/OUTBOUND
+
+26,21.913,N,050,46.991,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL BAHRAIN PORT CONTROL INBOUND/OUTBOUND
+
+26,10.428,N,050,45.551,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL BAHRAIN PORT CONTROL INBOUND/OUTBOUND
+
+26,14.225,N,050,46.404,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VHF CH 16, 74
+
+26,21.854,N,050,47.024,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VHF CH 16, 74
+
+26,14.110,N,050,46.530,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VHF CH 16, 74
+
+26,10.322,N,050,45.607,E,0,24,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+26,34.014,N,051,03.114,E,1,4,9,
+26,32.328,N,051,04.363,E,1,4,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+26,26.717,N,050,52.694,E,1,4,9,
+26,25.308,N,050,53.428,E,1,4,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+26,22.186,N,050,46.434,E,1,4,9,
+26,21.524,N,050,47.574,E,1,4,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+26,14.227,N,050,45.522,E,1,4,9,
+26,14.154,N,050,46.370,E,1,4,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+26,10.951,N,050,45.229,E,1,4,9,
+26,10.156,N,050,45.675,E,1,4,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+26,49.141,N,050,33.374,E,1,4,9,
+26,46.122,N,050,34.361,E,1,4,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL RA'S TANNURAH PORT CONTROL (INBOUND)
+
+26,49.418,N,050,33.651,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VHF CH 10
+
+26,49.107,N,050,33.659,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL DAMMAM PORT CONTROL 1HR BEFORE BOUY D1
+
+26,44.271,N,050,24.695,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VHF CH 16,13,19
+
+26,43.885,N,050,24.769,E,0,24,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+26,37.862,N,050,14.688,E,1,4,9,
+26,36.817,N,050,15.425,E,1,4,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL DAMMAM PORT CONTROL PASSING BOUY D1
+
+26,38.203,N,050,14.645,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VHF CH 16,13,19
+
+26,37.988,N,050,14.664,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,EM'CY ANCHORAGE
+
+26,33.285,N,050,08.968,E,0,24,
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,3,9,0,2
+26,33.144,N,050,09.615,E
+26,33.013,N,050,10.087,E
+// CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+CIRCLE
+
+26,47.920,N,050,26.246,E,0.2
+// CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+CIRCLE
+
+26,46.178,N,050,33.974,E,0.2
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+26,46.181,N,050,34.047,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+26,47.887,N,050,26.148,E,0,24,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+27,53.337,N,050,21.088,E,1,4,9,
+27,53.322,N,050,22.436,E,1,4,9,
+27,52.171,N,050,23.381,E,1,4,9,
+27,50.646,N,050,24.413,E,1,4,9,
+27,46.251,N,050,24.145,E,1,4,9,
+27,46.313,N,050,22.220,E,1,4,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+27,52.319,N,050,20.820,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+27,50.966,N,050,21.940,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+27,48.772,N,050,23.148,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+27,47.263,N,050,23.025,E,0,24,
+// CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+CIRCLE
+
+28,24.257,N,050,08.811,E,0.3
+// CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+CIRCLE
+
+28,23.308,N,050,05.363,E,0.2
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+28,23.261,N,050,05.169,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+28,24.148,N,050,08.899,E,0,24,
+// CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+CIRCLE
+
+28,52.015,N,049,30.364,E,0.3
+// CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+CIRCLE
+
+28,46.835,N,049,32.290,E,0.3
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+28,46.742,N,049,32.184,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+28,52.046,N,049,30.523,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+28,47.504,N,049,28.775,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+28,46.430,N,049,29.411,E,0,24,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+29,01.903,N,049,25.514,E,1,4,9,
+28,59.883,N,049,25.886,E,1,4,9,
+28,59.976,N,049,29.085,E,1,4,9,
+29,00.551,N,049,28.997,E,1,4,9,
+29,01.670,N,049,28.991,E,1,4,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+29,00.162,N,049,26.565,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+29,01.235,N,049,27.785,E,0,24,
+// CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+CIRCLE
+
+29,03.341,N,049,15.522,E,0.2
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+28,58.873,N,049,12.786,E,1,4,9,
+29,01.794,N,049,12.775,E,1,4,9,
+29,02.447,N,049,12.606,E,1,4,9,
+29,02.316,N,049,11.300,E,1,4,9,
+29,01.691,N,049,09.060,E,1,4,9,
+28,59.376,N,049,06.332,E,1,4,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+28,59.357,N,049,08.296,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+29,00.868,N,049,09.909,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+29,01.242,N,049,11.140,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+29,00.197,N,049,10.970,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+28,59.227,N,049,10.651,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+28,57.370,N,049,07.033,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+28,58.265,N,049,06.629,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+29,15.038,N,048,13.511,E,0,24,
+// CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+CIRCLE
+
+29,15.066,N,048,13.490,E,0.3
+// CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+CIRCLE
+
+29,19.999,N,048,07.995,E,0.1
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+29,19.985,N,048,07.963,E,0,24,
+// CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+CIRCLE
+
+29,24.235,N,048,02.215,E,0.1
+// CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+CIRCLE
+
+29,25.733,N,048,02.989,E,0.1
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,EM'CY ANCHORAGE
+
+29,26.511,N,048,01.941,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,POINT OF NO RETURN
+
+29,24.711,N,047,58.986,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,EM'CY ANCHORAGE
+
+25,06.766,N,054,46.120,E,0,26,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+25,18.400,N,051,51.720,E,1,4,4,
+25,16.393,N,051,53.004,E,1,4,5,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL HAMAD PORT CONTROL 5NM BEFOR MISHUT BOUY VHF CH 14
+
+25,16.760,N,051,53.601,E,0,24,
+// CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+CIRCLE
+
+26,24.231,N,050,52.106,E,0.2
+// CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+CIRCLE
+
+26,21.121,N,050,47.270,E,0.1
+// CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+CIRCLE
+
+26,17.381,N,050,47.979,E,0.5
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+26,20.873,N,050,48.761,E,1,4,9,
+26,20.430,N,050,49.132,E,1,4,9,
+26,19.598,N,050,48.718,E,1,4,9,
+26,19.186,N,050,49.020,E,1,4,9,
+26,18.059,N,050,48.727,E,1,4,9,
+26,17.639,N,050,48.606,E,1,4,9,
+26,15.784,N,050,48.516,E,1,4,9,
+26,14.611,N,050,48.335,E,1,4,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+26,14.687,N,050,48.318,E,1,4,9,
+26,14.827,N,050,47.704,E,1,4,9,
+26,14.584,N,050,47.735,E,1,4,9,
+26,14.519,N,050,47.491,E,1,4,9,
+26,14.391,N,050,47.056,E,1,4,9,
+26,14.111,N,050,46.890,E,1,4,9,
+26,13.757,N,050,46.701,E,1,4,9,
+26,13.586,N,050,46.704,E,1,4,9,
+26,13.477,N,050,47.135,E,1,4,9,
+26,13.377,N,050,47.070,E,1,4,9,
+26,13.244,N,050,47.170,E,1,4,9,
+26,13.032,N,050,47.191,E,1,4,9,
+26,12.718,N,050,47.397,E,1,4,9,
+26,12.584,N,050,47.563,E,1,4,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+29,15.327,N,048,15.035,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+29,12.563,N,048,20.832,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+29,11.774,N,048,25.350,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+29,12.287,N,048,30.003,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+29,13.220,N,048,32.222,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+29,25.155,N,048,07.873,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+29,27.136,N,048,05.331,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+29,26.425,N,048,06.915,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+29,27.968,N,048,03.037,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+29,28.201,N,048,00.959,E,0,24,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+29,22.172,N,048,05.741,E,1,4,9,
+29,21.577,N,048,05.901,E,1,4,9,
+29,21.056,N,048,06.415,E,1,4,9,
+29,20.493,N,048,06.318,E,1,4,9,
+29,19.692,N,048,06.220,E,1,4,9,
+29,18.872,N,048,06.078,E,1,4,9,
+29,18.250,N,048,06.016,E,1,4,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+29,24.656,N,048,00.688,E,1,4,9,
+29,24.302,N,048,01.610,E,1,4,9,
+29,23.905,N,048,02.578,E,1,4,9,
+29,23.703,N,048,03.527,E,1,4,9,
+29,23.385,N,048,04.122,E,1,4,9,
+29,23.035,N,048,04.663,E,1,4,9,
+29,22.724,N,048,05.302,E,1,4,9,
+29,22.522,N,048,05.604,E,1,4,9,
+29,22.141,N,048,05.737,E,1,4,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+29,24.763,N,047,59.554,E,1,4,9,
+29,24.854,N,047,59.674,E,1,4,9,
+29,24.835,N,047,59.943,E,1,4,9,
+29,24.821,N,048,00.207,E,1,4,9,
+29,24.837,N,048,00.420,E,1,4,9,
+29,24.668,N,048,00.676,E,1,4,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+29,24.407,N,048,00.881,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+29,24.610,N,048,00.136,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+29,24.089,N,048,01.545,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+29,23.734,N,048,02.696,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+29,23.148,N,048,03.442,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+29,22.913,N,048,04.157,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+29,22.761,N,048,04.607,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+29,22.208,N,048,05.230,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+29,21.651,N,048,05.549,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+29,21.157,N,048,06.004,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+29,20.540,N,048,06.052,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+29,19.773,N,048,06.081,E,0,24,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+29,19.151,N,048,05.879,E,0,24,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+29,07.734,N,049,10.025,E,1,4,9,
+29,01.049,N,049,07.725,E,1,4,9,
+END
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,5,5,1,1
+26,15.553,N,055,59.719,E
+26,10.419,N,055,55.813,E
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,RESTORE/REMOVE AIS DEST.
+
+26,09.461,N,055,54.493,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,RESTORE/REMOVE AIS DEST.
+
+24,27.513,N,059,01.388,E,0,22,
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,5,9,1,0
+24,20.191,N,059,01.473,E
+24,26.345,N,059,04.960,E
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+
+26,57.000,N,056,28.000,E
+26,45.000,N,056,24.000,E
+26,45.000,N,056,35.000,E
+26,35.000,N,056,48.000,E
+26,15.000,N,056,48.000,E
+26,15.000,N,057,06.000,E
+26,46.046,N,057,02.693,E
+26,57.000,N,056,28.000,E
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL HARBOUR MASTER CH 16 71; 4 HRS B4 ARR
+
+24,27.129,N,057,35.737,E,0,28,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL Hr Mr CH 16 71
+
+24,41.781,N,056,45.194,E,0,28,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,FOR PERMISION TO ENTER THE PORT
+
+24,40.778,N,056,45.066,E,0,28,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL Hr Mr CH 16, 71
+
+24,30.055,N,056,36.529,E,0,28,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,FOR PERMISION TO LEAVE THE PORT
+
+24,29.941,N,056,36.260,E,0,28,

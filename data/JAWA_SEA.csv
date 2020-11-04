@@ -1,0 +1,773 @@
+// USER CHART SHEET exported by JRC ECDIS.
+// <<NOTE>>This strings // indicate comment column/cells. You can edit freely.
+// JAWA_SEA_NGA,,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+01,16.087,N,104,49.096,E,0,36,
+// CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+CIRCLE
+
+01,16.048,N,104,49.119,E,0.2
+// CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+CIRCLE
+
+01,09.332,N,105,19.061,E,0.4
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+01,09.262,N,105,19.107,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+01,55.469,S,108,08.461,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+02,00.725,S,108,07.416,E,0,36,
+// CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+CIRCLE
+
+02,00.500,S,108,07.726,E,0.5
+// CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+CIRCLE
+
+02,03.770,S,108,04.871,E,0.8
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+
+01,56.132,S,108,08.157,E
+01,54.614,S,108,08.273,E
+01,54.030,S,108,09.248,E
+01,53.656,S,108,09.991,E
+01,54.147,S,108,10.594,E
+01,54.824,S,108,09.364,E
+01,56.225,S,108,09.108,E
+01,56.132,S,108,08.157,E
+END
+// CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+CIRCLE
+
+01,44.622,S,107,57.861,E,1.1
+// CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+CIRCLE
+
+00,29.757,S,107,10.124,E,0.9
+// CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+CIRCLE
+
+00,20.648,S,107,04.509,E,0.8
+// CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+CIRCLE
+
+00,08.097,N,106,12.882,E,1.2
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+00,30.084,S,107,10.050,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+00,20.679,S,107,04.729,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+00,08.159,N,106,12.944,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+01,13.507,N,105,09.376,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+01,19.798,N,104,59.846,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+01,11.452,N,104,53.039,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+01,47.343,S,108,27.846,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+01,56.598,S,108,40.999,E,0,36,
+// CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+CIRCLE
+
+01,59.835,S,108,38.540,E,1.0
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+01,59.625,S,108,38.354,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+02,13.135,S,108,36.185,E,0,36,
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+
+02,13.464,S,108,35.269,E
+02,12.312,S,108,36.043,E
+02,12.156,S,108,37.157,E
+02,13.495,S,108,37.374,E
+02,14.896,S,108,37.064,E
+02,15.052,S,108,36.352,E
+02,13.464,S,108,35.269,E
+END
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+
+02,11.057,S,108,44.331,E
+02,10.695,S,108,44.542,E
+02,10.720,S,108,44.981,E
+02,10.969,S,108,45.111,E
+02,11.337,S,108,44.938,E
+02,11.387,S,108,44.437,E
+02,11.057,S,108,44.331,E
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+02,11.100,S,108,44.616,E,0,36,
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+
+02,43.456,S,109,20.909,E
+02,42.771,S,109,22.210,E
+02,43.363,S,109,23.201,E
+02,44.484,S,109,23.139,E
+02,45.356,S,109,21.661,E
+02,43.456,S,109,20.909,E
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+02,44.297,S,109,21.877,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+02,35.026,S,109,14.447,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+02,47.359,S,109,13.796,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+02,52.217,S,109,13.765,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+02,54.926,S,109,23.149,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+02,59.927,S,109,22.488,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+03,07.149,S,109,17.028,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+03,10.045,S,109,17.864,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+03,10.356,S,109,31.495,E,0,36,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+03,11.247,S,109,31.456,E,1,4,9,
+03,10.391,S,109,31.131,E,1,4,9,
+03,09.145,S,109,31.487,E,1,4,9,
+03,08.943,S,109,32.029,E,1,4,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+03,07.863,S,109,45.400,E,1,4,9,
+03,10.530,S,109,44.858,E,1,4,9,
+03,12.768,S,109,45.904,E,1,4,9,
+03,13.021,S,109,47.279,E,1,4,9,
+03,11.308,S,109,48.731,E,1,4,9,
+03,09.401,S,109,48.750,E,1,4,9,
+03,07.163,S,109,46.156,E,1,4,9,
+03,08.077,S,109,45.555,E,1,4,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+03,08.953,S,109,46.562,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+03,10.919,S,109,46.930,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+03,54.901,S,109,35.724,E,0,36,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+04,00.170,S,110,11.144,E,1,4,9,
+04,01.883,S,110,11.919,E,1,4,9,
+04,01.727,S,110,13.393,E,1,4,9,
+04,01.999,S,110,16.106,E,1,4,9,
+04,02.155,S,110,19.208,E,1,4,9,
+04,00.676,S,110,19.208,E,1,4,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+04,00.364,S,110,12.656,E,0,36,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+06,08.603,S,114,01.632,E,1,4,9,
+06,10.199,S,114,01.554,E,1,4,9,
+06,11.056,S,114,02.994,E,1,4,9,
+06,10.199,S,114,05.133,E,1,4,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+06,09.382,S,114,02.566,E,0,36,
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+
+07,04.819,S,115,09.694,E
+07,03.574,S,115,10.474,E
+07,04.695,S,115,12.811,E
+07,05.753,S,115,13.902,E
+07,07.185,S,115,13.715,E
+07,07.746,S,115,11.128,E
+07,06.594,S,115,09.975,E
+07,04.819,S,115,09.694,E
+END
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+
+06,59.744,S,114,56.510,E
+07,00.802,S,115,01.466,E
+07,03.262,S,115,04.708,E
+07,06.220,S,115,03.991,E
+07,06.718,S,115,00.032,E
+07,05.317,S,114,56.479,E
+07,02.951,S,114,53.986,E
+06,59.744,S,114,56.510,E
+END
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+
+07,01.674,S,115,18.359,E
+06,59.432,S,115,13.185,E
+06,56.754,S,115,10.411,E
+06,51.179,S,115,08.853,E
+06,46.038,S,115,08.759,E
+06,45.976,S,115,12.998,E
+06,56.785,S,115,20.198,E
+07,01.332,S,115,25.434,E
+07,01.674,S,115,18.359,E
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+07,05.393,S,115,10.446,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+07,01.773,S,114,57.979,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+07,03.603,S,115,02.304,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+06,50.483,S,115,10.291,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+06,54.688,S,115,12.277,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+06,59.204,S,115,16.758,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL LOMBOKREP VHF CH 16,68
+
+08,16.016,S,115,38.136,E,0,36,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+08,17.814,S,115,49.205,E,1,4,9,
+08,20.477,S,115,57.145,E,1,4,9,
+END
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,5,9,0,1
+08,16.413,S,115,44.812,E
+08,17.596,S,115,48.595,E
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,5,9,0,1
+08,53.552,S,115,52.063,E
+08,55.709,S,115,47.342,E
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+08,52.406,S,115,36.330,E,1,4,9,
+08,55.567,S,115,47.134,E,1,4,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,CALL LOMBOKREP VHF CH 16,68
+
+08,52.907,S,115,52.320,E,0,36,
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+
+07,01.762,S,114,45.162,E
+07,02.657,S,114,47.772,E
+07,05.615,S,114,49.058,E
+07,09.584,S,114,48.123,E
+07,11.179,S,114,40.798,E
+07,11.101,S,114,33.825,E
+07,03.669,S,114,32.617,E
+07,02.540,S,114,33.045,E
+07,01.762,S,114,45.162,E
+END
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+
+07,13.008,S,114,53.617,E
+07,12.852,S,114,55.993,E
+07,13.747,S,114,57.630,E
+07,14.798,S,114,58.877,E
+07,16.898,S,114,57.825,E
+07,17.832,S,114,56.851,E
+07,17.871,S,114,53.967,E
+07,16.081,S,114,52.448,E
+07,15.187,S,114,52.253,E
+07,13.708,S,114,52.604,E
+07,13.008,S,114,53.617,E
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+07,05.195,S,114,35.305,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+07,08.854,S,114,35.227,E,0,36,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+07,05.740,S,114,44.578,E,0,36,
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+
+08,19.080,S,115,40.271,E
+08,20.505,S,115,42.264,E
+08,22.397,S,115,43.343,E
+08,24.239,S,115,43.394,E
+08,26.481,S,115,41.635,E
+08,28.069,S,115,39.477,E
+08,31.175,S,115,37.155,E
+08,32.623,S,115,35.607,E
+08,33.183,S,115,34.223,E
+08,33.043,S,115,32.394,E
+08,32.553,S,115,30.447,E
+08,33.090,S,115,28.617,E
+08,16.460,S,115,36.170,E
+08,19.080,S,115,40.271,E
+END
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+
+08,49.673,S,115,33.674,E
+08,50.023,S,115,35.247,E
+08,49.276,S,115,36.304,E
+08,48.202,S,115,36.750,E
+08,47.478,S,115,37.173,E
+08,47.221,S,115,37.994,E
+08,46.730,S,115,38.370,E
+08,44.814,S,115,37.573,E
+08,43.249,S,115,36.563,E
+08,41.146,S,115,35.460,E
+08,48.994,S,115,32.220,E
+08,49.673,S,115,33.674,E
+END
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+
+08,50.535,S,115,50.462,E
+08,49.391,S,115,48.959,E
+08,47.850,S,115,48.490,E
+08,46.192,S,115,48.372,E
+08,44.930,S,115,48.513,E
+08,43.996,S,115,49.288,E
+08,42.992,S,115,49.875,E
+08,42.665,S,115,50.743,E
+08,41.824,S,115,51.119,E
+08,41.011,S,115,52.337,E
+08,39.843,S,115,54.098,E
+08,51.708,S,115,55.483,E
+08,52.455,S,115,55.084,E
+08,50.535,S,115,50.462,E
+END
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+
+08,28.014,S,116,00.770,E
+08,25.889,S,116,00.794,E
+08,24.488,S,116,01.826,E
+08,21.942,S,116,00.981,E
+08,20.423,S,116,00.747,E
+08,19.302,S,116,01.802,E
+08,19.419,S,116,03.843,E
+08,19.699,S,116,06.212,E
+08,18.344,S,116,07.127,E
+08,19.582,S,116,10.199,E
+08,32.264,S,116,01.920,E
+08,28.014,S,116,00.770,E
+END
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+
+08,26.540,S,115,43.030,E
+08,26.112,S,115,43.401,E
+08,26.073,S,115,43.910,E
+08,26.637,S,115,44.164,E
+08,27.221,S,115,43.734,E
+08,27.163,S,115,43.167,E
+08,26.949,S,115,42.874,E
+08,26.540,S,115,43.030,E
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NGA
+
+08,26.618,S,115,43.245,E,0,36,
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+
+12,53.010,S,124,19.862,E
+12,53.535,S,124,20.647,E
+12,53.162,S,124,21.242,E
+12,52.356,S,124,20.862,E
+12,52.555,S,124,19.886,E
+12,53.010,S,124,19.862,E
+END
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+
+12,48.422,S,124,15.293,E
+12,49.052,S,124,16.590,E
+12,48.936,S,124,18.387,E
+12,48.644,S,124,18.982,E
+12,47.371,S,124,18.018,E
+12,47.231,S,124,15.817,E
+12,47.675,S,124,14.972,E
+12,48.422,S,124,15.293,E
+END
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+
+12,38.998,S,126,24.938,E
+12,38.158,S,126,26.008,E
+12,37.714,S,126,25.342,E
+12,37.994,S,126,24.129,E
+12,38.952,S,126,24.082,E
+12,38.998,S,126,24.938,E
+END
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+
+12,48.748,S,126,06.856,E
+12,49.238,S,126,06.535,E
+12,49.425,S,126,07.046,E
+12,49.157,S,126,07.462,E
+12,48.760,S,126,07.284,E
+12,48.643,S,126,06.927,E
+12,48.748,S,126,06.856,E
+END
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+
+12,22.422,S,130,17.073,E
+12,20.154,S,130,19.007,E
+12,20.134,S,130,20.274,E
+12,21.665,S,130,19.753,E
+12,22.768,S,130,19.449,E
+12,23.291,S,130,20.408,E
+12,23.879,S,130,20.864,E
+12,24.719,S,130,16.893,E
+12,22.422,S,130,17.073,E
+END
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+
+12,22.760,S,130,30.967,E
+12,21.262,S,130,31.468,E
+12,20.521,S,130,31.823,E
+12,20.135,S,130,35.667,E
+12,20.845,S,130,36.440,E
+12,21.037,S,130,37.057,E
+12,21.193,S,130,37.900,E
+12,20.763,S,130,38.919,E
+12,20.576,S,130,39.534,E
+12,20.408,S,130,40.236,E
+12,20.346,S,130,41.072,E
+12,20.303,S,130,41.348,E
+12,20.502,S,130,41.982,E
+12,20.669,S,130,42.683,E
+12,20.972,S,130,42.818,E
+12,21.152,S,130,42.787,E
+12,21.080,S,130,43.075,E
+12,21.140,S,130,43.250,E
+12,21.351,S,130,43.457,E
+12,21.559,S,130,43.429,E
+12,21.551,S,130,42.831,E
+12,21.873,S,130,41.649,E
+12,22.322,S,130,42.345,E
+12,22.828,S,130,43.254,E
+12,23.623,S,130,43.740,E
+12,24.165,S,130,44.559,E
+12,24.574,S,130,45.227,E
+12,25.030,S,130,45.761,E
+12,25.547,S,130,46.096,E
+12,25.682,S,130,46.353,E
+12,25.937,S,130,46.602,E
+12,26.259,S,130,46.719,E
+12,26.486,S,130,46.705,E
+12,26.867,S,130,47.130,E
+12,27.004,S,130,46.560,E
+12,27.558,S,130,46.650,E
+12,28.022,S,130,46.769,E
+12,28.239,S,130,46.850,E
+12,28.113,S,130,46.926,E
+12,28.064,S,130,47.206,E
+12,28.291,S,130,47.496,E
+12,28.653,S,130,47.729,E
+12,28.730,S,130,47.909,E
+12,28.676,S,130,48.092,E
+12,28.683,S,130,48.237,E
+12,28.609,S,130,48.434,E
+12,28.576,S,130,48.584,E
+12,28.975,S,130,48.712,E
+12,29.316,S,130,48.781,E
+12,29.552,S,130,48.964,E
+12,29.899,S,130,49.347,E
+12,30.089,S,130,48.853,E
+12,30.091,S,130,46.572,E
+12,28.970,S,130,47.076,E
+12,28.139,S,130,46.230,E
+12,26.551,S,130,46.221,E
+12,25.645,S,130,45.261,E
+12,23.995,S,130,41.189,E
+12,22.641,S,130,37.199,E
+12,23.808,S,130,35.537,E
+12,24.766,S,130,34.539,E
+12,24.451,S,130,31.258,E
+12,22.760,S,130,30.967,E
+END
+// POLYGON
+// Comment
+// Lat,,,Lon,Add "END" to the end of vertex.
+POLYGON
+
+12,28.585,S,130,48.260,E
+12,28.552,S,130,48.379,E
+12,28.526,S,130,48.436,E
+12,28.501,S,130,48.530,E
+12,28.411,S,130,48.536,E
+12,28.246,S,130,48.332,E
+12,28.071,S,130,48.206,E
+12,27.790,S,130,48.051,E
+12,27.477,S,130,47.814,E
+12,27.486,S,130,47.620,E
+12,28.176,S,130,48.077,E
+12,28.585,S,130,48.260,E
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+01,08.367,N,105,10.758,E,1,4,9,
+00,49.911,N,105,35.579,E,1,4,9,
+00,33.596,N,105,56.547,E,1,4,9,
+00,26.823,S,106,23.632,E,1,4,9,
+01,03.069,S,106,57.609,E,1,4,9,
+END

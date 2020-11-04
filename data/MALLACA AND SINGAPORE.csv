@@ -1,0 +1,909 @@
+// USER CHART SHEET exported by JRC ECDIS.
+// <<NOTE>>This strings // indicate comment column/cells. You can edit freely.
+// Mallacca and Singapore,,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Be aware of the Fishing Boats
+
+02,51.603,N,100,41.982,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,and the head-on North Bound Ships
+
+02,50.907,N,100,40.872,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,reported to enter into the oposite lane
+
+02,50.110,N,100,41.604,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Sector 1
+
+03,00.313,N,100,56.763,E,0,72,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Klang VTS
+
+02,58.772,N,100,56.283,E,0,72,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VHF Ch. 66
+
+02,57.199,N,100,56.050,E,0,72,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+02,54.823,N,100,37.783,E,1,4,2,
+03,08.676,N,100,47.840,E,1,4,3,
+END
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,5,3,0,0
+02,56.558,N,100,39.076,E
+02,56.029,N,100,39.835,E
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,5,3,0,0
+03,03.404,N,100,44.038,E
+03,02.903,N,100,44.667,E
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,5,3,0,0
+03,08.141,N,100,47.446,E
+03,07.744,N,100,48.099,E
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Call Klang VTS on VHF Ch. 66
+
+02,53.541,N,100,36.613,E,53,28,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Sector 2
+
+02,35.703,N,100,59.177,E,0,72,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Change to VHF Ch. 88 (Sector 2)
+
+02,53.454,N,100,37.575,E,0,28,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Klang VTS
+
+02,33.974,N,100,58.411,E,0,72,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VHF Ch. 88
+
+02,32.222,N,100,57.923,E,0,72,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Many Container and other vessels
+
+02,43.448,N,100,54.822,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,making Port Klang will slow down
+
+02,42.778,N,100,54.524,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Vessels coming fm Port Klang also 
+
+02,42.084,N,100,54.605,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,will joining east bound lane at precautionary
+
+02,41.654,N,100,53.499,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Keep Deep Draught Vessels on your starboard
+
+02,31.484,N,101,10.001,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,further South they will alter to starboard, making deep route
+
+02,30.237,N,101,09.373,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Be aware of Vessels bound for Port Dickson
+
+02,24.567,N,101,16.099,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,they may slow down
+
+02,24.039,N,101,17.737,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,At The precautionary further SE be aware of vessels
+
+02,23.082,N,101,14.850,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,joining the east bound lane fm Port Dickson
+
+02,22.426,N,101,15.576,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Fishing Boats are also expected
+
+02,21.840,N,101,15.982,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Change to VHF Ch. 84 (Sector 3)
+
+02,19.452,N,101,21.003,E,46,28,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Fishing Vessels
+
+02,09.790,N,101,48.315,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Deep Draft Vessels joining the route
+
+02,08.836,N,101,45.664,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Sector 3
+
+02,28.265,N,101,56.389,E,0,72,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Klang VTS
+
+02,26.436,N,101,56.002,E,0,72,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VHF Ch. 84
+
+02,24.392,N,101,58.363,E,0,72,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Change to VHF Ch. 61 (Sector 4)
+
+01,53.335,N,101,53.464,E,37,28,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Change to VHF Ch. 88 (Sector 5)
+
+01,33.500,N,102,27.332,E,53,28,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Sector 5
+
+01,24.916,N,102,37.208,E,0,72,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Sector 4
+
+01,41.986,N,101,59.632,E,0,72,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Klang VTS
+
+01,39.837,N,101,59.075,E,0,72,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VHF Ch. 61
+
+01,37.735,N,101,58.889,E,0,72,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Klang VTS
+
+01,22.295,N,102,36.603,E,0,72,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VHF Ch. 88
+
+01,19.403,N,102,36.434,E,0,72,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+01,08.499,N,103,23.982,E,1,4,9,
+01,08.986,N,102,56.349,E,1,4,9,
+01,33.387,N,103,18.778,E,1,4,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Continue listen VHF Ch. 88 (Sector 6-Johor)
+
+01,11.510,N,102,59.740,E,47,28,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Sector 6
+
+01,26.321,N,103,18.979,E,0,72,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Johor VTS
+
+01,24.375,N,103,18.467,E,0,72,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VHF Ch. 88
+
+01,22.524,N,103,18.522,E,0,72,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+01,14.829,N,103,13.062,E,1,4,3,
+01,14.836,N,103,15.454,E,1,4,3,
+END
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,5,3,0,0
+01,14.847,N,103,15.465,E
+01,17.218,N,103,17.635,E
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Have 3 green lights on Standby
+
+01,14.930,N,103,11.476,E,0,22,
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,5,3,0,0
+01,10.370,N,103,23.390,E
+01,11.214,N,103,25.735,E
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Switch 3 Green Lights On
+
+01,10.548,N,103,22.001,E,0,22,
+// CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+CIRCLE
+Dangerous Wreck - NGA
+01,10.804,N,103,25.779,E,0.1
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+01,10.377,N,103,23.398,E,1,4,3,
+01,10.390,N,103,21.856,E,1,4,3,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,sector 7 on VHF Ch. 73
+
+01,07.689,N,103,24.076,E,45,28,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Sector 7
+
+01,07.674,N,103,36.330,E,0,72,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VTIS West
+
+01,06.826,N,103,35.951,E,0,72,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VHF Ch. 73
+
+01,05.817,N,103,36.040,E,0,72,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Change to VHF Ch. 14 (Sector 8)
+
+01,02.846,N,103,44.851,E,90,28,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Sector 8
+
+01,08.670,N,103,48.750,E,0,72,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VTIS Central
+
+01,07.895,N,103,48.300,E,0,72,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VHF Ch. 14
+
+01,07.175,N,103,48.386,E,0,72,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VTIS Central
+
+01,16.511,N,103,53.169,E,0,72,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VHF Ch.14
+
+01,15.378,N,103,53.478,E,0,72,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Sector 8
+
+01,17.675,N,103,53.617,E,0,72,
+// LINE_CIRCLE
+// Comment
+// Base Point-Lat,,,Base Point-Lon,,,Radius[nm]
+LINE_CIRCLE
+
+13,10.213,N,042,53.520,E,0.4
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Have 3 Green lights switched on
+
+01,13.331,N,103,45.505,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Change to VHF Ch. 10 (Sector 9)
+
+01,10.537,N,104,02.608,E,90,28,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Sector 9
+
+01,14.020,N,104,10.124,E,0,72,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VTIS East
+
+01,12.231,N,104,09.737,E,0,72,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VHF Ch. 10
+
+01,10.339,N,104,09.638,E,0,72,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+01,23.121,N,102,48.993,E,1,4,3,
+01,23.121,N,102,59.669,E,1,4,3,
+END
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,5,3,0,0
+01,23.168,N,102,59.692,E
+01,27.208,N,103,03.475,E
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Call Sigapore Pilots on VHF Ch. 20
+
+01,23.285,N,102,49.898,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,2 Hrs before Arrival
+
+01,22.233,N,102,51.397,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Report to VTIS Central on VHF Ch.14
+
+01,10.492,N,103,50.972,E,0,22,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+01,11.381,N,103,50.555,E,1,4,9,
+01,10.355,N,103,50.989,E,1,4,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Safely joining of East Bound Lane
+
+01,10.397,N,103,51.063,E,0,22,
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,5,9,0,0
+01,11.377,N,103,50.550,E
+01,11.486,N,103,50.779,E
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,5,9,0,0
+01,10.549,N,103,50.909,E
+01,10.645,N,103,51.135,E
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+01,11.750,N,103,40.559,E,1,4,6,
+01,14.642,N,103,29.352,E,1,4,6,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Monitor VHF Ch. 68 - Pasir Panjang Sector 1
+
+01,13.847,N,103,32.485,E,346,36,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+01,12.897,N,103,39.929,E,1,4,6,
+01,12.046,N,103,40.251,E,1,4,6,
+END
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,5,6,0,0
+01,12.900,N,103,39.926,E
+01,12.947,N,103,40.064,E
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,5,6,0,0
+01,12.254,N,103,40.174,E
+01,12.318,N,103,40.294,E
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,5,6,0,0
+01,12.897,N,103,39.921,E
+01,12.852,N,103,39.788,E
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,5,6,0,0
+01,12.254,N,103,40.168,E
+01,12.184,N,103,40.051,E
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+01,14.389,N,103,45.891,E,1,4,2,
+01,15.416,N,103,45.663,E,1,4,2,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+01,15.424,N,103,45.659,E,1,4,9,
+01,15.506,N,103,45.640,E,1,4,9,
+01,16.432,N,103,44.456,E,1,4,9,
+END
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+01,16.090,N,103,46.235,E,1,4,9,
+01,15.424,N,103,45.675,E,1,4,9,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Monitor VHF Ch. 25 - Pasir Panjang Sector 2
+
+01,15.295,N,103,45.710,E,282,28,
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,5,9,0,0
+01,15.591,N,103,45.812,E
+01,15.638,N,103,45.747,E
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,5,9,0,0
+01,15.988,N,103,46.148,E
+01,16.030,N,103,46.088,E
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Call Pasir Panjang Control
+
+01,15.946,N,103,46.161,E,0,28,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,on VHF Ch. 25
+
+01,15.891,N,103,46.210,E,0,28,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Sector 3 - VHF Ch. 25
+
+01,16.002,N,103,46.139,E,49,28,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+01,14.385,N,103,45.887,E,1,4,5,
+01,14.347,N,103,47.117,E,1,4,5,
+01,15.585,N,103,48.382,E,1,4,5,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Monitor on VHF Ch. 68 - Western Sector
+
+01,14.348,N,103,47.237,E,45,28,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+01,11.989,N,103,48.311,E,1,4,5,
+01,12.380,N,103,48.829,E,1,4,5,
+END
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,5,5,0,0
+01,12.072,N,103,48.419,E
+01,12.009,N,103,48.478,E
+// ARROW
+// Comment
+// LineType,LineWidth,LineColorNo,EdgeType,EdgeSize
+// StartLat,,,Lon,,
+// EndLat,,,Lon,,
+ARROW
+
+0,5,5,0,0
+01,12.379,N,103,48.826,E
+01,12.334,N,103,48.876,E
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Call West Control on VHF Ch. 68
+
+01,11.950,N,103,48.079,E,0,28,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+01,13.264,N,103,51.228,E,1,4,5,
+01,12.334,N,103,51.238,E,1,4,5,
+01,10.900,N,103,47.644,E,1,4,5,
+01,08.978,N,103,44.325,E,1,4,5,
+01,11.745,N,103,40.572,E,1,4,5,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Monitor on VHF Ch. 68 - Western Sector
+
+01,12.348,N,103,51.203,E,90,28,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+01,12.334,N,103,51.249,E,1,4,6,
+01,12.431,N,103,51.459,E,1,4,6,
+01,16.294,N,103,58.597,E,1,4,6,
+01,17.785,N,104,07.163,E,1,4,6,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Monitor on VHF Ch. 12 - Easter Sector
+
+01,14.883,N,103,55.921,E,28,28,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Change to VHF Ch. 14 (Sector 8)
+
+01,16.282,N,104,01.997,E,90,28,
+// LINE_AGGREGATE
+// Comment
+// Lat,,,Lon,,,Type,Width,ColorNo,Comment
+// Add "END" to the end of vertex.
+LINE_AGGREGATE
+
+01,10.530,N,103,46.607,E,1,4,3,
+01,10.518,N,103,46.609,E,1,4,3,
+END
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NE DW Route is passing verry close 
+
+01,10.762,N,103,45.073,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Keep well clear of separation zone
+
+01,10.650,N,103,45.077,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VLCC will cross the W bound lane
+
+01,10.541,N,103,45.066,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,in order to moor for Shell SBM buoy
+
+01,10.412,N,103,45.124,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Verry ofter they anchor
+
+01,10.311,N,103,45.134,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,NW of the W-bound lane to wait the tide
+
+01,10.210,N,103,45.145,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Change to VHF Ch. 73 (Sector 7)
+
+01,08.628,N,103,44.399,E,90,28,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,STS OPL area
+
+01,14.147,N,103,34.847,E,0,28,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Report ot Johor VTS on entering Sector 6
+
+01,14.607,N,103,28.655,E,45,28,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Sector 6 on VHF Ch. 88
+
+01,14.864,N,103,29.424,E,45,28,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Continue listen VHF Ch. 88 (Sector 5-Klan VTS)
+
+01,29.056,N,103,14.212,E,47,28,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Many fishing Vsls in the area
+
+01,26.962,N,103,15.153,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Vsl converging in the Inshore Lane
+
+01,26.478,N,103,15.265,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Change to VHF Ch. 84 (Sector 3)
+
+02,06.419,N,102,07.536,E,38,28,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Change to VHF Ch. 61 (Sector 4)
+
+01,48.799,N,102,37.265,E,53,28,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Vsl leaving, joining and crossing
+
+02,25.927,N,101,46.051,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,for and to Port Dickson
+
+02,24.990,N,101,46.293,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Vsl leaving, joining and crossing to and fm Port Klang
+
+02,44.310,N,101,18.410,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Vessel may slow down for storing opn's in the area
+
+02,43.840,N,101,18.498,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Change to VHF Ch. 88 (Sector 2)
+
+02,32.873,N,101,32.363,E,46,28,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Start Hand Steering
+
+02,51.370,N,101,04.404,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,frequently check ship's possition when passing shoal
+
+02,50.515,N,101,03.731,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,VLCC will slow down to Discharge Pilot
+
+02,56.182,N,100,57.835,E,0,22,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Change to VHF Ch. 66 (Sector 1)
+
+02,54.602,N,100,58.401,E,0,28,
+// TEXT
+// Comment
+// Lat,,,Lon,Rotation
+TEXT,Report to VTS West on enteringSTAND BY ENGINE
+
+01,07.029,N,103,22.961,E,45,28,
