@@ -1,3 +1,3 @@
 # uchart-cli
 
-CLI for genereting User maps for Furuno ECDIS
+CLI for manipulating JRC user maps.
