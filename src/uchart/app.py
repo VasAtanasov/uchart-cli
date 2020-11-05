@@ -107,8 +107,6 @@ def uchart(argv):
 
     if args.debug:
         set_level_debug()
-    else:
-        set_level_critical()
 
     logger.info(LOGO)
     logger.info('%s %s started', os.path.basename(sys.argv[0]), __version__)

@@ -1,23 +1,21 @@
 class BaseEcdisModel:
-    def __init__(self, header):
+    def __init__(self, header=None):
+        if header == None:
+            header = [
+                ['// USER CHART SHEET exported by JRC ECDIS.'],
+                ['// <<NOTE>>This strings // indicate comment column/cells. You can edit freely.'],
+                ['// USERMAP', '', '']
+            ]
         self.content = header
 
 
 class Jan901B(BaseEcdisModel):
-    def __init__(self, header):
+    def __init__(self, header=None):
         BaseEcdisModel.__init__(self, header)
 
 
 class Jan9021(BaseEcdisModel):
-    def __init__(self, header):
-        BaseEcdisModel.__init__(self, header)
-
-    def __init__(self):
-        header = [
-            ['// USER CHART SHEET exported by JRC ECDIS.'],
-            ['// <<NOTE>>This strings // indicate comment column/cells. You can edit freely.'],
-            ['// USERMAP', '', '']
-        ]
+    def __init__(self, header=None):
         BaseEcdisModel.__init__(self, header)
 
 

@@ -142,6 +142,9 @@ class ParseJAN9201Content(Command):
         total_objects = 0
 
         for userchart_name, content in ctx.usercharts_by_name.items():
+            if userchart_name not in ctx.usercharts_objects_by_userchart:
+                ctx.usercharts_objects_by_userchart[userchart_name] = set()
+
             index = 0
             while True:
                 if len(content) <= 0 or index >= len(content):
@@ -155,6 +158,8 @@ class ParseJAN9201Content(Command):
                     total_objects = total_objects + 1
                     before_insert = len(ctx.userchart_objects)
                     ctx.userchart_objects.add(userchart_object)
+                    ctx.usercharts_objects_by_userchart[userchart_name].add(
+                        userchart_object)
                     after_insert = len(ctx.userchart_objects)
                     if before_insert == after_insert:
                         duplicates = duplicates + 1
@@ -185,4 +190,5 @@ class WriteUserchartToCsv(Command):
             ctx.ecdis.content[2][0] = f"// USERMAP {timestamp}"
             for row in ctx.ecdis.content:
                 csv_writer.writerow(row)
+        logger.info(f"Writing of \"{filename}\" completed...")
         csvfile.close()

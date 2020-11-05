@@ -19,7 +19,7 @@
             "type": "python",
             "request": "launch",
             "module": "uchart",
-            "args": ["--debug", "filter", "-7", "-43", "134", "165"]
+            "args": ["-d", "filter", "-7", "-43", "134", "165"]
         }
     ]
 }

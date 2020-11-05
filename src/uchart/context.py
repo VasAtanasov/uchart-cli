@@ -36,6 +36,7 @@ class Context:
         self._jan = Jan9021()
         self._filenames = list()
         self._usercharts_by_name = {}
+        self._usercharts_objects_by_userchart = {}
         self._userchart_objects = set()
 
     @property
@@ -45,6 +46,10 @@ class Context:
     @property
     def ecdis(self):
         return self._jan
+
+    @property
+    def usercharts_objects_by_userchart(self):
+        return self._usercharts_objects_by_userchart
 
     @property
     def usercharts_by_name(self):
