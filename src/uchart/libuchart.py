@@ -6,3 +6,6 @@ def uchart_plugin(plugin_class):
         setattr(uchart_plugin, 'plugins', [])
     getattr(uchart_plugin, 'plugins').append(plugin_class)
 
+# class ObjectMapper:
+
+

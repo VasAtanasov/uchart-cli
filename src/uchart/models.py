@@ -1,12 +1,22 @@
 class EcdisUserchart:
-    def __init__(self, header=None):
-        if header == None:
-            header = [
+    def __init__(self, content=None):
+        if content == None:
+            content = [
                 ['// USER CHART SHEET exported by JRC ECDIS.'],
                 ['// <<NOTE>>This strings // indicate comment column/cells. You can edit freely.'],
                 ['// USERMAP', '', '']
             ]
-        self.content = header
+        self._content = content
+        self._usercart_objects = set()
+
+    @property
+    def content(self):
+        return self._content
+
+    @property
+    def usercart_objects(self):
+        return self._usercart_objects
+
 
 
 class Jan9201Object:

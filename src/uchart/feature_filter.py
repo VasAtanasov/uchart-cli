@@ -8,6 +8,7 @@ from .libcmds import (Macro, Command, ListCsvFiles,
                       ReadCsvFiles, ParseJAN9201Content, WriteUserchartToCsv)
 from .libuchart import uchart_plugin
 from .context import create_global_context
+from .models import EcdisUserchart
 
 logger = logging.getLogger(__name__)
 
@@ -22,7 +23,7 @@ class Filter:
     @classmethod
     def get_argparser(cls, parser):
         """
-            Returns a base parser with common arguments for the generate plugin
+            Returns a base parser with common arguments for the filter plugin
         """
         init_parser = parser.add_parser(
             "filter",
@@ -47,7 +48,7 @@ class Filter:
             type=str
         )
 
-        init_parser.add_argument("--inclusive",action="store_false")
+        init_parser.add_argument("--inclusive", action="store_false")
 
     def run(self, args):
         """
@@ -124,6 +125,7 @@ class FilterCommand(Command):
         logger.info(self.get_message())
 
         filtered_objects = set()
+        userchart = EcdisUserchart()
 
         for obj in ctx.userchart_objects:
             is_in_area = False
@@ -139,7 +141,9 @@ class FilterCommand(Command):
                 filtered_objects.add(obj)
 
         for obj in filtered_objects:
-            ctx.userchart.content.extend(obj.content)
+            userchart.content.extend(obj.content)
+
+        ctx.usercharts.append(userchart)
 
         logger.info(
             f"Filtered {len(filtered_objects)} objects from total of {len(ctx.userchart_objects)}")

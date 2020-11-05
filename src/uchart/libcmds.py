@@ -8,6 +8,7 @@ from datetime import datetime
 from os import listdir
 from os.path import join
 from .factories import Jan9201ObjectFactory
+from .models import EcdisUserchart
 
 logger = logging.getLogger(__name__)
 
@@ -121,7 +122,7 @@ class ReadCsvFiles(Command):
                 logger.debug(f"Reading {filename}...")
                 content = tuple(tuple(i) for i in csv.reader(csv_file))
                 userchart_name = f"{content[2][0][3:]}.csv"
-                ctx.usercharts_by_name[userchart_name] = content
+                ctx.file_content_by_userchart_name[userchart_name] = content
                 csv_file.close()
 
 
@@ -141,9 +142,10 @@ class ParseJAN9201Content(Command):
         duplicates = 0
         total_objects = 0
 
-        for userchart_name, content in ctx.usercharts_by_name.items():
+        for userchart_name, content in ctx.file_content_by_userchart_name.items():
             if userchart_name not in ctx.usercharts_objects_by_userchart:
-                ctx.usercharts_objects_by_userchart[userchart_name] = set()
+                ctx.usercharts_objects_by_userchart[userchart_name] = EcdisUserchart(
+                    content)
 
             index = 0
             while True:
@@ -158,7 +160,7 @@ class ParseJAN9201Content(Command):
                     total_objects = total_objects + 1
                     before_insert = len(ctx.userchart_objects)
                     ctx.userchart_objects.add(userchart_object)
-                    ctx.usercharts_objects_by_userchart[userchart_name].add(
+                    ctx.usercharts_objects_by_userchart[userchart_name].usercart_objects.add(
                         userchart_object)
                     after_insert = len(ctx.userchart_objects)
                     if before_insert == after_insert:
@@ -182,18 +184,24 @@ class WriteUserchartToCsv(Command):
         return 'WriteUserchartToCsv'
 
     def execute(self, ctx):
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        filename = join(ctx.uchart_work_dir, f"umap_{timestamp}.csv")
-        userchart_content_length = len(ctx.userchart.content[3:])
-        if userchart_content_length == 0:
-            logger.error("No content to write. The usermap is empty")
+        import time
+        if len(ctx.usercharts) == 0:
+            logger.error("No files to write")
             return
+        for userchart in ctx.usercharts:
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            filename = join(ctx.uchart_work_dir, f"umap_{timestamp}.csv")
+            userchart_content_length = len(userchart.content[3:])
+            if userchart_content_length == 0:
+                logger.error("No content to write. The usermap is empty")
+                return
 
-        with open(filename, 'w', newline='') as csvfile:
-            csv_writer = csv.writer(
-                csvfile, escapechar='\\', skipinitialspace=True, doublequote=False, dialect='excel')
-            ctx.userchart.content[2][0] = f"// USERMAP {timestamp}"
-            for row in ctx.userchart.content:
-                csv_writer.writerow(row)
-        logger.info(f"Writing of \"{filename}\" completed...")
-        csvfile.close()
+            with open(filename, 'w', newline='') as csvfile:
+                csv_writer = csv.writer(
+                    csvfile, escapechar='\\', skipinitialspace=True, doublequote=False, dialect='excel')
+                userchart.content[2][0] = f"// USERMAP {timestamp}"
+                for row in userchart.content:
+                    csv_writer.writerow(row)
+            logger.info(f"Writing of \"{filename}\" completed...")
+            csvfile.close()
+            time.sleep(1)

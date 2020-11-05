@@ -33,27 +33,27 @@ class Context:
 
     def __init__(self):
         self._uchart_work_dir = os.environ.get('UCHART_WORK_DIR', os.getcwd())
-        self._userchart = EcdisUserchart()
         self._filenames = list()
-        self._usercharts_by_name = {}
+        self._file_content_by_userchart_name = {}
         self._usercharts_objects_by_userchart = {}
         self._userchart_objects = set()
+        self._usercharts = list()
 
     @property
     def uchart_work_dir(self):
         return self._uchart_work_dir
 
     @property
-    def userchart(self):
-        return self._userchart
+    def usercharts(self):
+        return self._usercharts
 
     @property
     def usercharts_objects_by_userchart(self):
         return self._usercharts_objects_by_userchart
 
     @property
-    def usercharts_by_name(self):
-        return self._usercharts_by_name
+    def file_content_by_userchart_name(self):
+        return self._file_content_by_userchart_name
 
     @property
     def userchart_objects(self):
