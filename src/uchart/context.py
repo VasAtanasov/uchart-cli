@@ -34,33 +34,29 @@ class Context:
     def __init__(self):
         self._uchart_work_dir = os.environ.get('UCHART_WORK_DIR', os.getcwd())
         self._jan = Jan9021()
+        self._filenames = list()
         self._usercharts_by_name = {}
-        self._objects_by_usermap = {}
-        self._userchart_objects =  set()
+        self._userchart_objects = set()
 
     @property
     def uchart_work_dir(self):
         return self._uchart_work_dir
 
     @property
-    def objects_by_usermap(self):
-        return self._objects_by_usermap
+    def ecdis(self):
+        return self._jan
 
     @property
     def usercharts_by_name(self):
         return self._usercharts_by_name
 
     @property
-    def user_map_name(self):
-        return self._user_map_name
-
-    @user_map_name.setter
-    def user_map_name(self, user_map_name):
-        self._user_map_name = user_map_name
+    def userchart_objects(self):
+        return self._userchart_objects
 
     @property
     def filenames(self):
-        return self._filenames if self._filenames is not None else list()
+        return self._filenames
 
     @filenames.setter
     def filenames(self, filenames):

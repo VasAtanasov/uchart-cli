@@ -4,6 +4,7 @@
 import logging
 import csv
 
+from datetime import datetime
 from os import listdir
 from os.path import join
 from .factories import Jan9201ObjectFactory
@@ -48,6 +49,39 @@ class Command:
         pass
 
 
+class Loop(Command):
+    """
+        A class that defines a set of commands as a loop.
+    """
+
+    def __init__(self, name):
+        self.commands = []
+        self.name = name
+
+    def __str__(self):
+        return self.name
+
+    def add(self, command):
+        """
+            Appends a command to the loop.
+        """
+        self.commands.append(command)
+
+    def execute(self, ctx):
+        """
+            Executes the loop.
+        """
+        loop_name = str(self)
+
+        def executor(command):
+            command_name = str(command)
+            logging.debug('Loop %s: execute %s', loop_name, command_name)
+            return command.execute(ctx)
+
+        while all(executor(c) for c in self.commands):
+            pass
+
+
 class ListCsvFiles(Command):
     """
         Reads and csv filenames in current dir.
@@ -88,6 +122,7 @@ class ReadCsvFiles(Command):
                 content = tuple(tuple(i) for i in csv.reader(csv_file))
                 userchart_name = f"{content[2][0][3:]}.csv"
                 ctx.usercharts_by_name[userchart_name] = content
+                csv_file.close()
 
 
 class ParseJAN9201Content(Command):
@@ -103,8 +138,8 @@ class ParseJAN9201Content(Command):
         return 'ParseJAN9201Content'
 
     def execute(self, ctx):
-        objects = set()
         duplicates = 0
+        total_objects = 0
 
         for userchart_name, content in ctx.usercharts_by_name.items():
             index = 0
@@ -114,12 +149,40 @@ class ParseJAN9201Content(Command):
 
                 row = content[index]
                 userchart_object = self._object_factory.get_object(
-                    row, content)
+                    row, index, content)
+
                 if userchart_object:
-                    before_insert = len(objects)
-                    objects.add(userchart_object)
-                    after_insert = len(objects)
+                    total_objects = total_objects + 1
+                    before_insert = len(ctx.userchart_objects)
+                    ctx.userchart_objects.add(userchart_object)
+                    after_insert = len(ctx.userchart_objects)
                     if before_insert == after_insert:
                         duplicates = duplicates + 1
 
                 index = index + 1
+
+        logger.info(
+            f"Parsed: {total_objects} objects of which {duplicates} duplicates")
+
+
+class WriteUserchartToCsv(Command):
+    """
+        Writes Userchart objects to ecdis csv file.
+    """
+
+    def __init__(self):
+        super().__init__()
+
+    def __str__(self):
+        return 'WriteUserchartToCsv'
+
+    def execute(self, ctx):
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        filename = join(ctx.uchart_work_dir, f"umap_{timestamp}.csv")
+        with open(filename, 'w', newline='') as csvfile:
+            csv_writer = csv.writer(
+                csvfile, escapechar='\\', skipinitialspace=True, doublequote=False, dialect='excel')
+            ctx.ecdis.content[2][0] = f"// USERMAP {timestamp}"
+            for row in ctx.ecdis.content:
+                csv_writer.writerow(row)
+        csvfile.close()

@@ -35,7 +35,7 @@ class Jan9201Object:
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return NotImplemented
-        return set(self.content) == set(other.content)
+        return set(self.content[self.comments_count:]) == set(other.content[self.comments_count:])
 
     def __hash__(self):
-        return hash((frozenset(self.content)))
+        return hash((frozenset(self.content[self.comments_count:])))

@@ -4,7 +4,8 @@ import os
 import sys
 import csv
 
-from .libcmds import Macro, Command, ListCsvFiles, ReadCsvFiles, ParseJAN9201Content
+from .libcmds import (Macro, Command, ListCsvFiles,
+                      ReadCsvFiles, ParseJAN9201Content, WriteUserchartToCsv)
 from .libuchart import uchart_plugin
 from .context import create_global_context
 
@@ -67,6 +68,7 @@ class Filter:
         macro.add(ReadCsvFiles())
         macro.add(ParseJAN9201Content())
         macro.add(FilterCommand(args))
+        macro.add(WriteUserchartToCsv())
 
         macro.run(ctx)
 
@@ -89,10 +91,24 @@ class FilterCommand(Command):
         return 'filter'
 
     def get_message(self):
-        return f"Filtering between latitudes {abs(self._north_latitude)}{'N' if self._north_latitude >= 0 else 'S'} " \
+        return f"Filtering objects between latitudes {abs(self._north_latitude)}{'N' if self._north_latitude >= 0 else 'S'} " \
             f"and {abs(self._south_latitude)}{'N' if self._south_latitude >= 0 else 'S'} " \
             f"and longitudes {abs(self._east_longitude)}{'E' if self._east_longitude >= 0 else 'W'} " \
             f"and {abs(self._west_longitude)}{'E' if self._west_longitude >= 0 else 'W'} "
+
+    def vertex_in(self, vertex):
+        latitude = int(vertex[0]) * self.get_multiplier(vertex[2])
+        longitude = int(vertex[3]) * self.get_multiplier(vertex[5])
+
+        if latitude >= self._south_latitude and latitude <= self._north_latitude \
+                and longitude >= self._east_longitude and longitude <= self._west_longitude:
+            return True
+        return False
+
+    def get_multiplier(self, direction):
+        if direction.upper() == 'S' or direction.upper() == "W":
+            return -1
+        return 1
 
     def execute(self, ctx):
         """
@@ -101,3 +117,22 @@ class FilterCommand(Command):
         logger.info(self.get_message())
 
         filtered_objects = set()
+
+        for obj in ctx.userchart_objects:
+            is_in_area = False
+
+            for v in obj.content[obj.vertex_start:]:
+                if v[0] == "END":
+                    continue
+                if self.vertex_in(v):
+                    is_in_area = True
+                    break
+
+            if is_in_area:
+                filtered_objects.add(obj)
+
+        for obj in filtered_objects:
+            ctx.ecdis.content.extend(obj.content)
+
+        logger.info(
+            f"Filtered {len(filtered_objects)} objects from total of {len(ctx.userchart_objects)}")
