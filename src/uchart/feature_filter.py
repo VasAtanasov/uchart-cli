@@ -11,6 +11,10 @@ from .context import create_global_context
 
 logger = logging.getLogger(__name__)
 
+pre_defined_areas = {
+    "australia": [-7, -43, 134, 165]
+}
+
 
 @uchart_plugin
 class Filter:
@@ -22,35 +26,25 @@ class Filter:
         """
         init_parser = parser.add_parser(
             "filter",
-            help="Filters usermap objects by positions"
+            help="Filters usermap objects by positions or areas"
         )
 
-        init_parser.add_argument(
-            "north_latitude",
-            metavar="<north_latitude>",
-            help="The north boundary",
+        group = init_parser.add_mutually_exclusive_group(required=True)
+
+        group.add_argument(
+            "-b", "--boundaries",
+            metavar="<boundary>",
+            nargs=4,
+            help="The set of N, S, W, E boundaries input in that order",
             type=int
         )
 
-        init_parser.add_argument(
-            "south_latitude",
-            metavar="<south_latitude>",
-            help="The south boundary",
-            type=int
-        )
-
-        init_parser.add_argument(
-            "east_longitude",
-            metavar="<east_longitude>",
-            help="The east boundary",
-            type=int
-        )
-
-        init_parser.add_argument(
-            "west_longitude",
-            metavar="<west_longitude>",
-            help="The east boundary",
-            type=int
+        group.add_argument(
+            "-a", "--area",
+            metavar="<area>",
+            nargs=1,
+            help=f"The name of the area to filter from the list:\n{list(map(str,pre_defined_areas.keys()))}",
+            type=str
         )
 
     def run(self, args):
@@ -80,12 +74,23 @@ class FilterCommand(Command):
         Implements the filter by bounds command.
     """
 
-    def __init__(self, bounds):
+    def __init__(self, args):
         super().__init__()
-        self._north_latitude = bounds.north_latitude
-        self._south_latitude = bounds.south_latitude
-        self._east_longitude = bounds.east_longitude
-        self._west_longitude = bounds.west_longitude
+        bounds = []
+        if args.area is not None:
+            if args.area[0] in pre_defined_areas:
+                bounds = pre_defined_areas[args.area[0]]
+            else:
+                logger.error(
+                    f"Area: {args.area[0]} not found. Rolling back to worldwide.")
+                bounds = [90, -90, -180, 180]
+        else:
+            bounds = args.boundaries
+
+        self._north_latitude = bounds[0]
+        self._south_latitude = bounds[1]
+        self._east_longitude = bounds[2]
+        self._west_longitude = bounds[3]
 
     def __str__(self):
         return 'filter'
@@ -132,7 +137,7 @@ class FilterCommand(Command):
                 filtered_objects.add(obj)
 
         for obj in filtered_objects:
-            ctx.ecdis.content.extend(obj.content)
+            ctx.userchart.content.extend(obj.content)
 
         logger.info(
             f"Filtered {len(filtered_objects)} objects from total of {len(ctx.userchart_objects)}")

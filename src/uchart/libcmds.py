@@ -184,11 +184,16 @@ class WriteUserchartToCsv(Command):
     def execute(self, ctx):
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         filename = join(ctx.uchart_work_dir, f"umap_{timestamp}.csv")
+        userchart_content_length = len(ctx.userchart.content[3:])
+        if userchart_content_length == 0:
+            logger.error("No content to write. The usermap is empty")
+            return
+
         with open(filename, 'w', newline='') as csvfile:
             csv_writer = csv.writer(
                 csvfile, escapechar='\\', skipinitialspace=True, doublequote=False, dialect='excel')
-            ctx.ecdis.content[2][0] = f"// USERMAP {timestamp}"
-            for row in ctx.ecdis.content:
+            ctx.userchart.content[2][0] = f"// USERMAP {timestamp}"
+            for row in ctx.userchart.content:
                 csv_writer.writerow(row)
         logger.info(f"Writing of \"{filename}\" completed...")
         csvfile.close()

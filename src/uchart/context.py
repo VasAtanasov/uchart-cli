@@ -4,7 +4,7 @@
 import logging
 import os
 
-from .models import Jan9021
+from .models import EcdisUserchart
 __context__ = None
 
 logger = logging.getLogger(__name__)
@@ -33,7 +33,7 @@ class Context:
 
     def __init__(self):
         self._uchart_work_dir = os.environ.get('UCHART_WORK_DIR', os.getcwd())
-        self._jan = Jan9021()
+        self._userchart = EcdisUserchart()
         self._filenames = list()
         self._usercharts_by_name = {}
         self._usercharts_objects_by_userchart = {}
@@ -44,8 +44,8 @@ class Context:
         return self._uchart_work_dir
 
     @property
-    def ecdis(self):
-        return self._jan
+    def userchart(self):
+        return self._userchart
 
     @property
     def usercharts_objects_by_userchart(self):

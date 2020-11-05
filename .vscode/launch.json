@@ -5,21 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Current File",
-            "type": "python",
-            "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal",
-            "args": ["--debug", "filter", "-7", "-43", "134", "165"]
-
-        },
-
-        {
             "name": "Python: Module",
             "type": "python",
             "request": "launch",
             "module": "uchart",
-            "args": ["-d", "filter", "-7", "-43", "134", "165"]
+            // "args": ["-d", "filter", "-7", "-43", "134", "165"]
+            "args": ["--debug", "filter", "-b", "-7", "-43", "134", "165"]
+            // "args": ["--debug", "filter", "-a", "australia"]
         }
     ]
 }

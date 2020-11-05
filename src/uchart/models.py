@@ -1,4 +1,4 @@
-class BaseEcdisModel:
+class EcdisUserchart:
     def __init__(self, header=None):
         if header == None:
             header = [
@@ -7,16 +7,6 @@ class BaseEcdisModel:
                 ['// USERMAP', '', '']
             ]
         self.content = header
-
-
-class Jan901B(BaseEcdisModel):
-    def __init__(self, header=None):
-        BaseEcdisModel.__init__(self, header)
-
-
-class Jan9021(BaseEcdisModel):
-    def __init__(self, header=None):
-        BaseEcdisModel.__init__(self, header)
 
 
 class Jan9201Object:
