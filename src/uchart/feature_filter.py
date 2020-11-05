@@ -47,6 +47,8 @@ class Filter:
             type=str
         )
 
+        init_parser.add_argument("--inclusive",action="store_false")
+
     def run(self, args):
         """
             Executes the filter command of the uchart tool.
