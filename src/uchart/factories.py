@@ -1,15 +1,15 @@
 import logging
 
-from .models import Jan9201Object
+from .models import UserchartObject
 from .constants import *
 
 logger = logging.getLogger(__name__)
 
 
-class Jan9201ObjectFactory:
+class UserchartObjectFactory:
 
     def create_static_object(self, content, index, obj_type, total_lines, comments_count, vertex_start=5):
-        obj = Jan9201Object(obj_type, total_lines,
+        obj = UserchartObject(obj_type, total_lines,
                             comments_count, vertex_start)
         obj.content = content[index: index + obj.total_lines]
         return obj
@@ -26,7 +26,7 @@ class Jan9201ObjectFactory:
             return None
 
         total_lines = (last_line + 1)
-        obj = Jan9201Object(obj_type, total_lines,
+        obj = UserchartObject(obj_type, total_lines,
                             comments_count, vertex_start)
         obj.content = content[index: index + obj.total_lines]
         return obj

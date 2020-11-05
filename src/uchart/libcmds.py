@@ -7,7 +7,7 @@ import csv
 from datetime import datetime
 from os import listdir
 from os.path import join
-from .factories import Jan9201ObjectFactory
+from .factories import UserchartObjectFactory
 from .models import EcdisUserchart
 
 logger = logging.getLogger(__name__)
@@ -133,7 +133,7 @@ class ParseJAN9201Content(Command):
 
     def __init__(self):
         super().__init__()
-        self._object_factory = Jan9201ObjectFactory()
+        self._object_factory = UserchartObjectFactory()
 
     def __str__(self):
         return 'ParseJAN9201Content'

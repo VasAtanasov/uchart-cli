@@ -19,7 +19,7 @@ class EcdisUserchart:
 
 
 
-class Jan9201Object:
+class UserchartObject:
     def __init__(self, object_type, total_lines, comments_count, vertex_start=5):
         self.object_type = object_type
         self.content = ()

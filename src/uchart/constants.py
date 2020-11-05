@@ -18,3 +18,86 @@ fan = 'FAN'
 danger_area = 'DANGER_AREA'
 text = 'TEXT'
 line = 'LINE'
+
+
+symbols_jan9201_to_jan901b = {
+    '~WARNSY0': '~WARNSY6',
+    '~CIRCLE0': '~CIRCLE6',
+    '~TRIANG0': '~TRIANG6',
+    '~SQUARE0': '~SQUARE6',
+    '~DIAMND0': '~DIAMND6',
+    '~XSHAPE0': '~XSHAPE6',
+}
+
+mappings = {
+    'SYMBOL': 'SYMBOL',
+    'DANGER_SYMBOL': 'SYMBOL',
+    'ALARM_SYMBOL': 'SYMBOL',
+    'CAUTION_SYMBOL': 'SYMBOL',
+    'LINE_AGGREGATE': 'LINE',
+    'LINE_CIRCLE': 'CIRCLE',
+    'LINE_ELLIPSE': 'ELLIPSE',
+    'ARC': 'ARC',
+    'DANGER_LINE_AGGREGATE': 'DANGER_LINE',
+    'ALARM_LINE_AGGREGATE': 'DANGER_LINE',
+    'CAUTION_LINE_AGGREGATE': 'DANGER_LINE',
+    'ARROW': None,
+    'POLYGON': 'POLYGON',
+    'CIRCLE': 'CIRCLE',
+    'ELLIPSE': 'ELLIPSE',
+    'FAN': 'FAN',
+    'DANGER_AREA': 'DANGER_AREA',
+    'ALARM_AREA': 'DANGER_AREA',
+    'CAUTION_AREA': 'DANGER_AREA',
+    'TEXT': 'TEXT',
+}
+
+
+jan9201_objects = [
+    "SYMBOL",
+    "DANGER_SYMBOL",
+    "ALARM_SYMBOL",
+    "CAUTION_SYMBOL",
+    "LINE_AGGREGATE",
+    "LINE_CIRCLE",
+    "LINE_ELLIPSE",
+    "ARC",
+    "DANGER_LINE_AGGREGATE",
+    "ALARM_LINE_AGGREGATE",
+    "CAUTION_LINE_AGGREGATE",
+    "ARROW",
+    "POLYGON",
+    "CIRCLE",
+    "ELLIPSE",
+    "FAN",
+    "DANGER_AREA",
+    "ALARM_AREA",
+    "CAUTION_AREA",
+    "TEXT",
+]
+
+jan901b_objects = [
+    'SYMBOL',
+    'LINE',
+    'ARC',
+    'DANGER_LINE',
+    'POLYGON',
+    'CIRCLE',
+    'ELLIPSE',
+    'FAN',
+    'DANGER_AREA',
+    'TEXT',
+    'END',
+]
+
+
+dynamic = [
+    "// LINE_AGGREGATE",
+    "// DANGER_LINE_AGGREGATE",
+    "// ALARM_LINE_AGGREGATE",
+    "// CAUTION_LINE_AGGREGATE",
+    "// POLYGON",
+    "// DANGER_AREA"
+    "// ALARM_AREA"
+    "// CAUTION_AREA"
+]

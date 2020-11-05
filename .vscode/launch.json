@@ -10,8 +10,9 @@
             "request": "launch",
             "module": "uchart",
             // "args": ["-d", "filter", "-7", "-43", "134", "165"]
-            "args": ["--debug", "filter", "-b", "-7", "-43", "134", "165", "--inclusive"]
+            // "args": ["--debug", "filter", "-b", "-7", "-43", "134", "165", "--inclusive"]
             // "args": ["--debug", "filter", "-a", "australia"]
+            "args": ["--debug", "convert"]
         }
     ]
 }
