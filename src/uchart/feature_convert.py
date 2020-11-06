@@ -10,6 +10,8 @@ from .libuchart import uchart_plugin
 from .context import create_global_context
 from .models import EcdisUserchart
 
+from .mappings import object_mappers
+
 logger = logging.getLogger(__name__)
 
 
@@ -41,7 +43,7 @@ class Convert:
         macro.add(ReadCsvFiles())
         macro.add(ParseJAN9201Content())
         macro.add(ConvertCommand(args))
-        macro.add(WriteUserchartToCsv())
+        # macro.add(WriteUserchartToCsv())
 
         macro.run(ctx)
 
@@ -61,3 +63,16 @@ class ConvertCommand(Command):
             Executes the convert command.
         """
         logger.info("Converting JAN9201 usercharts to JAN901B usercharts")
+
+        for userchart_name, userchart in ctx.usercharts_objects_by_userchart.items():
+            jan901b_userchart = EcdisUserchart()
+            jan901b_userchart.name = userchart_name
+            for obj in userchart.usercart_objects:
+                if obj.object_type in object_mappers:
+                    mapper = object_mappers[obj.object_type]
+                    new_obj = mapper(obj)
+                    if not new_obj == None:
+                        jan901b_userchart.usercart_objects.add(new_obj)
+            ctx.usercharts.append(jan901b_userchart)
+
+        a = 5

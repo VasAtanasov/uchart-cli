@@ -130,7 +130,7 @@ class ReadCsvFiles(Command):
             with open(join(ctx.uchart_work_dir, filename)) as csv_file:
                 logger.debug(f"Reading {filename}...")
                 content = tuple(tuple(i) for i in csv.reader(csv_file))
-                userchart_name = f"{content[2][0][3:]}.csv"
+                userchart_name = f"{content[2][0][3:]}"
                 no_comments_content = tuple(filter(predicate, content))
                 ctx.file_content_by_userchart_name[userchart_name] = no_comments_content
                 csv_file.close()
@@ -177,7 +177,7 @@ class ParseJAN9201Content(Command):
                     object_type = object_content[0][0]
                     if object_type not in jan9201_objects:
                         logger.critical(
-                            f"Invalid object of type {start_index} in userchart {userchart_name}")
+                            f"Invalid object of type {object_type} in userchart {userchart_name}")
                         sys.exit(1)
                 except IndexError:
                     logger.critical(
@@ -198,7 +198,7 @@ class ParseJAN9201Content(Command):
 
                 start_index = end_index
         logger.info(
-            f"Parsed: {total_objects} objects of which {duplicates} duplicates")    
+            f"Parsed: {total_objects} objects of which {duplicates} duplicates")
 
 
 class WriteUserchartToCsv(Command):
@@ -228,7 +228,7 @@ class WriteUserchartToCsv(Command):
             with open(filename, 'w', newline='') as csvfile:
                 csv_writer = csv.writer(
                     csvfile, escapechar='\\', skipinitialspace=True, doublequote=False, dialect='excel')
-                userchart.content[2][0] = f"// USERMAP {timestamp}"
+                # userchart.content[2][0] = f"// USERMAP {timestamp}"
                 for row in userchart.content:
                     csv_writer.writerow(row)
             logger.info(f"Writing of \"{filename}\" completed...")

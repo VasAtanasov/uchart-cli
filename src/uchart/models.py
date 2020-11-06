@@ -14,27 +14,37 @@ class EcdisUserchart:
         return self._content
 
     @property
+    def name(self):
+        return self._content[2][0]
+
+    @name.setter
+    def name(self, userchart_name):
+        self._content[2][0] = f"// {userchart_name}"
+
+    @property
     def usercart_objects(self):
         return self._usercart_objects
 
 
 class UserchartObject:
-    def __init__(self, object_type, content, total_lines, vertex_start):
+    def __init__(self, object_type, content,  vertex_start):
         self.object_type = object_type
         self._content = content
-        self.total_lines = total_lines
         self.vertex_start = vertex_start
 
     @classmethod
     def create(cls, content):
         object_type = content[0][0]
         vertex_start = 2 if not object_type == "ARROW" else 3
-        total_lines = len(content)
-        return cls(object_type, content, total_lines, vertex_start)
+        return cls(object_type, content,  vertex_start)
 
     @property
     def content(self):
         return self._content
+
+    @property
+    def total_lines(self):
+        return len(self._content)
 
     @property
     def vertexes(self):
