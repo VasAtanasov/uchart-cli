@@ -43,7 +43,7 @@ class Convert:
         macro.add(ReadCsvFiles())
         macro.add(ParseJAN9201Content())
         macro.add(ConvertCommand(args))
-        # macro.add(WriteUserchartToCsv())
+        macro.add(WriteUserchartToCsv())
 
         macro.run(ctx)
 
@@ -63,16 +63,28 @@ class ConvertCommand(Command):
             Executes the convert command.
         """
         logger.info("Converting JAN9201 usercharts to JAN901B usercharts")
-
+        converts = 0
+        objects = 0
         for userchart_name, userchart in ctx.usercharts_objects_by_userchart.items():
-            jan901b_userchart = EcdisUserchart()
-            jan901b_userchart.name = userchart_name
+            jan901b_userchart = EcdisUserchart.copy_raw(userchart)
+
             for obj in userchart.usercart_objects:
+                objects = objects + 1
                 if obj.object_type in object_mappers:
                     mapper = object_mappers[obj.object_type]
+                    if mapper == None:
+                        jan901b_userchart.usercart_objects.add(obj)
+                        converts = converts + 1
+                        continue
                     new_obj = mapper(obj)
                     if not new_obj == None:
                         jan901b_userchart.usercart_objects.add(new_obj)
+                        converts = converts + 1
+                else:
+                    logger.debug(f"No mapping for {obj.object_type}")
+
+            for obj in jan901b_userchart.usercart_objects:
+                jan901b_userchart.content.extend(obj.content)
             ctx.usercharts.append(jan901b_userchart)
 
-        a = 5
+        logger.info(f"Converted {converts} objects of {objects}")

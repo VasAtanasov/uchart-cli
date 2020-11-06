@@ -78,15 +78,12 @@ def map_objects(objects):
 
 
 def map_symbol(obj):
-    content = list(map(list, obj.content))
-    current_symbol = obj.content[3][1]
+    new_content = list(map(list, obj.content))
+    current_symbol = obj.content[0][1]
     new_symbol = symbols_jan9201_to_jan901b[current_symbol]
-    obj.content[3][1] = new_symbol
-
-    if obj.object_type == danger_symbol:
-        obj.content[3][0] = symbol
-
-    return obj
+    new_content[0][0] = 'SYMBOL'
+    new_content[0][1] = new_symbol
+    return UserchartObject.create(content=tuple(map(tuple, new_content)))
 
 
 def map_line_aggregate(obj):
@@ -103,23 +100,45 @@ def map_line_aggregate(obj):
     for i in range(obj.vertex_start, len(obj.content)):
         new_content[i] = new_content[i][:6]
 
-    a = 5
     return UserchartObject.create(content=tuple(map(tuple, new_content)))
 
 
 def map_line_circle(obj):
-    obj.content[0][0] = '// CIRCLE'
-    obj.content[3][0] = 'CIRCLE'
-    return obj
+    new_content = list(map(list, obj.content))
+    new_content[0][0] = 'CIRCLE'
+    return UserchartObject.create(content=tuple(map(tuple, new_content)))
 
 
 def map_line_ellipse(obj):
-    obj.content[0][0] = '// ELLIPSE'
-    obj.content[3][0] = 'ELLIPSE'
-    return obj
+    new_content = list(map(list, obj.content))
+    new_content[0][0] = 'ELLIPSE'
+    return UserchartObject.create(content=tuple(map(tuple, new_content)))
+
+
+def map_danger_area(obj):
+    new_content = list(map(list, obj.content))
+    new_content[0][0] = 'DANGER_AREA'
+    return UserchartObject.create(content=tuple(map(tuple, new_content)))
 
 
 object_mappers = {
-    # 'SYMBOL': map_symbol,
-    'LINE_AGGREGATE': map_line_aggregate
+    'SYMBOL': map_symbol,
+    'DANGER_SYMBOL': map_symbol,
+    'ALARM_SYMBOL': map_symbol,
+    'CAUTION_SYMBOL': map_symbol,
+    'LINE_AGGREGATE': map_line_aggregate,
+    'LINE_CIRCLE': map_line_circle,
+    'LINE_ELLIPSE': map_line_ellipse,
+    'DANGER_LINE_AGGREGATE': map_line_aggregate,
+    'ALARM_LINE_AGGREGATE': map_line_aggregate,
+    'CAUTION_LINE_AGGREGATE': map_line_aggregate,
+    'DANGER_AREA': map_danger_area,
+    'ALARM_AREA': map_danger_area,
+    'CAUTION_AREA': map_danger_area,
+    'ARC': None,
+    'POLYGON': None,
+    'CIRCLE': None,
+    'ELLIPSE': None,
+    'FAN': None,
+    'TEXT': None,
 }

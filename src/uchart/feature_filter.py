@@ -101,10 +101,10 @@ class FilterCommand(Command):
         return 'filter'
 
     def get_message(self):
-        return f"Filtering objects between latitudes {abs(self._north_latitude)}{'N' if self._north_latitude >= 0 else 'S'} " \
+        return f"Filtering obje cts between latitudes {abs(self._north_latitude)}{'N' if self._north_latitude >= 0 else 'S'} " \
             f"to {abs(self._south_latitude)}{'N' if self._south_latitude >= 0 else 'S'} " \
             f"and longitudes {abs(self._west_longitude)}{'E' if self._west_longitude >= 0 else 'W'} " \
-            f"to {abs(self._east_longitude)}{'E' if self._east_longitude >= 0 else 'W'} "
+            f"to {abs(self._east_longitude)}{'E' if self._east_longitude >= 0 else 'W'}"
 
     def is_inside(self, vertex):
         latitude = int(vertex[0]) * self.get_multiplier(vertex[2])

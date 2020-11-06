@@ -162,10 +162,10 @@ class ParseJAN9201Content(Command):
 
         for userchart_name, content in ctx.file_content_by_userchart_name.items():
             if userchart_name not in ctx.usercharts_objects_by_userchart:
-                ctx.usercharts_objects_by_userchart[userchart_name] = EcdisUserchart(
-                    content)
+                ctx.usercharts_objects_by_userchart[userchart_name] \
+                    = EcdisUserchart.create_with_name(content, userchart_name)
 
-            start_index = 0
+                start_index = 0
             while True:
                 if len(content) <= 0 or start_index >= len(content):
                     break
@@ -213,24 +213,28 @@ class WriteUserchartToCsv(Command):
         return 'WriteUserchartToCsv'
 
     def execute(self, ctx):
-        import time
         if len(ctx.usercharts) == 0:
             logger.error("No files to write")
             return
         for userchart in ctx.usercharts:
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            filename = join(ctx.uchart_work_dir, f"umap_{timestamp}.csv")
-            userchart_content_length = len(userchart.content[3:])
+            userchart_name = None
+            if userchart.name == None:
+                userchart_name = f"umap_{timestamp}.csv"
+            else:
+                userchart_name = f"{userchart.name}(901B).csv"
+            filename = join(ctx.uchart_work_dir, userchart_name)
+
+            userchart_content_length = len(userchart.content)
             if userchart_content_length == 0:
-                logger.error("No content to write. The usermap is empty")
-                return
+                logger.error(
+                    f"No content to write for userchart: {userchart_name}")
+                continue
 
             with open(filename, 'w', newline='') as csvfile:
                 csv_writer = csv.writer(
                     csvfile, escapechar='\\', skipinitialspace=True, doublequote=False, dialect='excel')
-                # userchart.content[2][0] = f"// USERMAP {timestamp}"
                 for row in userchart.content:
                     csv_writer.writerow(row)
             logger.info(f"Writing of \"{filename}\" completed...")
             csvfile.close()
-            time.sleep(1)

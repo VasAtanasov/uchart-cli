@@ -1,25 +1,27 @@
 class EcdisUserchart:
-    def __init__(self, content=None):
-        if content == None:
-            content = [
-                ['// USER CHART SHEET exported by JRC ECDIS.'],
-                ['// <<NOTE>>This strings // indicate comment column/cells. You can edit freely.'],
-                ['// USERMAP', '', '']
-            ]
-        self._content = content
+    def __init__(self, content=None, name=None):
+        self._content = content if not content == None else list()
+        self._name = name
         self._usercart_objects = set()
+
+    @classmethod
+    def create_with_name(cls, content, name):
+        userchart_content = content if not content == None else list()
+        return cls(userchart_content, name)
+
+    @classmethod
+    def copy_raw(cls, other):
+        if not isinstance(other, cls):
+            return NotImplemented
+        return cls(name=other.name)
+
+    @property
+    def name(self):
+        return self._name
 
     @property
     def content(self):
         return self._content
-
-    @property
-    def name(self):
-        return self._content[2][0]
-
-    @name.setter
-    def name(self, userchart_name):
-        self._content[2][0] = f"// {userchart_name}"
 
     @property
     def usercart_objects(self):
