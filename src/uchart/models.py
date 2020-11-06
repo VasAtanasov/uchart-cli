@@ -18,14 +18,27 @@ class EcdisUserchart:
         return self._usercart_objects
 
 
-
 class UserchartObject:
-    def __init__(self, object_type, total_lines, comments_count, vertex_start=5):
+    def __init__(self, object_type, content, total_lines, vertex_start):
         self.object_type = object_type
-        self.content = ()
+        self._content = content
         self.total_lines = total_lines
-        self.comments_count = comments_count
         self.vertex_start = vertex_start
+
+    @classmethod
+    def create(cls, content):
+        object_type = content[0][0]
+        vertex_start = 2 if not object_type == "ARROW" else 3
+        total_lines = len(content)
+        return cls(object_type, content, total_lines, vertex_start)
+
+    @property
+    def content(self):
+        return self._content
+
+    @property
+    def vertexes(self):
+        return self._content[self.vertex_start:]
 
     def __str__(self):
         return self.object_type
@@ -33,7 +46,7 @@ class UserchartObject:
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return NotImplemented
-        return set(self.content[self.comments_count:]) == set(other.content[self.comments_count:])
+        return set(self.content) == set(other.content)
 
     def __hash__(self):
-        return hash((frozenset(self.content[self.comments_count:])))
+        return hash((frozenset(self.content)))

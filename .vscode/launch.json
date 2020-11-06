@@ -9,10 +9,10 @@
             "type": "python",
             "request": "launch",
             "module": "uchart",
-            // "args": ["-d", "filter", "-7", "-43", "134", "165"]
-            // "args": ["--debug", "filter", "-b", "-7", "-43", "134", "165", "--inclusive"]
+            "args": ["--debug", "filter", "-b", "-7", "-43", "134", "165", "-o"]
+            // "args": ["--debug", "filter", "-b", "-7", "-43", "134", "165"]
             // "args": ["--debug", "filter", "-a", "australia"]
-            "args": ["--debug", "convert"]
+            // "args": ["--debug", "convert"]
         }
     ]
 }

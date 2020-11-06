@@ -3,12 +3,14 @@
 """
 import logging
 import csv
+import sys
 
 from datetime import datetime
 from os import listdir
 from os.path import join
 from .factories import UserchartObjectFactory
-from .models import EcdisUserchart
+from .models import EcdisUserchart, UserchartObject
+from .constants import *
 
 logger = logging.getLogger(__name__)
 
@@ -116,13 +118,21 @@ class ReadCsvFiles(Command):
         return 'ReadCsvFiles'
 
     def execute(self, ctx):
+
+        def predicate(row):
+            try:
+                return not row[0].startswith('//')
+            except IndexError:
+                return True
+
         filenames = ctx.filenames
         for filename in filenames:
             with open(join(ctx.uchart_work_dir, filename)) as csv_file:
                 logger.debug(f"Reading {filename}...")
                 content = tuple(tuple(i) for i in csv.reader(csv_file))
                 userchart_name = f"{content[2][0][3:]}.csv"
-                ctx.file_content_by_userchart_name[userchart_name] = content
+                no_comments_content = tuple(filter(predicate, content))
+                ctx.file_content_by_userchart_name[userchart_name] = no_comments_content
                 csv_file.close()
 
 
@@ -138,6 +148,14 @@ class ParseJAN9201Content(Command):
     def __str__(self):
         return 'ParseJAN9201Content'
 
+    def get_end_index(self, start_index, content):
+        end_index = len(content)
+        for i in range(start_index, len(content)):
+            row = content[i]
+            if len(row) > 0 and row[0] in jan9201_objects:
+                return i
+        return end_index
+
     def execute(self, ctx):
         duplicates = 0
         total_objects = 0
@@ -147,14 +165,26 @@ class ParseJAN9201Content(Command):
                 ctx.usercharts_objects_by_userchart[userchart_name] = EcdisUserchart(
                     content)
 
-            index = 0
+            start_index = 0
             while True:
-                if len(content) <= 0 or index >= len(content):
+                if len(content) <= 0 or start_index >= len(content):
                     break
 
-                row = content[index]
-                userchart_object = self._object_factory.get_object(
-                    row, index, content)
+                end_index = self.get_end_index(start_index+1, content)
+                object_content = content[start_index:end_index]
+
+                try:
+                    object_type = object_content[0][0]
+                    if object_type not in jan9201_objects:
+                        logger.critical(
+                            f"Invalid object of type {start_index} in userchart {userchart_name}")
+                        sys.exit(1)
+                except IndexError:
+                    logger.critical(
+                        f"Invalid object type at row {start_index} in userchart {userchart_name}")
+                    sys.exit(1)
+
+                userchart_object = UserchartObject.create(object_content)
 
                 if userchart_object:
                     total_objects = total_objects + 1
@@ -166,10 +196,9 @@ class ParseJAN9201Content(Command):
                     if before_insert == after_insert:
                         duplicates = duplicates + 1
 
-                index = index + 1
-
+                start_index = end_index
         logger.info(
-            f"Parsed: {total_objects} objects of which {duplicates} duplicates")
+            f"Parsed: {total_objects} objects of which {duplicates} duplicates")    
 
 
 class WriteUserchartToCsv(Command):

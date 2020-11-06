@@ -48,7 +48,7 @@ class Filter:
             type=str
         )
 
-        init_parser.add_argument("--inclusive", action="store_false")
+        init_parser.add_argument("--overlaping", "-o", action="store_true")
 
     def run(self, args):
         """
@@ -92,24 +92,26 @@ class FilterCommand(Command):
 
         self._north_latitude = bounds[0]
         self._south_latitude = bounds[1]
-        self._east_longitude = bounds[2]
-        self._west_longitude = bounds[3]
+        self._west_longitude = bounds[2]
+        self._east_longitude = bounds[3]
+
+        self._overlaping = args.overlaping
 
     def __str__(self):
         return 'filter'
 
     def get_message(self):
         return f"Filtering objects between latitudes {abs(self._north_latitude)}{'N' if self._north_latitude >= 0 else 'S'} " \
-            f"and {abs(self._south_latitude)}{'N' if self._south_latitude >= 0 else 'S'} " \
-            f"and longitudes {abs(self._east_longitude)}{'E' if self._east_longitude >= 0 else 'W'} " \
-            f"and {abs(self._west_longitude)}{'E' if self._west_longitude >= 0 else 'W'} "
+            f"to {abs(self._south_latitude)}{'N' if self._south_latitude >= 0 else 'S'} " \
+            f"and longitudes {abs(self._west_longitude)}{'E' if self._west_longitude >= 0 else 'W'} " \
+            f"to {abs(self._east_longitude)}{'E' if self._east_longitude >= 0 else 'W'} "
 
-    def vertex_in(self, vertex):
+    def is_inside(self, vertex):
         latitude = int(vertex[0]) * self.get_multiplier(vertex[2])
         longitude = int(vertex[3]) * self.get_multiplier(vertex[5])
 
         if latitude >= self._south_latitude and latitude <= self._north_latitude \
-                and longitude >= self._east_longitude and longitude <= self._west_longitude:
+                and longitude >= self._west_longitude and longitude <= self._east_longitude:
             return True
         return False
 
@@ -130,10 +132,10 @@ class FilterCommand(Command):
         for obj in ctx.userchart_objects:
             is_in_area = False
 
-            for v in obj.content[obj.vertex_start:]:
-                if v[0] == "END":
+            for vertex in obj.vertexes:
+                if vertex[0] == "END":
                     continue
-                if self.vertex_in(v):
+                if self.is_inside(vertex):
                     is_in_area = True
                     break
 

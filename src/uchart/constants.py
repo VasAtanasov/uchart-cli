@@ -52,7 +52,6 @@ mappings = {
     'TEXT': 'TEXT',
 }
 
-
 jan9201_objects = [
     "SYMBOL",
     "DANGER_SYMBOL",
@@ -90,14 +89,13 @@ jan901b_objects = [
     'END',
 ]
 
-
-dynamic = [
-    "// LINE_AGGREGATE",
-    "// DANGER_LINE_AGGREGATE",
-    "// ALARM_LINE_AGGREGATE",
-    "// CAUTION_LINE_AGGREGATE",
-    "// POLYGON",
-    "// DANGER_AREA"
-    "// ALARM_AREA"
-    "// CAUTION_AREA"
+dynamic_objects = [
+    "LINE_AGGREGATE",
+    "DANGER_LINE_AGGREGATE",
+    "ALARM_LINE_AGGREGATE",
+    "CAUTION_LINE_AGGREGATE",
+    "POLYGON",
+    "DANGER_AREA"
+    "ALARM_AREA"
+    "CAUTION_AREA"
 ]
